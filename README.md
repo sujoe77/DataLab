@@ -27,18 +27,23 @@ see: https://github.com/gatieme/CodingInterviews
 * bit operation
 010
 011
+040
 
 * double pointer
 015
+041
 
 * stack
 007
 012
 021
 022
+065
 
 * heap
 030
+064
+065
 
 * linked list
 005
@@ -62,5 +67,25 @@ see: https://github.com/gatieme/CodingInterviews
 036
 038
 040
+045
 051
 052
+
+* Math
+009
+034
+041
+044
+046
+047
+
+* string
+028
+035
+042
+049
+053
+054
+
+* other
+048
