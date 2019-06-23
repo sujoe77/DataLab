@@ -6,6 +6,9 @@ from job import Job
 
 class StackOverflowJob(Job):
     KEYWORD_LIST=["Java"]
+    EXECLUDE_TITLE = ["frontend", "c#", "udvikler", "android", "analyst", "devops", "security", "sale", "Javascript", "QA",".NET","javascript","microsoft","php"]
+    EXECLUDE_COMPANY = ["dfds", "prodata", "Systematic","test"]
+
 
     def parse(self, page_content):
         result = []
@@ -25,10 +28,10 @@ class StackOverflowJob(Job):
             #print(time)
             location = div[i].contents[3].contents[3].text.replace("\n", "").replace("\r", "").replace("-", "").strip().replace(",", "_")
             #print(location)
-            #if "month" not in time and ex_filter(title, EXECLUDE_TITLE) and ex_filter(company, EXECLUDE_COMPANY):
-            text = "{},{},{},{},##{}".format(title, company, location, time, link);
-            #print(text)
-            result.append(text)
+            if "month" not in time and super().ex_filter(title, StackOverflowJob.EXECLUDE_TITLE) and super().ex_filter(company, StackOverflowJob.EXECLUDE_COMPANY):
+                text = "{},{},{},{},##{}".format(title, company, location, time, link);
+                #print(text)
+                result.append(text)
         return result
 
     def get_url(self, keyword, pageNum):
