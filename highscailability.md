@@ -1,3 +1,5 @@
+Reading list from http://highscalability.com/all-time-favorites/
+
 # Resources<br/>
 [Stuff the Internet Says on Scalability](http://highscalability.com/blog/category/hot-links)<br/>
 # Other<br/>
