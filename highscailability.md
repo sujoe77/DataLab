@@ -2,11 +2,20 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 # Resources<br/>
 [Stuff the Internet Says on Scalability](http://highscalability.com/blog/category/hot-links)<br/>
 [Useful Scalability Blogs](http://highscalability.com/blog/category/blog)<br/>
+
+# Strategies
+[What Can The Amazing Race To The South Pole Teach Us About Startups?](http://highscalability.com/blog/2013/8/19/what-can-the-amazing-race-to-the-south-pole-teach-us-about-s.html)<br/>
+[Google Strategy: Tree Distribution Of Requests And Responses](http://highscalability.squarespace.com/blog/2011/2/1/google-strategy-tree-distribution-of-requests-and-responses.html)<br/>
+[Strategy: Disk Backup For Speed, Tape Backup To Save Your Bacon, Just Ask Google](http://highscalability.squarespace.com/blog/2011/3/24/strategy-disk-backup-for-speed-tape-backup-to-save-your-baco.html)<br/>
+[Aztec Empire Strategy: Use Dual Pipes In Your Aqueduct For High Availability](http://highscalability.com/blog/2011/3/28/aztec-empire-strategy-use-dual-pipes-in-your-aqueduct-for-hi.html)<br/>
+[Heroku Emergency Strategy: Incident Command System And 8 Hour Ops Rotations For Fresh Minds](http://highscalability.com/blog/2011/4/27/heroku-emergency-strategy-incident-command-system-and-8-hour.html)<br/>
+[7 Scaling Strategies Facebook Used To Grow To 500 Million Users](http://highscalability.com/blog/2010/8/2/7-scaling-strategies-facebook-used-to-grow-to-500-million-us.html)<br/>
+
 # Other<br/>
 [Let's Donate Our Organs And Unused Cloud Cycles To Science](http://highscalability.com/blog/2016/1/6/lets-donate-our-organs-and-unused-cloud-cycles-to-science.html)<br/>
 [The Gig Economy Breaks Social Security](http://highscalability.com/blog/2016/4/12/the-gig-economy-breaks-social-security.html)<br/>
 [Let's Build Maker Cities For Maker People Around New Resources Like Bandwidth, Compute, And Atomically-Precise Manufacturing](http://highscalability.com/blog/2014/9/1/lets-build-maker-cities-for-maker-people-around-new-resource.html)<br/>
-[What Can The Amazing Race To The South Pole Teach Us About Startups?](http://highscalability.com/blog/2013/8/19/what-can-the-amazing-race-to-the-south-pole-teach-us-about-s.html)<br/>
+
 [6 Ways Not To Scale That Will Make You Hip, Popular And Loved By VCs](http://highscalability.com/blog/2011/4/18/6-ways-not-to-scale-that-will-make-you-hip-popular-and-loved.html)<br/>
 [10 Things Bitly Should Have Monitored](http://highscalability.com/blog/2014/1/29/10-things-bitly-should-have-monitored.html)<br/>
 [Log Everything All The Time](http://highscalability.com/blog/2007/8/30/log-everything-all-the-time.html)<br/>
@@ -38,8 +47,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Facebook](http://highscalability.com/blog/category/facebook)<br/>
 [The Instagram Architecture Facebook Bought For A Cool Billion Dollars](http://highscalability.com/blog/2012/4/9/the-instagram-architecture-facebook-bought-for-a-cool-billio.html)<br/>
 [Google Pro Tip: Use Back-Of-The-Envelope-Calculations To Choose The Best Design](http://highscalability.com/blog/2011/1/26/google-pro-tip-use-back-of-the-envelope-calculations-to-choo.html)<br/>
-[Google Strategy: Tree Distribution Of Requests And Responses](http://highscalability.squarespace.com/blog/2011/2/1/google-strategy-tree-distribution-of-requests-and-responses.html)<br/>
-[Strategy: Disk Backup For Speed, Tape Backup To Save Your Bacon, Just Ask Google](http://highscalability.squarespace.com/blog/2011/3/24/strategy-disk-backup-for-speed-tape-backup-to-save-your-baco.html)<br/>
+
 [he Three Ages Of Google - Batch, Warehouse, Instant](http://highscalability.squarespace.com/blog/2011/8/29/the-three-ages-of-google-batch-warehouse-instant.html)<br/>
 [Google Finds: Centralized Control, Distributed Data Architectures Work Better Than Fully Decentralized Architectures](http://highscalability.com/blog/2014/4/7/google-finds-centralized-control-distributed-data-architectu.html)<br/>
 [Matt Cutts: 10 Lessons Learned From The Early Days Of Google](http://highscalability.com/blog/2015/2/4/matt-cutts-10-lessons-learned-from-the-early-days-of-google.html)<br/>
@@ -79,7 +87,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Using Gossip Protocols For Failure Detection, Monitoring, Messaging And Other Good Things](http://highscalability.com/blog/2011/11/14/using-gossip-protocols-for-failure-detection-monitoring-mess.html)<br/>
 [Cell Architectures](http://highscalability.com/blog/2012/5/9/cell-architectures.html)<br/>
 [How Can We Build Better Complex Systems? Containers, Microservices, And Continuous Delivery.](http://highscalability.com/blog/2015/4/27/how-can-we-build-better-complex-systems-containers-microserv.html)<br/>
-[Aztec Empire Strategy: Use Dual Pipes In Your Aqueduct For High Availability](http://highscalability.com/blog/2011/3/28/aztec-empire-strategy-use-dual-pipes-in-your-aqueduct-for-hi.html)<br/>
+
 [Did The Microsoft Stack Kill MySpace?](http://highscalability.com/blog/2011/3/25/did-the-microsoft-stack-kill-myspace.html)<br/>
 [Aeron: Do We Really Need Another Messaging System?](http://highscalability.com/blog/2014/11/17/aeron-do-we-really-need-another-messaging-system.html)<br/>
 [This Stuff Isn't Taught, You Learn It Bit By Bit As You Solve Each Problem.](http://highscalability.com/blog/2011/2/23/this-stuff-isnt-taught-you-learn-it-bit-by-bit-as-you-solve.html)<br/>
@@ -105,7 +113,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 # Cloud<br/>
 [The Black Magic Of Systematically Reducing Linux OS Jitter](http://highscalability.com/blog/2015/4/8/the-black-magic-of-systematically-reducing-linux-os-jitter.html)<br/>
 [The Updated Big List Of Articles On The Amazon Outage](http://highscalability.com/blog/2011/5/2/the-updated-big-list-of-articles-on-the-amazon-outage.html)<br/>
-[Heroku Emergency Strategy: Incident Command System And 8 Hour Ops Rotations For Fresh Minds](http://highscalability.com/blog/2011/4/27/heroku-emergency-strategy-incident-command-system-and-8-hour.html)<br/>
+
 [The Serverless Start-Up - Down With Servers!](http://highscalability.com/blog/2015/12/7/the-serverless-start-up-down-with-servers.html)<br/>
 [How Google Invented An Amazing Datacenter Network Only They Could Create](http://highscalability.com/blog/2015/8/10/how-google-invented-an-amazing-datacenter-network-only-they.html)<br/>
 [Google+ Is Built Using Tools You Can Use Too: Closure, Java Servlets, JavaScript, BigTable, Colossus, Quick Turnaround](http://highscalability.com/blog/2011/7/12/google-is-built-using-tools-you-can-use-too-closure-java-ser.html)<br/>
@@ -229,7 +237,6 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Bitly: Lessons Learned Building A Distributed System That Handles 6 Billion Clicks A Month](http://highscalability.com/blog/2014/7/14/bitly-lessons-learned-building-a-distributed-system-that-han.html)<br/>
 [17 Techniques Used To Scale Turntable.Fm And Labmeeting To Millions Of Users](http://highscalability.com/blog/2011/9/26/17-techniques-used-to-scale-turntablefm-and-labmeeting-to-mi.html)<br/>
 [The Secret To 10 Million Concurrent Connections -The Kernel Is The Problem, Not The Solution](http://highscalability.com/blog/2013/5/13/the-secret-to-10-million-concurrent-connections-the-kernel-i.html)<br/>
-[7 Scaling Strategies Facebook Used To Grow To 500 Million Users](http://highscalability.com/blog/2010/8/2/7-scaling-strategies-facebook-used-to-grow-to-500-million-us.html)<br/>
 [Russ’ 10 Ingredient Recipe for Making 1 Million TPS on $5K Hardware](http://highscalability.com/blog/2012/9/10/russ-10-ingredient-recipe-for-making-1-million-tps-on-5k-har.html)<br/>
 # Other Scal<br/>
 [Mollom Architecture - Killing Over 373 Million Spams At 100 Requests Per Second](http://highscalability.com/blog/2011/2/8/mollom-architecture-killing-over-373-million-spams-at-100-re.html)<br/>
@@ -339,7 +346,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Ask HighScalability: Facing Scaling Issues With News Feeds On Redis. Any Advice?](http://highscalability.com/blog/2012/8/13/ask-highscalability-facing-scaling-issues-with-news-feeds-on.html)<br/>
 [How Twitter Uses Redis To Scale - 105TB RAM, 39MM QPS, 10,000+ Instances](http://highscalability.com/blog/2014/9/8/how-twitter-uses-redis-to-scale-105tb-ram-39mm-qps-10000-ins.html)<br/>
 [The Performance Of Distributed Data-Structures Running On A "Cache-Coherent" In-Memory Data Grid](http://highscalability.com/blog/2012/8/20/the-performance-of-distributed-data-structures-running-on-a.html)<br/>
-[Strategy: Break Up The Memcache Dog Pile&nbsp;](http://highscalability.squarespace.com/blog/2009/8/7/strategy-break-up-the-memcache-dog-pile.html)<br/>
+[Strategy: Break Up The Memcache Dog Pile](http://highscalability.squarespace.com/blog/2009/8/7/strategy-break-up-the-memcache-dog-pile.html)<br/>
 [MySQL And Memcached: End Of An Era?](http://highscalability.com/blog/2010/2/26/mysql-and-memcached-end-of-an-era.html)<br/>
 [Strategy: Break Up The Memcache Dog Pile](http://highscalability.com/blog/2009/8/7/strategy-break-up-the-memcache-dog-pile.html)<br/>
 [10 Program Busting Caching Mistakes](http://highscalability.com/blog/2014/7/16/10-program-busting-caching-mistakes.html)<br/>
