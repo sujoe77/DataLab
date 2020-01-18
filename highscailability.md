@@ -21,41 +21,57 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Log Everything All The Time](http://highscalability.com/blog/2007/8/30/log-everything-all-the-time.html)<br/>
 [Paper: Large-Scale Cluster Management At Google With Borg](http://highscalability.com/blog/2015/4/16/paper-large-scale-cluster-management-at-google-with-borg.html)<br/>
 [Vinted Architecture: Keeping A Busy Portal Stable By Deploying Several Hundred Times Per Day](http://highscalability.com/blog/2015/2/9/vinted-architecture-keeping-a-busy-portal-stable-by-deployin.html)<br/>
+
+# DevOps
 [The Always On Architecture - Moving Beyond Legacy Disaster Recovery](http://highscalability.com/blog/2016/8/23/the-always-on-architecture-moving-beyond-legacy-disaster-rec.html)<br/>
+
 # Company<br/>
 [5 Lessons And 8 Industry Changes Over 5 Years As Etsy CTO](http://highscalability.com/blog/2015/9/16/5-lessons-and-8-industry-changes-over-5-years-as-etsy-cto.html)<br/>
+
+## Google
+[Google Pro Tip: Use Back-Of-The-Envelope-Calculations To Choose The Best Design](http://highscalability.com/blog/2011/1/26/google-pro-tip-use-back-of-the-envelope-calculations-to-choo.html)<br/>
+[Google Architecture](http://highscalability.com/google-architecture)<br/>
+[Google Pro Tip: Use Back-Of-The-Envelope-Calculations To Choose The Best Design](http://highscalability.com/blog/2011/1/26/google-pro-tip-use-back-of-the-envelope-calculations-to-choo.html)<br/>
+[he Three Ages Of Google - Batch, Warehouse, Instant](http://highscalability.squarespace.com/blog/2011/8/29/the-three-ages-of-google-batch-warehouse-instant.html)<br/>
+[Google Finds: Centralized Control, Distributed Data Architectures Work Better Than Fully Decentralized Architectures](http://highscalability.com/blog/2014/4/7/google-finds-centralized-control-distributed-data-architectu.html)<br/>
+[Matt Cutts: 10 Lessons Learned From The Early Days Of Google](http://highscalability.com/blog/2015/2/4/matt-cutts-10-lessons-learned-from-the-early-days-of-google.html)<br/>
+
+## Facebook
 [Facebook Timeline: Brought To You By The Power Of Denormalization](http://highscalability.com/blog/2012/1/23/facebook-timeline-brought-to-you-by-the-power-of-denormaliza.html)<br/>
 [How Facebook Tells Your Friends You're Safe In A Disaster In Under Five Minutes](http://highscalability.com/blog/2015/9/28/how-facebook-tells-your-friends-youre-safe-in-a-disaster-in.html)<br/>
+[Facebook](http://highscalability.com/blog/category/facebook)<br/>
+[The Instagram Architecture Facebook Bought For A Cool Billion Dollars](http://highscalability.com/blog/2012/4/9/the-instagram-architecture-facebook-bought-for-a-cool-billio.html)<br/>
+[The WhatsApp Architecture Facebook Bought For $19 Billion](http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html)<br/>
+
+## Instagram
 [Instagram Architecture Update: What’s New With Instagram?](http://highscalability.com/blog/2012/4/16/instagram-architecture-update-whats-new-with-instagram.html)<br/>
 [Instagram Improved Their App's Performance. Here's How.](http://highscalability.com/blog/2014/9/29/instagram-improved-their-apps-performance-heres-how.html)<br/>
 [5 Lessons From 5 Years Of Building Instagram](http://highscalability.com/blog/2015/10/21/5-lessons-from-5-years-of-building-instagram.html)<br/>
+
+## Netflix
+[Netflix: What Happens When You Press Play?](http://highscalability.com/blog/2017/12/11/netflix-what-happens-when-you-press-play.html)<br/>
+[The Eternal Cost Savings Of Netflix's Internal Spot Market](http://highscalability.com/blog/2017/12/4/the-eternal-cost-savings-of-netflixs-internal-spot-market.html)<br/>
+[A 360 Degree View Of The Entire Netflix Stack](http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html)<br/>
+
+## Flickr
+[Flickr Architecture](http://highscalability.com/flickr-architecture)<br/>
+[How To Succeed At Capacity Planning Without Really Trying : An Interview With Flickr's John Allspaw On His New Book](http://highscalability.com/blog/2009/6/29/how-to-succeed-at-capacity-planning-without-really-trying-an.html)<br/>
+
+## Other
 [Cinchcast Architecture - Producing 1,500 Hours Of Audio Every Day](http://highscalability.com/blog/2012/7/16/cinchcast-architecture-producing-1500-hours-of-audio-every-d.html)<br/>
 [StubHub Architecture: The Surprising Complexity Behind The World’s Largest Ticket Marketplace](http://highscalability.com/blog/2012/6/25/stubhub-architecture-the-surprising-complexity-behind-the-wo.html)<br/>
 [NYTimes Architecture: No Head, No Master, No Single Point Of Failure](http://highscalability.com/blog/2014/1/13/nytimes-architecture-no-head-no-master-no-single-point-of-fa.html)<br/>
 [Justin.Tv's Live Video Broadcasting Architecture](http://highscalability.com/blog/2010/3/16/justintvs-live-video-broadcasting-architecture.html)<br/>
-[The Eternal Cost Savings Of Netflix's Internal Spot Market](http://highscalability.com/blog/2017/12/4/the-eternal-cost-savings-of-netflixs-internal-spot-market.html)<br/>
-[Google Pro Tip: Use Back-Of-The-Envelope-Calculations To Choose The Best Design](http://highscalability.com/blog/2011/1/26/google-pro-tip-use-back-of-the-envelope-calculations-to-choo.html)<br/>
-[A 360 Degree View Of The Entire Netflix Stack](http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html)<br/>
 [YouTube Architecture](http://highscalability.com/youtube-architecture)<br/>
 [Plenty Of Fish Architecture](http://highscalability.com/plentyoffish-architecture)<br/>
-[Google Architecture](http://highscalability.com/google-architecture)<br/>
-[Netflix: What Happens When You Press Play?](http://highscalability.com/blog/2017/12/11/netflix-what-happens-when-you-press-play.html)<br/>
-[The WhatsApp Architecture Facebook Bought For $19 Billion](http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html)<br/>
-[Flickr Architecture](http://highscalability.com/flickr-architecture)<br/>
 [Amazon Architecture](http://highscalability.com/amazon-architecture)<br/>
 [Stack Overflow Architecture](http://highscalability.com/blog/2009/8/5/stack-overflow-architecture.html)<br/>
-[Facebook](http://highscalability.com/blog/category/facebook)<br/>
-[The Instagram Architecture Facebook Bought For A Cool Billion Dollars](http://highscalability.com/blog/2012/4/9/the-instagram-architecture-facebook-bought-for-a-cool-billio.html)<br/>
-[Google Pro Tip: Use Back-Of-The-Envelope-Calculations To Choose The Best Design](http://highscalability.com/blog/2011/1/26/google-pro-tip-use-back-of-the-envelope-calculations-to-choo.html)<br/>
-
-[he Three Ages Of Google - Batch, Warehouse, Instant](http://highscalability.squarespace.com/blog/2011/8/29/the-three-ages-of-google-batch-warehouse-instant.html)<br/>
-[Google Finds: Centralized Control, Distributed Data Architectures Work Better Than Fully Decentralized Architectures](http://highscalability.com/blog/2014/4/7/google-finds-centralized-control-distributed-data-architectu.html)<br/>
-[Matt Cutts: 10 Lessons Learned From The Early Days Of Google](http://highscalability.com/blog/2015/2/4/matt-cutts-10-lessons-learned-from-the-early-days-of-google.html)<br/>
 [This. Just. This.](http://highscalability.com/blog/2015/7/16/this-just-this.html)<br/>
 [What If Cars Were Rented Like We Hire Programmers?](http://highscalability.com/blog/2013/1/16/what-if-cars-were-rented-like-we-hire-programmers.html)<br/>
-[How To Succeed At Capacity Planning Without Really Trying : An Interview With Flickr's John Allspaw On His New Book](http://highscalability.com/blog/2009/6/29/how-to-succeed-at-capacity-planning-without-really-trying-an.html)<br/>
 [Ten Lessons From GitHub’s First Year In 2008](http://highscalability.com/blog/2013/9/11/ten-lessons-from-githubs-first-year-in-2008.html)<br/>
 [Is Node.Js Becoming A Part Of The Stack? SimpleGeo Says Yes.](http://highscalability.com/blog/2011/2/22/is-nodejs-becoming-a-part-of-the-stack-simplegeo-says-yes.html)<br/>
+
+
 # Paper<br/>
 [Paper: The Akamai Network - 61,000 Servers, 1,000 Networks, 70 Countries&nbsp;](http://highscalability.com/blog/2011/8/18/paper-the-akamai-network-61000-servers-1000-networks-70-coun.html)<br/>
 [Paper: Immutability Changes Everything By Pat Helland](http://highscalability.com/blog/2015/1/26/paper-immutability-changes-everything-by-pat-helland.html)<br/>
@@ -67,11 +83,13 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [How Do We Explain The Unreasonable Effectiveness Of IT?](http://highscalability.com/blog/2015/7/6/how-do-we-explain-the-unreasonable-effectiveness-of-it.html)<br/>
 [What Happens While Your Brain Sleeps Is Surprisingly Like How Computers Stay Sane](http://highscalability.com/blog/2013/12/23/what-happens-while-your-brain-sleeps-is-surprisingly-like-ho.html)<br/>
 [How Can We Spark The Movement Of Research Out Of The Ivory Tower And Into Production?](http://highscalability.com/blog/2010/7/22/how-can-we-spark-the-movement-of-research-out-of-the-ivory-t.html)<br/>
+
 # IOT<br/>
 [How Would You Build The Next Internet? Loons, Drones, Copters, Satellites, Or Something Else?](http://highscalability.com/blog/2014/1/22/how-would-you-build-the-next-internet-loons-drones-copters-s.html)<br/>
 [Want IoT? Here's How A Major US Utility Collects Power Data From Over 5.5 Million Meters](http://highscalability.com/blog/2015/9/7/want-iot-heres-how-a-major-us-utility-collects-power-data-fr.html)<br/>
 [How Would You Build The Next Internet? Loons, Drones, Copters, Satellites, Or Something Else?](http://highscalability.com/blog/2014/1/22/how-would-you-build-the-next-internet-loons-drones-copters-s.html)<br/>
 [Hidden History: Driving The Last Spike Of The Transcontinental Railroad Was An Early Version Of The Internet Of Things](http://highscalability.com/blog/2013/11/27/hidden-history-driving-the-last-spike-of-the-transcontinenta.html)<br/>
+
 # Architecture<br/>
 [Ask HighScalability: Choose An Async App Server Or Multiple Blocking Servers?](http://highscalability.com/blog/2015/8/24/ask-highscalability-choose-an-async-app-server-or-multiple-b.html)<br/>
 [Segment: Rebuilding Our Infrastructure With Docker, ECS, And Terraform](http://highscalability.com/blog/2015/10/19/segment-rebuilding-our-infrastructure-with-docker-ecs-and-te.html)<br/>
@@ -101,6 +119,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Vinted Architecture: Keeping A Busy Portal Stable By Deploying Several Hundred Times Per Day](http://highscalability.com/blog/2015/2/9/vinted-architecture-keeping-a-busy-portal-stable-by-deployin.html)<br/>
 [Getting Things Right: A Look At Centralized Vs Decentralized Systems Through The Eyes Of Instant Replay](http://highscalability.com/blog/2014/9/15/getting-things-right-a-look-at-centralized-vs-decentralized.html)<br/>
 [10 Common Server Setups For Your Web Application](http://highscalability.com/blog/2014/9/10/10-common-server-setups-for-your-web-application.html)<br/>
+
 # Microservices<br/>
 [The Great Microservices Vs Monolithic Apps Twitter Melee](http://highscalability.com/blog/2014/7/28/the-great-microservices-vs-monolithic-apps-twitter-melee.html)<br/>
 [How To Build Your Property Management System Integration Using Microservices](http://highscalability.com/blog/2016/2/10/how-to-build-your-property-management-system-integration-usi.html)<br/>
@@ -110,6 +129,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [This Is Why Microsoft Won. And Why They Lost.](http://highscalability.com/blog/2014/4/21/this-is-why-microsoft-won-and-why-they-lost.html)<br/>
 [Microservices - Not A Free Lunch!](http://highscalability.com/blog/2014/4/8/microservices-not-a-free-lunch.html)<br/>
 [Netflix: Continually Test By Failing Servers With Chaos Monkey](http://highscalability.com/blog/2010/12/28/netflix-continually-test-by-failing-servers-with-chaos-monke.html)<br/>
+
 # Cloud<br/>
 [The Black Magic Of Systematically Reducing Linux OS Jitter](http://highscalability.com/blog/2015/4/8/the-black-magic-of-systematically-reducing-linux-os-jitter.html)<br/>
 [The Updated Big List Of Articles On The Amazon Outage](http://highscalability.com/blog/2011/5/2/the-updated-big-list-of-articles-on-the-amazon-outage.html)<br/>
@@ -144,6 +164,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [That's Not My Problem - I'm Renting Them](http://highscalability.com/blog/2014/10/8/thats-not-my-problem-im-renting-them.html)<br/>
 [Pinterest Cut Costs From $54 To $20 Per Hour By Automatically Shutting Down Systems](http://highscalability.com/blog/2012/12/12/pinterest-cut-costs-from-54-to-20-per-hour-by-automatically.html)<br/>
 [Heroku Emergency Strategy: Incident Command System And 8 Hour Ops Rotations For Fresh Minds](http://highscalability.com/blog/2011/4/27/heroku-emergency-strategy-incident-command-system-and-8-hour.html)<br/>
+
 # Realtime<br/>
 [DataSift Architecture: Realtime Datamining At 120,000 Tweets Per Second](http://highscalability.com/blog/2011/11/29/datasift-architecture-realtime-datamining-at-120000-tweets-p.html)<br/>
 [Facebook's New Real-Time Messaging System: HBase To Store 135+ Billion Messages A Month](http://highscalability.com/blog/2010/11/16/facebooks-new-real-time-messaging-system-hbase-to-store-135.html)<br/>
@@ -151,6 +172,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Update On Disqus: It's Still About Realtime, But Go Demolishes Python](http://highscalability.com/blog/2014/5/7/update-on-disqus-its-still-about-realtime-but-go-demolishes.html)<br/>
 [How Uber Scales Their Real-Time Market Platform](http://highscalability.com/blog/2015/9/14/how-uber-scales-their-real-time-market-platform.html)<br/>
 [How Uber Scales Their Real-Time Market Platform](http://highscalability.com/blog/2015/9/14/how-uber-scales-their-real-time-market-platform.html)<br/>
+
 # Latency<br/>
 [Google On Latency Tolerant Systems: Making A Predictable Whole Out Of Unpredictable Parts](http://highscalability.com/blog/2012/6/18/google-on-latency-tolerant-systems-making-a-predictable-whol.html)<br/>
 [Latency is Everywhere and it Costs You Sales - How to Crush it](http://highscalability.com/blog/2009/7/25/latency-is-everywhere-and-it-costs-you-sales-how-to-crush-it.html)<br/>
@@ -164,6 +186,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Think Of Latency As A Pseudo-Permanent Network Partition](http://highscalability.com/blog/2010/8/12/think-of-latency-as-a-pseudo-permanent-network-partition.html)<br/>
 [Google: Taming The Long Latency Tail - When More Machines Equals Worse Results](http://highscalability.com/blog/2012/3/12/google-taming-the-long-latency-tail-when-more-machines-equal.html)<br/>
 [More Numbers Every Awesome Programmer Must Know](http://highscalability.com/blog/2013/1/15/more-numbers-every-awesome-programmer-must-know.html)<br/>
+
 # Scailing<br/>
 [We Finally Cracked The 10K Problem - This Time For Managing Servers With 2000x Servers Managed Per Sysadmin](http://highscalability.com/blog/2013/11/19/we-finally-cracked-the-10k-problem-this-time-for-managing-se.html)<br/>
 [Your Load Generator Is Probably Lying To You - Take The Red Pill And Find Out Why](http://highscalability.com/blog/2015/10/5/your-load-generator-is-probably-lying-to-you-take-the-red-pi.html)<br/>
@@ -177,11 +200,13 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [StackExchange Architecture Updates - Running Smoothly, Amazon 4x More Expensive](http://highscalability.com/blog/2011/10/24/stackexchange-architecture-updates-running-smoothly-amazon-4.html)<br/>
 [Pursue Robust Indefinite Scalability With The Movable Feast Machine](http://highscalability.com/blog/2011/9/28/pursue-robust-indefinite-scalability-with-the-movable-feast.html)<br/>
 [Peecho Architecture - Scalability On A Shoestring](http://highscalability.com/blog/2011/8/1/peecho-architecture-scalability-on-a-shoestring.html)<br/>
+
 # Patterns<br/>
 [7 Design Patterns For Almost-Infinite Scalability](http://highscalability.com/blog/2010/12/16/7-design-patterns-for-almost-infinite-scalability.html)<br/>
 [10 Core Architecture Pattern Variations For Achieving Scalability](http://highscalability.com/blog/2011/11/7/10-core-architecture-pattern-variations-for-achieving-scalab.html)<br/>
 [8 Commonly Used Scalable System Design Patterns](http://highscalability.com/blog/2010/12/1/8-commonly-used-scalable-system-design-patterns.html)<br/>
 [Scaling An AWS Infrastructure - Tools And Patterns](http://highscalability.com/blog/2010/8/16/scaling-an-aws-infrastructure-tools-and-patterns.html)<br/>
+
 # Mistake<br/>
 [6 Ways To Kill Your Servers - Learning How To Scale The Hard Way](http://highscalability.com/blog/2010/8/23/6-ways-to-kill-your-servers-learning-how-to-scale-the-hard-w.html)<br/>
 [Sean Hull's 20 Biggest Bottlenecks That Reduce And Slow Down Scalability](http://highscalability.com/blog/2013/8/28/sean-hulls-20-biggest-bottlenecks-that-reduce-and-slow-down.html)<br/>
@@ -211,6 +236,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Vertical Scaling Ascendant - How Are SSDs Changing &nbsp;Architectures?](http://highscalability.com/blog/2012/7/25/vertical-scaling-ascendant-how-are-ssds-changing-architectur.html)<br/>
 [Scaling Secret #2: Denormalizing Your Way To Speed And Profit](http://highscalability.com/blog/2007/8/16/scaling-secret-2-denormalizing-your-way-to-speed-and-profit.html)<br/>
 [Strategy: Diagonal Scaling - Don't Forget To Scale Out AND Up](http://highscalability.com/blog/2007/11/5/strategy-diagonal-scaling-dont-forget-to-scale-out-and-up.html)<br/>
+
 # Service<br/>
 [Paper: On Designing And Deploying Internet-Scale Services](http://highscalability.com/blog/2008/3/25/paper-on-designing-and-deploying-internet-scale-services.html)<br/>
 [Strategy: Three Techniques To Survive Traffic Surges By Quickly Scaling Your Site](http://highscalability.com/blog/2014/3/19/strategy-three-techniques-to-survive-traffic-surges-by-quick.html)<br/>
@@ -223,6 +249,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [The Secret Of Scaling: You Can't Linearly Scale Effort With Capacity](http://highscalability.com/blog/2014/6/4/the-secret-of-scaling-you-cant-linearly-scale-effort-with-ca.html)<br/>
 [Playfish's Social Gaming Architecture - 50 Million Monthly Users And Growing](http://highscalability.com/blog/2010/9/21/playfishs-social-gaming-architecture-50-million-monthly-user.html)<br/>
 [Instagram Architecture: 14 Million Users, Terabytes Of Photos, 100s Of Instances, Dozens Of Technologies](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)<br/>
+
 # Lessons &amp; best practice<br/>
 [22 Recommendations For Building Effective High Traffic Web Software](http://highscalability.com/blog/2013/12/16/22-recommendations-for-building-effective-high-traffic-web-s.html)<br/>
 [7 Strategies For 10x Transformative Change](http://highscalability.com/blog/2015/8/26/7-strategies-for-10x-transformative-change.html)<br/>
@@ -238,6 +265,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [17 Techniques Used To Scale Turntable.Fm And Labmeeting To Millions Of Users](http://highscalability.com/blog/2011/9/26/17-techniques-used-to-scale-turntablefm-and-labmeeting-to-mi.html)<br/>
 [The Secret To 10 Million Concurrent Connections -The Kernel Is The Problem, Not The Solution](http://highscalability.com/blog/2013/5/13/the-secret-to-10-million-concurrent-connections-the-kernel-i.html)<br/>
 [Russ’ 10 Ingredient Recipe for Making 1 Million TPS on $5K Hardware](http://highscalability.com/blog/2012/9/10/russ-10-ingredient-recipe-for-making-1-million-tps-on-5k-har.html)<br/>
+
 # Other Scal<br/>
 [Mollom Architecture - Killing Over 373 Million Spams At 100 Requests Per Second](http://highscalability.com/blog/2011/2/8/mollom-architecture-killing-over-373-million-spams-at-100-re.html)<br/>
 [Facebook At 13 Million Queries Per Second Recommends: Minimize Request Variance](http://highscalability.com/blog/2010/11/4/facebook-at-13-million-queries-per-second-recommends-minimiz.html)<br/>
@@ -280,6 +308,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [The Dollar Shave Club Architecture Unilever Bought For $1 Billion](http://highscalability.com/blog/2016/9/13/the-dollar-shave-club-architecture-unilever-bought-for-1-bil.html)<br/>
 [The Easy Way Of Building A Growing Startup Architecture Using HAProxy, PHP, Redis And MySQL To Handle 1 Billion Requests A Week](http://highscalability.com/blog/2014/8/11/the-easy-way-of-building-a-growing-startup-architecture-usin.html)<br/>
 [TripAdvisor Architecture - 40M Visitors, 200M Dynamic Page Views, 30TB Data](http://highscalability.com/blog/2011/6/27/tripadvisor-architecture-40m-visitors-200m-dynamic-page-view.html)<br/>
+
 # Algo<br/>
 [9 Principles Of High Performance Programs](http://highscalability.com/blog/2014/5/21/9-principles-of-high-performance-programs.html)<br/>
 [How Do You Program A Computer With 10 Terabytes Of RAM?](http://highscalability.com/blog/2015/8/5/how-do-you-program-a-computer-with-10-terabytes-of-ram.html)<br/>
@@ -287,6 +316,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Google Strategy: Tree Distribution Of Requests And Responses](http://highscalability.com/blog/2011/2/1/google-strategy-tree-distribution-of-requests-and-responses.html)<br/>
 [Strategy: Change The Problem](http://highscalability.com/blog/2014/9/3/strategy-change-the-problem.html)<br/>
 [Big Data Counting: How To Count A Billion Distinct Objects Using Only 1.5KB Of Memory](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)<br/>
+
 # Data<br/>
 [How HipChat Stores And Indexes Billions Of Messages Using ElasticSearch And Redis](http://highscalability.com/blog/2014/1/6/how-hipchat-stores-and-indexes-billions-of-messages-using-el.html)<br/>
 [The Big Problem Is Medium Data](http://highscalability.com/blog/2014/12/17/the-big-problem-is-medium-data.html)<br/>
@@ -329,6 +359,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Drop ACID And Think About Data](http://highscalability.com/blog/2009/5/5/drop-acid-and-think-about-data.html)<br/>
 [Stack Overflow Makes Slow Pages 100x Faster By Simple SQL Tuning](http://highscalability.com/blog/2011/5/2/stack-overflow-makes-slow-pages-100x-faster-by-simple-sql-tu.html)<br/>
 [Troubles With Sharding - What Can We Learn From The Foursquare Incident?](http://highscalability.com/blog/2010/10/15/troubles-with-sharding-what-can-we-learn-from-the-foursquare.html)<br/>
+
 # Software Engineering<br/>
 [This Stuff Isn't Taught, You Learn It Bit By Bit As You Solve Each Problem](http://highscalability.squarespace.com/blog/2011/2/23/this-stuff-isnt-taught-you-learn-it-bit-by-bit-as-you-solve.html)<br/>
 [Rescuing An Outsourced Project From Collapse: 8 Problems Found And 8 Lessons Learned](http://highscalability.com/blog/2015/2/11/rescuing-an-outsourced-project-from-collapse-8-problems-foun.html)<br/>
@@ -341,6 +372,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [How Is Software Developed At Amazon?](http://highscalability.com/blog/2019/3/4/how-is-software-developed-at-amazon.html)<br/>
 [The Ultimate Guide: 5 Methods For Debugging Production Servers At Scale](http://highscalability.com/blog/2015/1/7/the-ultimate-guide-5-methods-for-debugging-production-server.html)<br/>
 [Malice Or Stupidity Or Inattention? Using Code Reviews To Find Backdoors](http://highscalability.com/blog/2016/3/2/malice-or-stupidity-or-inattention-using-code-reviews-to-fin.html)<br/>
+
 # Cache<br/>
 [11 Common Web Use Cases Solved In Redis](http://highscalability.com/blog/2011/7/6/11-common-web-use-cases-solved-in-redis.html)<br/>
 [Ask HighScalability: Facing Scaling Issues With News Feeds On Redis. Any Advice?](http://highscalability.com/blog/2012/8/13/ask-highscalability-facing-scaling-issues-with-news-feeds-on.html)<br/>
@@ -351,6 +383,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Strategy: Break Up The Memcache Dog Pile](http://highscalability.com/blog/2009/8/7/strategy-break-up-the-memcache-dog-pile.html)<br/>
 [10 Program Busting Caching Mistakes](http://highscalability.com/blog/2014/7/16/10-program-busting-caching-mistakes.html)<br/>
 [Better Browser Caching Is More Important Than No Javascript Or Fast Networks For HTTP Performance](http://highscalability.com/blog/2013/1/30/better-browser-caching-is-more-important-than-no-javascript.html)<br/>
+
 # Mobile<br/>
 [Uber Goes Unconventional: Using Driver Phones As A Backup Datacenter](http://highscalability.com/blog/2015/9/21/uber-goes-unconventional-using-driver-phones-as-a-backup-dat.html)<br/>
 [10 Golden Principles For Building Successful Mobile/Web Applications](http://highscalability.com/blog/2012/7/5/10-golden-principles-for-building-successful-mobileweb-appli.html)<br/>
@@ -359,6 +392,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [How Facebook Makes Mobile Work At Scale For All Phones, On All Screens, On All Networks](http://highscalability.com/blog/2014/9/22/how-facebook-makes-mobile-work-at-scale-for-all-phones-on-al.html)<br/>
 [Misco: A MapReduce Framework For Mobile Systems - Start Of The Ambient Cloud?](http://highscalability.com/blog/2010/8/18/misco-a-mapreduce-framework-for-mobile-systems-start-of-the.html)<br/>
 [If You're Programming A Cell Phone Like A Server You're Doing It Wrong](http://highscalability.com/blog/2013/9/18/if-youre-programming-a-cell-phone-like-a-server-youre-doing.html)<br/>
+
 # Data Science<br/>
 [Machine Learning Driven Programming: A New Programming For A New World](http://highscalability.com/blog/2016/7/6/machine-learning-driven-programming-a-new-programming-for-a.html)<br/>
 [Jeff Dean On Large-Scale Deep Learning At Google](http://highscalability.com/blog/2016/3/16/jeff-dean-on-large-scale-deep-learning-at-google.html)<br/>
@@ -366,6 +400,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Machine Learning Driven Programming: A New Programming For A New World](http://highscalability.com/blog/2016/7/6/machine-learning-driven-programming-a-new-programming-for-a.html)<br/>
 [6 Ways To Defeat The Coming Robot Army Swarms](http://highscalability.com/blog/2015/4/1/6-ways-to-defeat-the-coming-robot-army-swarms.html)<br/>
 [Prismatic Architecture - Using Machine Learning On Social Networks To Figure Out What You Should Read On The Web](http://highscalability.com/blog/2012/7/30/prismatic-architecture-using-machine-learning-on-social-netw.html)<br/>
+
 # Security<br/>
 [Auth0 Architecture - Running In Multiple Cloud Providers And Regions](http://highscalability.com/blog/2014/12/1/auth0-architecture-running-in-multiple-cloud-providers-and-r.html)<br/>
 [How Do You Explain The Unreasonable Effectiveness Of Cloud Security?](http://highscalability.com/blog/2018/9/19/how-do-you-explain-the-unreasonable-effectiveness-of-cloud-s.html)<br/>
