@@ -201,13 +201,13 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Pursue Robust Indefinite Scalability With The Movable Feast Machine](http://highscalability.com/blog/2011/9/28/pursue-robust-indefinite-scalability-with-the-movable-feast.html)<br/>
 [Peecho Architecture - Scalability On A Shoestring](http://highscalability.com/blog/2011/8/1/peecho-architecture-scalability-on-a-shoestring.html)<br/>
 
-# Patterns<br/>
+## Patterns<br/>
 [7 Design Patterns For Almost-Infinite Scalability](http://highscalability.com/blog/2010/12/16/7-design-patterns-for-almost-infinite-scalability.html)<br/>
 [10 Core Architecture Pattern Variations For Achieving Scalability](http://highscalability.com/blog/2011/11/7/10-core-architecture-pattern-variations-for-achieving-scalab.html)<br/>
 [8 Commonly Used Scalable System Design Patterns](http://highscalability.com/blog/2010/12/1/8-commonly-used-scalable-system-design-patterns.html)<br/>
 [Scaling An AWS Infrastructure - Tools And Patterns](http://highscalability.com/blog/2010/8/16/scaling-an-aws-infrastructure-tools-and-patterns.html)<br/>
 
-# Mistake<br/>
+## Mistake<br/>
 [6 Ways To Kill Your Servers - Learning How To Scale The Hard Way](http://highscalability.com/blog/2010/8/23/6-ways-to-kill-your-servers-learning-how-to-scale-the-hard-w.html)<br/>
 [Sean Hull's 20 Biggest Bottlenecks That Reduce And Slow Down Scalability](http://highscalability.com/blog/2013/8/28/sean-hulls-20-biggest-bottlenecks-that-reduce-and-slow-down.html)<br/>
 [Little’s Law, Scalability And Fault Tolerance: The OS Is Your Bottleneck. What You Can Do?](http://highscalability.com/blog/2014/2/5/littles-law-scalability-and-fault-tolerance-the-os-is-your-b.html)<br/>
@@ -237,7 +237,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Scaling Secret #2: Denormalizing Your Way To Speed And Profit](http://highscalability.com/blog/2007/8/16/scaling-secret-2-denormalizing-your-way-to-speed-and-profit.html)<br/>
 [Strategy: Diagonal Scaling - Don't Forget To Scale Out AND Up](http://highscalability.com/blog/2007/11/5/strategy-diagonal-scaling-dont-forget-to-scale-out-and-up.html)<br/>
 
-# Service<br/>
+## Service<br/>
 [Paper: On Designing And Deploying Internet-Scale Services](http://highscalability.com/blog/2008/3/25/paper-on-designing-and-deploying-internet-scale-services.html)<br/>
 [Strategy: Three Techniques To Survive Traffic Surges By Quickly Scaling Your Site](http://highscalability.com/blog/2014/3/19/strategy-three-techniques-to-survive-traffic-surges-by-quick.html)<br/>
 [GridGain: One Compute Grid, Many Data Grids](http://highscalability.com/blog/2008/9/25/gridgain-one-compute-grid-many-data-grids.html)<br/>
@@ -250,7 +250,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Playfish's Social Gaming Architecture - 50 Million Monthly Users And Growing](http://highscalability.com/blog/2010/9/21/playfishs-social-gaming-architecture-50-million-monthly-user.html)<br/>
 [Instagram Architecture: 14 Million Users, Terabytes Of Photos, 100s Of Instances, Dozens Of Technologies](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)<br/>
 
-# Lessons &amp; best practice<br/>
+## Lessons &amp; best practice<br/>
 [22 Recommendations For Building Effective High Traffic Web Software](http://highscalability.com/blog/2013/12/16/22-recommendations-for-building-effective-high-traffic-web-s.html)<br/>
 [7 Strategies For 10x Transformative Change](http://highscalability.com/blog/2015/8/26/7-strategies-for-10x-transformative-change.html)<br/>
 [6 Lessons From Dropbox - One Million Files Saved Every 15 Minutes](http://highscalability.com/blog/2011/3/14/6-lessons-from-dropbox-one-million-files-saved-every-15-minu.html)<br/>
@@ -266,7 +266,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [The Secret To 10 Million Concurrent Connections -The Kernel Is The Problem, Not The Solution](http://highscalability.com/blog/2013/5/13/the-secret-to-10-million-concurrent-connections-the-kernel-i.html)<br/>
 [Russ’ 10 Ingredient Recipe for Making 1 Million TPS on $5K Hardware](http://highscalability.com/blog/2012/9/10/russ-10-ingredient-recipe-for-making-1-million-tps-on-5k-har.html)<br/>
 
-# Other Scal<br/>
+## Other Scal<br/>
 [Mollom Architecture - Killing Over 373 Million Spams At 100 Requests Per Second](http://highscalability.com/blog/2011/2/8/mollom-architecture-killing-over-373-million-spams-at-100-re.html)<br/>
 [Facebook At 13 Million Queries Per Second Recommends: Minimize Request Variance](http://highscalability.com/blog/2010/11/4/facebook-at-13-million-queries-per-second-recommends-minimiz.html)<br/>
 [DuckDuckGo Architecture - 1 Million Deep Searches A Day And Growing](http://highscalability.com/blog/2013/1/28/duckduckgo-architecture-1-million-deep-searches-a-day-and-gr.html)<br/>
@@ -318,20 +318,8 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Big Data Counting: How To Count A Billion Distinct Objects Using Only 1.5KB Of Memory](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)<br/>
 
 # Data<br/>
-[How HipChat Stores And Indexes Billions Of Messages Using ElasticSearch And Redis](http://highscalability.com/blog/2014/1/6/how-hipchat-stores-and-indexes-billions-of-messages-using-el.html)<br/>
-[The Big Problem Is Medium Data](http://highscalability.com/blog/2014/12/17/the-big-problem-is-medium-data.html)<br/>
-[Why My Water Droplet Is Better Than Your Hadoop Cluster](http://highscalability.com/blog/2015/8/12/why-my-water-droplet-is-better-than-your-hadoop-cluster.html)<br/>
-[Why My Slime Mold Is Better Than Your Hadoop Cluster](http://highscalability.com/blog/2012/4/9/why-my-slime-mold-is-better-than-your-hadoop-cluster.html)<br/>
-[An Unorthodox Approach to Database Design : The Coming of the Shard](http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)<br/>
-[LevelDB - Fast And Lightweight Key/Value Database From The Authors Of MapReduce And BigTable](http://highscalability.com/blog/2011/8/10/leveldb-fast-and-lightweight-keyvalue-database-from-the-auth.html)<br/>
-[Jim Starkey Is Creating A Brave New World By Rethinking Databases For The Cloud](http://highscalability.com/blog/2011/8/4/jim-starkey-is-creating-a-brave-new-world-by-rethinking-data.html)<br/>
-[The Mother Of All Database Normalization Debates On Coding Horror](http://highscalability.com/blog/2008/7/16/the-mother-of-all-database-normalization-debates-on-coding-h.html)<br/>
-[An Unorthodox Approach To Database Design : The Coming Of The Shard](http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)<br/>
-[MemSQL Architecture - The Fast (MVCC, InMem, LockFree, CodeGen) And Familiar (SQL)](http://highscalability.com/blog/2012/8/14/memsql-architecture-the-fast-mvcc-inmem-lockfree-codegen-and.html)<br/>
-[Changing Architectures: New Datacenter Networks Will Set Your Code And Data Free](http://highscalability.com/blog/2012/9/11/changing-architectures-new-datacenter-networks-will-set-your.html)<br/>
-[VoltDB Decapitates Six SQL Urban Myths And Delivers Internet Scale OLTP In The Process](http://highscalability.com/blog/2010/6/28/voltdb-decapitates-six-sql-urban-myths-and-delivers-internet.html)<br/>
-[8 Ways Stardog Made Its Database Insanely Scalable](http://highscalability.com/blog/2014/1/20/8-ways-stardog-made-its-database-insanely-scalable.html)<br/>
-[How Twitter Stores 250 Million Tweets A Day Using MySQL](http://highscalability.com/blog/2011/12/19/how-twitter-stores-250-million-tweets-a-day-using-mysql.html)<br/>
+
+## NoSQL
 [Hilarious Video: Relational Database Vs NoSQL Fanbois](http://highscalability.com/blog/2010/9/5/hilarious-video-relational-database-vs-nosql-fanbois.html)<br/>
 [5 Tips For Scaling NoSQL Databases: Don’t Trust Assumptions](http://highscalability.com/blog/2014/9/24/5-tips-for-scaling-nosql-databases-dont-trust-assumptionstes.html)<br/>
 [Seven Signs You May Need A NoSQL Database](http://highscalability.com/blog/2010/2/16/seven-signs-you-may-need-a-nosql-database.html)<br/>
@@ -342,12 +330,33 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [101 Questions To Ask When Considering A NoSQL Database](http://highscalability.com/blog/2011/6/15/101-questions-to-ask-when-considering-a-nosql-database.html)<br/>
 [The State Of NoSQL In 2012](http://highscalability.com/blog/2012/1/24/the-state-of-nosql-in-2012.html)<br/>
 [What The Heck Are You Actually Using NoSQL For?](http://highscalability.com/blog/2010/12/6/what-the-heck-are-you-actually-using-nosql-for.html)<br/>
-[Facebook's New Realtime Analytics System: HBase To Process 20 Billion Events Per Day](http://highscalability.com/blog/2011/3/22/facebooks-new-realtime-analytics-system-hbase-to-process-20.html)<br/>
-[How Twitter Stores 250 Million Tweets A Day Using MySQL](http://highscalability.com/blog/2011/12/19/how-twitter-stores-250-million-tweets-a-day-using-mysql.html)<br/>
+
+## Sharding
+[Sharding The Hibernate Way](http://highscalability.com/blog/2008/7/26/sharding-the-hibernate-way.html)<br/>
+[Troubles With Sharding - What Can We Learn From The Foursquare Incident?](http://highscalability.com/blog/2010/10/15/troubles-with-sharding-what-can-we-learn-from-the-foursquare.html)<br/>
+[An Unorthodox Approach to Database Design : The Coming of the Shard](http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)<br/>
+
+## Hadoop
+[Why My Water Droplet Is Better Than Your Hadoop Cluster](http://highscalability.com/blog/2015/8/12/why-my-water-droplet-is-better-than-your-hadoop-cluster.html)<br/>
+[Why My Slime Mold Is Better Than Your Hadoop Cluster](http://highscalability.com/blog/2012/4/9/why-my-slime-mold-is-better-than-your-hadoop-cluster.html)<br/>
+
+## google
 [Google's Sanjay Ghemawat On What Made Google Google And Great Big Data Career Advice](http://highscalability.com/blog/2013/10/21/googles-sanjay-ghemawat-on-what-made-google-google-and-great.html)<br/>
 [How Google Backs Up The Internet Along With Exabytes Of Other Data](http://highscalability.com/blog/2014/2/3/how-google-backs-up-the-internet-along-with-exabytes-of-othe.html)<br/>
-[How Google Backs Up The Internet Along With Exabytes Of Other Data](http://highscalability.com/blog/2014/2/3/how-google-backs-up-the-internet-along-with-exabytes-of-othe.html)<br/>
 [How Google Serves Data From Multiple Datacenters](http://highscalability.com/blog/2009/8/24/how-google-serves-data-from-multiple-datacenters.html)<br/>
+
+## Other
+[How HipChat Stores And Indexes Billions Of Messages Using ElasticSearch And Redis](http://highscalability.com/blog/2014/1/6/how-hipchat-stores-and-indexes-billions-of-messages-using-el.html)<br/>
+[The Big Problem Is Medium Data](http://highscalability.com/blog/2014/12/17/the-big-problem-is-medium-data.html)<br/>
+[LevelDB - Fast And Lightweight Key/Value Database From The Authors Of MapReduce And BigTable](http://highscalability.com/blog/2011/8/10/leveldb-fast-and-lightweight-keyvalue-database-from-the-auth.html)<br/>
+[Jim Starkey Is Creating A Brave New World By Rethinking Databases For The Cloud](http://highscalability.com/blog/2011/8/4/jim-starkey-is-creating-a-brave-new-world-by-rethinking-data.html)<br/>
+[The Mother Of All Database Normalization Debates On Coding Horror](http://highscalability.com/blog/2008/7/16/the-mother-of-all-database-normalization-debates-on-coding-h.html)<br/>
+[MemSQL Architecture - The Fast (MVCC, InMem, LockFree, CodeGen) And Familiar (SQL)](http://highscalability.com/blog/2012/8/14/memsql-architecture-the-fast-mvcc-inmem-lockfree-codegen-and.html)<br/>
+[Changing Architectures: New Datacenter Networks Will Set Your Code And Data Free](http://highscalability.com/blog/2012/9/11/changing-architectures-new-datacenter-networks-will-set-your.html)<br/>
+[VoltDB Decapitates Six SQL Urban Myths And Delivers Internet Scale OLTP In The Process](http://highscalability.com/blog/2010/6/28/voltdb-decapitates-six-sql-urban-myths-and-delivers-internet.html)<br/>
+[8 Ways Stardog Made Its Database Insanely Scalable](http://highscalability.com/blog/2014/1/20/8-ways-stardog-made-its-database-insanely-scalable.html)<br/>
+[How Twitter Stores 250 Million Tweets A Day Using MySQL](http://highscalability.com/blog/2011/12/19/how-twitter-stores-250-million-tweets-a-day-using-mysql.html)<br/>
+[Facebook's New Realtime Analytics System: HBase To Process 20 Billion Events Per Day](http://highscalability.com/blog/2011/3/22/facebooks-new-realtime-analytics-system-hbase-to-process-20.html)<br/>
 [Code Generation: The Inner Sanctum Of Database Performance](http://highscalability.com/blog/2016/9/7/code-generation-the-inner-sanctum-of-database-performance.html)<br/>
 [How Will New Memory Technologies Impact In-Memory Databases?](http://highscalability.com/blog/2015/9/23/how-will-new-memory-technologies-impact-in-memory-databases.html)<br/>
 [Switch Your Databases To Flash Storage. Now. Or You're Doing It Wrong.](http://highscalability.com/blog/2012/12/10/switch-your-databases-to-flash-storage-now-or-youre-doing-it.html)<br/>
@@ -355,10 +364,11 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [When All The Program's A Graph - Prismatic's Plumbing Library](http://highscalability.com/blog/2013/2/14/when-all-the-programs-a-graph-prismatics-plumbing-library.html)<br/>
 [ZooKeeper - A Reliable, Scalable Distributed Coordination System](http://highscalability.com/blog/2008/7/15/zookeeper-a-reliable-scalable-distributed-coordination-syste.html)<br/>
 [Building Scalable Systems Using Data As A Composite Material](http://highscalability.com/blog/2009/11/16/building-scalable-systems-using-data-as-a-composite-material.html)<br/>
-[Sharding The Hibernate Way](http://highscalability.com/blog/2008/7/26/sharding-the-hibernate-way.html)<br/>
+
+
 [Drop ACID And Think About Data](http://highscalability.com/blog/2009/5/5/drop-acid-and-think-about-data.html)<br/>
 [Stack Overflow Makes Slow Pages 100x Faster By Simple SQL Tuning](http://highscalability.com/blog/2011/5/2/stack-overflow-makes-slow-pages-100x-faster-by-simple-sql-tu.html)<br/>
-[Troubles With Sharding - What Can We Learn From The Foursquare Incident?](http://highscalability.com/blog/2010/10/15/troubles-with-sharding-what-can-we-learn-from-the-foursquare.html)<br/>
+
 
 # Software Engineering<br/>
 [This Stuff Isn't Taught, You Learn It Bit By Bit As You Solve Each Problem](http://highscalability.squarespace.com/blog/2011/2/23/this-stuff-isnt-taught-you-learn-it-bit-by-bit-as-you-solve.html)<br/>
