@@ -14,6 +14,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 # Other<br/>
 [Let's Donate Our Organs And Unused Cloud Cycles To Science](http://highscalability.com/blog/2016/1/6/lets-donate-our-organs-and-unused-cloud-cycles-to-science.html)<br/>
 [The Gig Economy Breaks Social Security](http://highscalability.com/blog/2016/4/12/the-gig-economy-breaks-social-security.html)<br/>
+[What Ideas In IT Must Die?](http://highscalability.com/blog/2015/10/26/what-ideas-in-it-must-die.html)<br/>
 [Let's Build Maker Cities For Maker People Around New Resources Like Bandwidth, Compute, And Atomically-Precise Manufacturing](http://highscalability.com/blog/2014/9/1/lets-build-maker-cities-for-maker-people-around-new-resource.html)<br/>
 
 [6 Ways Not To Scale That Will Make You Hip, Popular And Loved By VCs](http://highscalability.com/blog/2011/4/18/6-ways-not-to-scale-that-will-make-you-hip-popular-and-loved.html)<br/>
@@ -77,8 +78,8 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Paper: Immutability Changes Everything By Pat Helland](http://highscalability.com/blog/2015/1/26/paper-immutability-changes-everything-by-pat-helland.html)<br/>
 [Paper: Network Stack Specialization For Performance](http://highscalability.com/blog/2014/2/12/paper-network-stack-specialization-for-performance.html)<br/>
 [Awesome List Of Advanced Distributed Systems Papers](http://highscalability.com/blog/2011/5/31/awesome-list-of-advanced-distributed-systems-papers.html)<br/>
-[What Ideas In IT Must Die?](http://highscalability.com/blog/2015/10/26/what-ideas-in-it-must-die.html)<br/>
-[Von Neumann Had One Piece Of Advice For Us: Not To Originate Anything.](http://highscalability.com/blog/2015/1/5/von-neumann-had-one-piece-of-advice-for-us-not-to-originate.html)<br/>
+
+
 [Linus: The Whole "Parallel Computing Is The Future" Is A Bunch Of Crock.](http://highscalability.com/blog/2014/12/31/linus-the-whole-parallel-computing-is-the-future-is-a-bunch.html)<br/>
 [How Do We Explain The Unreasonable Effectiveness Of IT?](http://highscalability.com/blog/2015/7/6/how-do-we-explain-the-unreasonable-effectiveness-of-it.html)<br/>
 [What Happens While Your Brain Sleeps Is Surprisingly Like How Computers Stay Sane](http://highscalability.com/blog/2013/12/23/what-happens-while-your-brain-sleeps-is-surprisingly-like-ho.html)<br/>
@@ -131,25 +132,36 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Netflix: Continually Test By Failing Servers With Chaos Monkey](http://highscalability.com/blog/2010/12/28/netflix-continually-test-by-failing-servers-with-chaos-monke.html)<br/>
 
 # Cloud<br/>
-[The Black Magic Of Systematically Reducing Linux OS Jitter](http://highscalability.com/blog/2015/4/8/the-black-magic-of-systematically-reducing-linux-os-jitter.html)<br/>
-[The Updated Big List Of Articles On The Amazon Outage](http://highscalability.com/blog/2011/5/2/the-updated-big-list-of-articles-on-the-amazon-outage.html)<br/>
 
+## Linux
+
+[The Black Magic Of Systematically Reducing Linux OS Jitter](http://highscalability.com/blog/2015/4/8/the-black-magic-of-systematically-reducing-linux-os-jitter.html)<br/>
+[Is It Time To Get Rid Of The Linux OS Model In The Cloud?](http://highscalability.com/blog/2012/1/19/is-it-time-to-get-rid-of-the-linux-os-model-in-the-cloud.html)<br/>
+
+
+## AWS
+
+[The Updated Big List Of Articles On The Amazon Outage](http://highscalability.com/blog/2011/5/2/the-updated-big-list-of-articles-on-the-amazon-outage.html)<br/>
+[10 Things You Should Know About AWS](http://highscalability.com/blog/2013/11/5/10-things-you-should-know-about-aws.html)<br/>
 [The Serverless Start-Up - Down With Servers!](http://highscalability.com/blog/2015/12/7/the-serverless-start-up-down-with-servers.html)<br/>
+
+## Google
 [How Google Invented An Amazing Datacenter Network Only They Could Create](http://highscalability.com/blog/2015/8/10/how-google-invented-an-amazing-datacenter-network-only-they.html)<br/>
 [Google+ Is Built Using Tools You Can Use Too: Closure, Java Servlets, JavaScript, BigTable, Colossus, Quick Turnaround](http://highscalability.com/blog/2011/7/12/google-is-built-using-tools-you-can-use-too-closure-java-ser.html)<br/>
 [C Is For Compute - Google Compute Engine (GCE)](http://highscalability.com/blog/2012/7/2/c-is-for-compute-google-compute-engine-gce.html)<br/>
-[10 Things You Should Know About AWS](http://highscalability.com/blog/2013/11/5/10-things-you-should-know-about-aws.html)<br/>
-[Explain the Cloud Like I'm 10](https://smile.amazon.com/Explain-Cloud-Like-Im-10-ebook/dp/B0765C4SNR)<br/>
 [Google Says Cloud Prices Will Follow Moore’s Law: Are We All Renters Now?](http://highscalability.com/blog/2014/5/14/google-says-cloud-prices-will-follow-moores-law-are-we-all-r.html)<br/>
+
+## Book
+[Explain the Cloud Like I'm 10](https://smile.amazon.com/Explain-Cloud-Like-Im-10-ebook/dp/B0765C4SNR)<br/>
 [Are Cloud Based Memory Architectures the Next Big Thing?](http://highscalability.com/blog/2009/3/16/are-cloud-based-memory-architectures-the-next-big-thing.html)<br/>
 [The Canonical Cloud Architecture&nbsp;](http://highscalability.com/blog/2009/8/7/the-canonical-cloud-architecture.html)<br/>
 [Cloud Architecture Revolution](http://highscalability.com/blog/2014/6/5/cloud-architecture-revolution.html)<br/>
-[Is It Time To Get Rid Of The Linux OS Model In The Cloud?](http://highscalability.com/blog/2012/1/19/is-it-time-to-get-rid-of-the-linux-os-model-in-the-cloud.html)<br/>
+
 [Netflix: Developing, Deploying, And Supporting Software According To The Way Of The Cloud](http://highscalability.com/blog/2011/12/12/netflix-developing-deploying-and-supporting-software-accordi.html)<br/>
 [The Stunning Scale Of AWS And What It Means For The Future Of The Cloud](http://highscalability.com/blog/2015/1/12/the-stunning-scale-of-aws-and-what-it-means-for-the-future-o.html)<br/>
 [The Canonical Cloud Architecture](http://highscalability.com/blog/2009/8/7/the-canonical-cloud-architecture.html)<br/>
 [Cloud Programming Directly Feeds Cost Allocation Back Into Software Design](http://highscalability.com/blog/2009/3/6/cloud-programming-directly-feeds-cost-allocation-back-into-s.html)<br/>
-[Machine VM + Cloud API - Rewriting The Cloud From Scratch](http://highscalability.com/blog/2010/10/21/machine-vm-cloud-api-rewriting-the-cloud-from-scratch.html)<br/>
+
 [An Epic TripAdvisor Update: Why Not Run On The Cloud? The Grand Experiment.](http://highscalability.com/blog/2012/10/2/an-epic-tripadvisor-update-why-not-run-on-the-cloud-the-gran.html)<br/>
 [Machine VM + Cloud API - Rewriting The Cloud From Scratch](http://highscalability.com/blog/2010/10/21/machine-vm-cloud-api-rewriting-the-cloud-from-scratch.html)<br/>
 [The Stunning Scale Of AWS And What It Means For The Future Of The Cloud](http://highscalability.com/blog/2015/1/12/the-stunning-scale-of-aws-and-what-it-means-for-the-future-o.html)<br/>
@@ -161,7 +173,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [That's Not My Problem - I'm Renting Them](http://highscalability.com/blog/2014/10/8/thats-not-my-problem-im-renting-them.html)<br/>
 [How will memristors change everything?](http://highscalability.com/blog/2010/5/5/how-will-memristors-change-everything.html)<br/>
 [Busting 4 Modern Hardware Myths - Are Memory, HDDs, And SSDs Really Random Access?](http://highscalability.com/blog/2013/6/13/busting-4-modern-hardware-myths-are-memory-hdds-and-ssds-rea.html)<br/>
-[That's Not My Problem - I'm Renting Them](http://highscalability.com/blog/2014/10/8/thats-not-my-problem-im-renting-them.html)<br/>
+
 [Pinterest Cut Costs From $54 To $20 Per Hour By Automatically Shutting Down Systems](http://highscalability.com/blog/2012/12/12/pinterest-cut-costs-from-54-to-20-per-hour-by-automatically.html)<br/>
 [Heroku Emergency Strategy: Incident Command System And 8 Hour Ops Rotations For Fresh Minds](http://highscalability.com/blog/2011/4/27/heroku-emergency-strategy-incident-command-system-and-8-hour.html)<br/>
 
@@ -346,6 +358,10 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [How Google Serves Data From Multiple Datacenters](http://highscalability.com/blog/2009/8/24/how-google-serves-data-from-multiple-datacenters.html)<br/>
 
 ## Other
+
+### Book
+[Von Neumann Had One Piece Of Advice For Us: Not To Originate Anything.](http://highscalability.com/blog/2015/1/5/von-neumann-had-one-piece-of-advice-for-us-not-to-originate.html)<br/>
+
 [How HipChat Stores And Indexes Billions Of Messages Using ElasticSearch And Redis](http://highscalability.com/blog/2014/1/6/how-hipchat-stores-and-indexes-billions-of-messages-using-el.html)<br/>
 [The Big Problem Is Medium Data](http://highscalability.com/blog/2014/12/17/the-big-problem-is-medium-data.html)<br/>
 [LevelDB - Fast And Lightweight Key/Value Database From The Authors Of MapReduce And BigTable](http://highscalability.com/blog/2011/8/10/leveldb-fast-and-lightweight-keyvalue-database-from-the-auth.html)<br/>
