@@ -6,24 +6,26 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 # Strategies
 [What Can The Amazing Race To The South Pole Teach Us About Startups?](http://highscalability.com/blog/2013/8/19/what-can-the-amazing-race-to-the-south-pole-teach-us-about-s.html)<br/>
 [Google Strategy: Tree Distribution Of Requests And Responses](http://highscalability.squarespace.com/blog/2011/2/1/google-strategy-tree-distribution-of-requests-and-responses.html)<br/>
-[Strategy: Disk Backup For Speed, Tape Backup To Save Your Bacon, Just Ask Google](http://highscalability.squarespace.com/blog/2011/3/24/strategy-disk-backup-for-speed-tape-backup-to-save-your-baco.html)<br/>
+[Strategy: Disk Backup For Speed, Tape Backup To Save Your Bacon, Just Ask Google](http://highscalability.squarespace.com/blog/2011/3/24/strategy-disk-backup-for-speed-tape-backup-to-save-your-baco.html)(devops)<br/>
 [Aztec Empire Strategy: Use Dual Pipes In Your Aqueduct For High Availability](http://highscalability.com/blog/2011/3/28/aztec-empire-strategy-use-dual-pipes-in-your-aqueduct-for-hi.html)<br/>
-[Heroku Emergency Strategy: Incident Command System And 8 Hour Ops Rotations For Fresh Minds](http://highscalability.com/blog/2011/4/27/heroku-emergency-strategy-incident-command-system-and-8-hour.html)<br/>
+[Heroku Emergency Strategy: Incident Command System And 8 Hour Ops Rotations For Fresh Minds](http://highscalability.com/blog/2011/4/27/heroku-emergency-strategy-incident-command-system-and-8-hour.html)(devops)<br/>
 [7 Scaling Strategies Facebook Used To Grow To 500 Million Users](http://highscalability.com/blog/2010/8/2/7-scaling-strategies-facebook-used-to-grow-to-500-million-us.html)<br/>
 
 # Other<br/>
 [Let's Donate Our Organs And Unused Cloud Cycles To Science](http://highscalability.com/blog/2016/1/6/lets-donate-our-organs-and-unused-cloud-cycles-to-science.html)<br/>
-[The Gig Economy Breaks Social Security](http://highscalability.com/blog/2016/4/12/the-gig-economy-breaks-social-security.html)<br/>
+[The Gig Economy Breaks Social Security](http://highscalability.com/blog/2016/4/12/the-gig-economy-breaks-social-security.html)(economy)<br/>
 [What Ideas In IT Must Die?](http://highscalability.com/blog/2015/10/26/what-ideas-in-it-must-die.html)<br/>
-[Let's Build Maker Cities For Maker People Around New Resources Like Bandwidth, Compute, And Atomically-Precise Manufacturing](http://highscalability.com/blog/2014/9/1/lets-build-maker-cities-for-maker-people-around-new-resource.html)<br/>
+[Let's Build Maker Cities For Maker People Around New Resources Like Bandwidth, Compute, And Atomically-Precise Manufacturing](http://highscalability.com/blog/2014/9/1/lets-build-maker-cities-for-maker-people-around-new-resource.html)(economy)<br/>
 
 [6 Ways Not To Scale That Will Make You Hip, Popular And Loved By VCs](http://highscalability.com/blog/2011/4/18/6-ways-not-to-scale-that-will-make-you-hip-popular-and-loved.html)<br/>
-[10 Things Bitly Should Have Monitored](http://highscalability.com/blog/2014/1/29/10-things-bitly-should-have-monitored.html)<br/>
-[Log Everything All The Time](http://highscalability.com/blog/2007/8/30/log-everything-all-the-time.html)<br/>
-[Paper: Large-Scale Cluster Management At Google With Borg](http://highscalability.com/blog/2015/4/16/paper-large-scale-cluster-management-at-google-with-borg.html)<br/>
-[Vinted Architecture: Keeping A Busy Portal Stable By Deploying Several Hundred Times Per Day](http://highscalability.com/blog/2015/2/9/vinted-architecture-keeping-a-busy-portal-stable-by-deployin.html)<br/>
+
+
 
 # DevOps
+[Paper: Large-Scale Cluster Management At Google With Borg](http://highscalability.com/blog/2015/4/16/paper-large-scale-cluster-management-at-google-with-borg.html)(devops,paper)<br/>
+[10 Things Bitly Should Have Monitored](http://highscalability.com/blog/2014/1/29/10-things-bitly-should-have-monitored.html)(devops)<br/>
+[Log Everything All The Time](http://highscalability.com/blog/2007/8/30/log-everything-all-the-time.html)(devops)<br/>
+[Vinted Architecture: Keeping A Busy Portal Stable By Deploying Several Hundred Times Per Day](http://highscalability.com/blog/2015/2/9/vinted-architecture-keeping-a-busy-portal-stable-by-deployin.html)(devops)<br/>
 [The Always On Architecture - Moving Beyond Legacy Disaster Recovery](http://highscalability.com/blog/2016/8/23/the-always-on-architecture-moving-beyond-legacy-disaster-rec.html)<br/>
 
 # Company<br/>
@@ -33,7 +35,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Google Pro Tip: Use Back-Of-The-Envelope-Calculations To Choose The Best Design](http://highscalability.com/blog/2011/1/26/google-pro-tip-use-back-of-the-envelope-calculations-to-choo.html)<br/>
 [Google Architecture](http://highscalability.com/google-architecture)<br/>
 [Google Pro Tip: Use Back-Of-The-Envelope-Calculations To Choose The Best Design](http://highscalability.com/blog/2011/1/26/google-pro-tip-use-back-of-the-envelope-calculations-to-choo.html)<br/>
-[he Three Ages Of Google - Batch, Warehouse, Instant](http://highscalability.squarespace.com/blog/2011/8/29/the-three-ages-of-google-batch-warehouse-instant.html)<br/>
+[The Three Ages Of Google - Batch, Warehouse, Instant](http://highscalability.squarespace.com/blog/2011/8/29/the-three-ages-of-google-batch-warehouse-instant.html)<br/>
 [Google Finds: Centralized Control, Distributed Data Architectures Work Better Than Fully Decentralized Architectures](http://highscalability.com/blog/2014/4/7/google-finds-centralized-control-distributed-data-architectu.html)<br/>
 [Matt Cutts: 10 Lessons Learned From The Early Days Of Google](http://highscalability.com/blog/2015/2/4/matt-cutts-10-lessons-learned-from-the-early-days-of-google.html)<br/>
 
