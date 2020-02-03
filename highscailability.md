@@ -125,7 +125,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 
 [Architecting Backend For A Social Product](http://highscalability.com/blog/2015/7/22/architecting-backend-for-a-social-product.html)<br/>
 [Using Gossip Protocols For Failure Detection, Monitoring, Messaging And Other Good Things](http://highscalability.com/blog/2011/11/14/using-gossip-protocols-for-failure-detection-monitoring-mess.html)(distributed)<br/>
-[Cell Architectures](http://highscalability.com/blog/2012/5/9/cell-architectures.html)<br/>
+
 [How Can We Build Better Complex Systems? Containers, Microservices, And Continuous Delivery.](http://highscalability.com/blog/2015/4/27/how-can-we-build-better-complex-systems-containers-microserv.html)<br/>
 
 [Did The Microsoft Stack Kill MySpace?](http://highscalability.com/blog/2011/3/25/did-the-microsoft-stack-kill-myspace.html)<br/>
@@ -140,10 +140,11 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Architecting Backend For A Social Product](http://highscalability.com/blog/2015/7/22/architecting-backend-for-a-social-product.html)<br/>
 [Vinted Architecture: Keeping A Busy Portal Stable By Deploying Several Hundred Times Per Day](http://highscalability.com/blog/2015/2/9/vinted-architecture-keeping-a-busy-portal-stable-by-deployin.html)(devops)<br/>
 [Getting Things Right: A Look At Centralized Vs Decentralized Systems Through The Eyes Of Instant Replay](http://highscalability.com/blog/2014/9/15/getting-things-right-a-look-at-centralized-vs-decentralized.html)(distributed)<br/>
-[10 Common Server Setups For Your Web Application](http://highscalability.com/blog/2014/9/10/10-common-server-setups-for-your-web-application.html)(good)<br/>
+[10 Common Server Setups For Your Web Application](http://highscalability.com/blog/2014/9/10/10-common-server-setups-for-your-web-application.html)(read)<br/>
 
 # Microservices<br/>
 
+[Cell Architectures](http://highscalability.com/blog/2012/5/9/cell-architectures.html)<br/>
 [The Great Microservices Vs Monolithic Apps Twitter Melee](http://highscalability.com/blog/2014/7/28/the-great-microservices-vs-monolithic-apps-twitter-melee.html)<br/>
 [How To Build Your Property Management System Integration Using Microservices](http://highscalability.com/blog/2016/2/10/how-to-build-your-property-management-system-integration-usi.html)<br/>
 [Deep Lessons From Google And EBay On Building Ecosystems Of Microservices](http://highscalability.com/blog/2015/12/1/deep-lessons-from-google-and-ebay-on-building-ecosystems-of.html)(lesson)<br/>
@@ -162,40 +163,42 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 
 ## AWS
 
+[Strategy: Run A Scalable, Available, And Cheap Static Site On S3 Or GitHub](http://highscalability.com/blog/2011/8/22/strategy-run-a-scalable-available-and-cheap-static-site-on-s.html)<br/>
+
+[The Stunning Scale Of AWS And What It Means For The Future Of The Cloud](http://highscalability.com/blog/2015/1/12/the-stunning-scale-of-aws-and-what-it-means-for-the-future-o.html)<br/>
+
 [The Updated Big List Of Articles On The Amazon Outage](http://highscalability.com/blog/2011/5/2/the-updated-big-list-of-articles-on-the-amazon-outage.html)<br/>
 [10 Things You Should Know About AWS](http://highscalability.com/blog/2013/11/5/10-things-you-should-know-about-aws.html)<br/>
 [The Serverless Start-Up - Down With Servers!](http://highscalability.com/blog/2015/12/7/the-serverless-start-up-down-with-servers.html)<br/>
 
 ## Google
 
+[What Google App Engine Price Changes Say About The Future Of Web Architecture](http://highscalability.com/blog/2011/9/7/what-google-app-engine-price-changes-say-about-the-future-of.html)<br/>
+[Google AppEngine - A Second Look](http://highscalability.com/blog/2009/2/21/google-appengine-a-second-look.html)<br/>
+
 [How Google Invented An Amazing Datacenter Network Only They Could Create](http://highscalability.com/blog/2015/8/10/how-google-invented-an-amazing-datacenter-network-only-they.html)<br/>
 [Google+ Is Built Using Tools You Can Use Too: Closure, Java Servlets, JavaScript, BigTable, Colossus, Quick Turnaround](http://highscalability.com/blog/2011/7/12/google-is-built-using-tools-you-can-use-too-closure-java-ser.html)<br/>
 [C Is For Compute - Google Compute Engine (GCE)](http://highscalability.com/blog/2012/7/2/c-is-for-compute-google-compute-engine-gce.html)<br/>
 [Google Says Cloud Prices Will Follow Moore’s Law: Are We All Renters Now?](http://highscalability.com/blog/2014/5/14/google-says-cloud-prices-will-follow-moores-law-are-we-all-r.html)<br/>
+[Google+ Is Built Using Tools You Can Use Too: Closure, Java Servlets, JavaScript, BigTable, Colossus, Quick Turnaround](http://highscalability.com/blog/2011/7/12/google-is-built-using-tools-you-can-use-too-closure-java-ser.html)<br/>
+[What Google App Engine Price Changes Say About The Future Of Web Architecture](http://highscalability.com/blog/2011/9/7/what-google-app-engine-price-changes-say-about-the-future-of.html)<br/>
 
 ## Book
 
 [Explain the Cloud Like I'm 10](https://smile.amazon.com/Explain-Cloud-Like-Im-10-ebook/dp/B0765C4SNR)<br/>
 [Are Cloud Based Memory Architectures the Next Big Thing?](http://highscalability.com/blog/2009/3/16/are-cloud-based-memory-architectures-the-next-big-thing.html)<br/>
-[The Canonical Cloud Architecture&nbsp;](http://highscalability.com/blog/2009/8/7/the-canonical-cloud-architecture.html)<br/>
 [Cloud Architecture Revolution](http://highscalability.com/blog/2014/6/5/cloud-architecture-revolution.html)<br/>
 
 [Netflix: Developing, Deploying, And Supporting Software According To The Way Of The Cloud](http://highscalability.com/blog/2011/12/12/netflix-developing-deploying-and-supporting-software-accordi.html)<br/>
-[The Stunning Scale Of AWS And What It Means For The Future Of The Cloud](http://highscalability.com/blog/2015/1/12/the-stunning-scale-of-aws-and-what-it-means-for-the-future-o.html)<br/>
 [The Canonical Cloud Architecture](http://highscalability.com/blog/2009/8/7/the-canonical-cloud-architecture.html)<br/>
 [Cloud Programming Directly Feeds Cost Allocation Back Into Software Design](http://highscalability.com/blog/2009/3/6/cloud-programming-directly-feeds-cost-allocation-back-into-s.html)<br/>
 
 [An Epic TripAdvisor Update: Why Not Run On The Cloud? The Grand Experiment.](http://highscalability.com/blog/2012/10/2/an-epic-tripadvisor-update-why-not-run-on-the-cloud-the-gran.html)<br/>
 [Machine VM + Cloud API - Rewriting The Cloud From Scratch](http://highscalability.com/blog/2010/10/21/machine-vm-cloud-api-rewriting-the-cloud-from-scratch.html)<br/>
-[The Stunning Scale Of AWS And What It Means For The Future Of The Cloud](http://highscalability.com/blog/2015/1/12/the-stunning-scale-of-aws-and-what-it-means-for-the-future-o.html)<br/>
-[What Google App Engine Price Changes Say About The Future Of Web Architecture](http://highscalability.com/blog/2011/9/7/what-google-app-engine-price-changes-say-about-the-future-of.html)<br/>
-[Google AppEngine - A Second Look](http://highscalability.com/blog/2009/2/21/google-appengine-a-second-look.html)<br/>
-[Strategy: Run A Scalable, Available, And Cheap Static Site On S3 Or GitHub](http://highscalability.com/blog/2011/8/22/strategy-run-a-scalable-available-and-cheap-static-site-on-s.html)<br/>
-[Google+ Is Built Using Tools You Can Use Too: Closure, Java Servlets, JavaScript, BigTable, Colossus, Quick Turnaround](http://highscalability.com/blog/2011/7/12/google-is-built-using-tools-you-can-use-too-closure-java-ser.html)<br/>
-[What Google App Engine Price Changes Say About The Future Of Web Architecture](http://highscalability.com/blog/2011/9/7/what-google-app-engine-price-changes-say-about-the-future-of.html)<br/>
+
 [That's Not My Problem - I'm Renting Them](http://highscalability.com/blog/2014/10/8/thats-not-my-problem-im-renting-them.html)<br/>
-[How will memristors change everything?](http://highscalability.com/blog/2010/5/5/how-will-memristors-change-everything.html)<br/>
-[Busting 4 Modern Hardware Myths - Are Memory, HDDs, And SSDs Really Random Access?](http://highscalability.com/blog/2013/6/13/busting-4-modern-hardware-myths-are-memory-hdds-and-ssds-rea.html)<br/>
+[How will memristors change everything?](http://highscalability.com/blog/2010/5/5/how-will-memristors-change-everything.html)(hardware)<br/>
+[Busting 4 Modern Hardware Myths - Are Memory, HDDs, And SSDs Really Random Access?](http://highscalability.com/blog/2013/6/13/busting-4-modern-hardware-myths-are-memory-hdds-and-ssds-rea.html)(hardware)<br/>
 
 [Pinterest Cut Costs From $54 To $20 Per Hour By Automatically Shutting Down Systems](http://highscalability.com/blog/2012/12/12/pinterest-cut-costs-from-54-to-20-per-hour-by-automatically.html)<br/>
 [Heroku Emergency Strategy: Incident Command System And 8 Hour Ops Rotations For Fresh Minds](http://highscalability.com/blog/2011/4/27/heroku-emergency-strategy-incident-command-system-and-8-hour.html)<br/>
@@ -206,7 +209,6 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Facebook's New Real-Time Messaging System: HBase To Store 135+ Billion Messages A Month](http://highscalability.com/blog/2010/11/16/facebooks-new-real-time-messaging-system-hbase-to-store-135.html)<br/>
 [Google's Colossus Makes Search Real-Time By Dumping MapReduce](http://highscalability.com/blog/2010/9/11/googles-colossus-makes-search-real-time-by-dumping-mapreduce.html)<br/>
 [Update On Disqus: It's Still About Realtime, But Go Demolishes Python](http://highscalability.com/blog/2014/5/7/update-on-disqus-its-still-about-realtime-but-go-demolishes.html)<br/>
-[How Uber Scales Their Real-Time Market Platform](http://highscalability.com/blog/2015/9/14/how-uber-scales-their-real-time-market-platform.html)<br/>
 [How Uber Scales Their Real-Time Market Platform](http://highscalability.com/blog/2015/9/14/how-uber-scales-their-real-time-market-platform.html)<br/>
 
 # Latency<br/>
@@ -330,7 +332,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [How Twitter Stores 250 Million Tweets A Day Using MySQL](http://highscalability.com/blog/2011/12/19/how-twitter-stores-250-million-tweets-a-day-using-mysql.html)<br/>
 [Scaling Twitter: Making Twitter 10000 Percent Faster](http://highscalability.com/scaling-twitter-making-twitter-10000-percent-faster)<br/>
 [How WhatsApp Grew To Nearly 500 Million Users, 11,000 Cores, And 70 Million Messages A Second](http://highscalability.com/blog/2014/3/31/how-whatsapp-grew-to-nearly-500-million-users-11000-cores-an.html)<br/>
-[A Beginner's Guide To Scaling To 11 Million+ Users On Amazon's AWS](http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)<br/>
+[A Beginner's Guide To Scaling To 11 Million+ Users On Amazon's AWS](http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)(aws,good,cloud,scal,mustRead)<br/>
 [StackOverflow Update: 560M Pageviews A Month, 25 Servers, And It's All About Performance](http://highscalability.com/blog/2014/7/21/stackoverflow-update-560m-pageviews-a-month-25-servers-and-i.html)<br/>
 [How PayPal Scaled To Billions Of Transactions Daily Using Just 8VMs](http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html)<br/>
 [How Does Google Do Planet-Scale Engineering For A Planet-Scale Infrastructure?](http://highscalability.com/blog/2016/7/18/how-does-google-do-planet-scale-engineering-for-a-planet-sca.html)<br/>
@@ -345,7 +347,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Facebook At 13 Million Queries Per Second Recommends: Minimize Request Variance](http://highscalability.com/blog/2010/11/4/facebook-at-13-million-queries-per-second-recommends-minimiz.html)<br/>
 [Facebook: An Example Canonical Architecture For Scaling Billions Of Messages](http://highscalability.com/blog/2011/5/17/facebook-an-example-canonical-architecture-for-scaling-billi.html)<br/>
 [How I Learned To Stop Worrying And Love Using A Lot Of Disk Space To Scale](http://highscalability.com/how-i-learned-stop-worrying-and-love-using-lot-disk-space-scale)<br/>
-[A Beginner's Guide To Scaling To 11 Million+ Users On Amazon's AWS](http://highscalability.com/blog/2016/1/11/a-beginners-guide-to-scaling-to-11-million-users-on-amazons.html)<br/>
+
 [How Uber Manages A Million Writes Per Second Using Mesos And Cassandra Across Multiple Datacenters](http://highscalability.com/blog/2016/9/28/how-uber-manages-a-million-writes-per-second-using-mesos-and.html)<br/>
 [A Journey Through How Zapier Automates Billions Of Workflow Automation Tasks](http://highscalability.com/blog/2016/2/29/a-journey-through-how-zapier-automates-billions-of-workflow.html)<br/>
 [The Dollar Shave Club Architecture Unilever Bought For \$1 Billion](http://highscalability.com/blog/2016/9/13/the-dollar-shave-club-architecture-unilever-bought-for-1-bil.html)<br/>
