@@ -25,6 +25,8 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 
 # DevOps
 
+[Heroku Emergency Strategy: Incident Command System And 8 Hour Ops Rotations For Fresh Minds](http://highscalability.com/blog/2011/4/27/heroku-emergency-strategy-incident-command-system-and-8-hour.html)(devops)<br/>
+
 [Paper: Large-Scale Cluster Management At Google With Borg](http://highscalability.com/blog/2015/4/16/paper-large-scale-cluster-management-at-google-with-borg.html)(devops,paper)<br/>
 [10 Things Bitly Should Have Monitored](http://highscalability.com/blog/2014/1/29/10-things-bitly-should-have-monitored.html)(devops)<br/>
 [Log Everything All The Time](http://highscalability.com/blog/2007/8/30/log-everything-all-the-time.html)(devops)<br/>
@@ -156,6 +158,8 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 
 # Cloud<br/>
 
+[Startups Are Creating A New System Of The World For IT](http://highscalability.com/blog/2012/5/7/startups-are-creating-a-new-system-of-the-world-for-it.html)<br/>
+
 ## Linux
 
 [The Black Magic Of Systematically Reducing Linux OS Jitter](http://highscalability.com/blog/2015/4/8/the-black-magic-of-systematically-reducing-linux-os-jitter.html)<br/>
@@ -201,7 +205,6 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Busting 4 Modern Hardware Myths - Are Memory, HDDs, And SSDs Really Random Access?](http://highscalability.com/blog/2013/6/13/busting-4-modern-hardware-myths-are-memory-hdds-and-ssds-rea.html)(hardware)<br/>
 
 [Pinterest Cut Costs From $54 To $20 Per Hour By Automatically Shutting Down Systems](http://highscalability.com/blog/2012/12/12/pinterest-cut-costs-from-54-to-20-per-hour-by-automatically.html)<br/>
-[Heroku Emergency Strategy: Incident Command System And 8 Hour Ops Rotations For Fresh Minds](http://highscalability.com/blog/2011/4/27/heroku-emergency-strategy-incident-command-system-and-8-hour.html)<br/>
 
 # Realtime<br/>
 
@@ -218,12 +221,10 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [How Does The Use Of Docker Effect Latency?](http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html)<br/>
 [Grace Hopper To Programmers: Mind Your Nanoseconds!](http://highscalability.com/blog/2012/3/1/grace-hopper-to-programmers-mind-your-nanoseconds.html)<br/>
 [How Can Batching Requests Actually Reduce Latency?](http://highscalability.com/blog/2013/12/4/how-can-batching-requests-actually-reduce-latency.html)<br/>
-[Startups Are Creating A New System Of The World For IT](http://highscalability.com/blog/2012/5/7/startups-are-creating-a-new-system-of-the-world-for-it.html)<br/>
 [How Can Batching Requests Actually Reduce Latency?](http://highscalability.com/blog/2013/12/4/how-can-batching-requests-actually-reduce-latency.html)<br/>
 [Google: Taming The Long Latency Tail - When More Machines Equals Worse Results](http://highscalability.com/blog/2012/3/12/google-taming-the-long-latency-tail-when-more-machines-equal.html)<br/>
 [The Clever Ways Chrome Hides Latency By Anticipating Your Every Need](http://highscalability.com/blog/2012/6/18/the-clever-ways-chrome-hides-latency-by-anticipating-your-ev.html)<br/>
 [Think Of Latency As A Pseudo-Permanent Network Partition](http://highscalability.com/blog/2010/8/12/think-of-latency-as-a-pseudo-permanent-network-partition.html)<br/>
-[Google: Taming The Long Latency Tail - When More Machines Equals Worse Results](http://highscalability.com/blog/2012/3/12/google-taming-the-long-latency-tail-when-more-machines-equal.html)<br/>
 [More Numbers Every Awesome Programmer Must Know](http://highscalability.com/blog/2013/1/15/more-numbers-every-awesome-programmer-must-know.html)<br/>
 
 # Scailing<br/>
