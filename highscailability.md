@@ -157,7 +157,17 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 
 # Cloud<br/>
 
+[That's Not My Problem - I'm Renting Them](http://highscalability.com/blog/2014/10/8/thats-not-my-problem-im-renting-them.html)<br/>
+
 [Startups Are Creating A New System Of The World For IT](http://highscalability.com/blog/2012/5/7/startups-are-creating-a-new-system-of-the-world-for-it.html)<br/>
+
+[Cloud Architecture Revolution](http://highscalability.com/blog/2014/6/5/cloud-architecture-revolution.html)<br/>
+
+[The Canonical Cloud Architecture](http://highscalability.com/blog/2009/8/7/the-canonical-cloud-architecture.html)<br/>
+
+[Cloud Programming Directly Feeds Cost Allocation Back Into Software Design](http://highscalability.com/blog/2009/3/6/cloud-programming-directly-feeds-cost-allocation-back-into-s.html)<br/>
+
+[Machine VM + Cloud API - Rewriting The Cloud From Scratch](http://highscalability.com/blog/2010/10/21/machine-vm-cloud-api-rewriting-the-cloud-from-scratch.html)<br/>
 
 ## Linux
 
@@ -186,24 +196,26 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Google+ Is Built Using Tools You Can Use Too: Closure, Java Servlets, JavaScript, BigTable, Colossus, Quick Turnaround](http://highscalability.com/blog/2011/7/12/google-is-built-using-tools-you-can-use-too-closure-java-ser.html)<br/>
 [What Google App Engine Price Changes Say About The Future Of Web Architecture](http://highscalability.com/blog/2011/9/7/what-google-app-engine-price-changes-say-about-the-future-of.html)<br/>
 
-## Book
-
-[Explain the Cloud Like I'm 10](https://smile.amazon.com/Explain-Cloud-Like-Im-10-ebook/dp/B0765C4SNR)<br/>
-[Are Cloud Based Memory Architectures the Next Big Thing?](http://highscalability.com/blog/2009/3/16/are-cloud-based-memory-architectures-the-next-big-thing.html)<br/>
-[Cloud Architecture Revolution](http://highscalability.com/blog/2014/6/5/cloud-architecture-revolution.html)<br/>
+## Netflix
 
 [Netflix: Developing, Deploying, And Supporting Software According To The Way Of The Cloud](http://highscalability.com/blog/2011/12/12/netflix-developing-deploying-and-supporting-software-accordi.html)<br/>
-[The Canonical Cloud Architecture](http://highscalability.com/blog/2009/8/7/the-canonical-cloud-architecture.html)<br/>
-[Cloud Programming Directly Feeds Cost Allocation Back Into Software Design](http://highscalability.com/blog/2009/3/6/cloud-programming-directly-feeds-cost-allocation-back-into-s.html)<br/>
+
+## Tripadvisor
 
 [An Epic TripAdvisor Update: Why Not Run On The Cloud? The Grand Experiment.](http://highscalability.com/blog/2012/10/2/an-epic-tripadvisor-update-why-not-run-on-the-cloud-the-gran.html)<br/>
-[Machine VM + Cloud API - Rewriting The Cloud From Scratch](http://highscalability.com/blog/2010/10/21/machine-vm-cloud-api-rewriting-the-cloud-from-scratch.html)<br/>
 
-[That's Not My Problem - I'm Renting Them](http://highscalability.com/blog/2014/10/8/thats-not-my-problem-im-renting-them.html)<br/>
+## Pinterest
+
+[Pinterest Cut Costs From $54 To $20 Per Hour By Automatically Shutting Down Systems](http://highscalability.com/blog/2012/12/12/pinterest-cut-costs-from-54-to-20-per-hour-by-automatically.html)<br/>
+
+## Hardware
+
 [How will memristors change everything?](http://highscalability.com/blog/2010/5/5/how-will-memristors-change-everything.html)(hardware)<br/>
 [Busting 4 Modern Hardware Myths - Are Memory, HDDs, And SSDs Really Random Access?](http://highscalability.com/blog/2013/6/13/busting-4-modern-hardware-myths-are-memory-hdds-and-ssds-rea.html)(hardware)<br/>
 
-[Pinterest Cut Costs From $54 To $20 Per Hour By Automatically Shutting Down Systems](http://highscalability.com/blog/2012/12/12/pinterest-cut-costs-from-54-to-20-per-hour-by-automatically.html)<br/>
+## Book
+
+[Explain the Cloud Like I'm 10](https://smile.amazon.com/Explain-Cloud-Like-Im-10-ebook/dp/B0765C4SNR)<br/>
 
 # Realtime<br/>
 
@@ -437,6 +449,8 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Malice Or Stupidity Or Inattention? Using Code Reviews To Find Backdoors](http://highscalability.com/blog/2016/3/2/malice-or-stupidity-or-inattention-using-code-reviews-to-fin.html)<br/>
 
 # Cache<br/>
+
+[Are Cloud Based Memory Architectures the Next Big Thing?](http://highscalability.com/blog/2009/3/16/are-cloud-based-memory-architectures-the-next-big-thing.html)<br/>
 
 [11 Common Web Use Cases Solved In Redis](http://highscalability.com/blog/2011/7/6/11-common-web-use-cases-solved-in-redis.html)<br/>
 [Ask HighScalability: Facing Scaling Issues With News Feeds On Redis. Any Advice?](http://highscalability.com/blog/2012/8/13/ask-highscalability-facing-scaling-issues-with-news-feeds-on.html)<br/>
