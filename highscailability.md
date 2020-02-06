@@ -14,15 +14,6 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Heroku Emergency Strategy: Incident Command System And 8 Hour Ops Rotations For Fresh Minds](http://highscalability.com/blog/2011/4/27/heroku-emergency-strategy-incident-command-system-and-8-hour.html)(devops)<br/>
 [7 Scaling Strategies Facebook Used To Grow To 500 Million Users](http://highscalability.com/blog/2010/8/2/7-scaling-strategies-facebook-used-to-grow-to-500-million-us.html)<br/>
 
-# Other<br/>
-
-[Let's Donate Our Organs And Unused Cloud Cycles To Science](http://highscalability.com/blog/2016/1/6/lets-donate-our-organs-and-unused-cloud-cycles-to-science.html)<br/>
-[The Gig Economy Breaks Social Security](http://highscalability.com/blog/2016/4/12/the-gig-economy-breaks-social-security.html)(economy)<br/>
-[What Ideas In IT Must Die?](http://highscalability.com/blog/2015/10/26/what-ideas-in-it-must-die.html)<br/>
-[Let's Build Maker Cities For Maker People Around New Resources Like Bandwidth, Compute, And Atomically-Precise Manufacturing](http://highscalability.com/blog/2014/9/1/lets-build-maker-cities-for-maker-people-around-new-resource.html)(economy)<br/>
-
-[6 Ways Not To Scale That Will Make You Hip, Popular And Loved By VCs](http://highscalability.com/blog/2011/4/18/6-ways-not-to-scale-that-will-make-you-hip-popular-and-loved.html)<br/>
-
 # DevOps
 
 [Heroku Emergency Strategy: Incident Command System And 8 Hour Ops Rotations For Fresh Minds](http://highscalability.com/blog/2011/4/27/heroku-emergency-strategy-incident-command-system-and-8-hour.html)(devops)<br/>
@@ -33,80 +24,6 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Vinted Architecture: Keeping A Busy Portal Stable By Deploying Several Hundred Times Per Day](http://highscalability.com/blog/2015/2/9/vinted-architecture-keeping-a-busy-portal-stable-by-deployin.html)(devops)<br/>
 [The Always On Architecture - Moving Beyond Legacy Disaster Recovery](http://highscalability.com/blog/2016/8/23/the-always-on-architecture-moving-beyond-legacy-disaster-rec.html)<br/>
 
-# Company<br/>
-
-[5 Lessons And 8 Industry Changes Over 5 Years As Etsy CTO](http://highscalability.com/blog/2015/9/16/5-lessons-and-8-industry-changes-over-5-years-as-etsy-cto.html)(lesson)<br/>
-
-## Google
-
-[Google Architecture](http://highscalability.com/google-architecture)<br/>
-[The Three Ages Of Google - Batch, Warehouse, Instant](http://highscalability.squarespace.com/blog/2011/8/29/the-three-ages-of-google-batch-warehouse-instant.html)<br/>
-[Google Finds: Centralized Control, Distributed Data Architectures Work Better Than Fully Decentralized Architectures](http://highscalability.com/blog/2014/4/7/google-finds-centralized-control-distributed-data-architectu.html)<br/>
-[Matt Cutts: 10 Lessons Learned From The Early Days Of Google](http://highscalability.com/blog/2015/2/4/matt-cutts-10-lessons-learned-from-the-early-days-of-google.html)(lesson)<br/>
-[YouTube Architecture](http://highscalability.com/youtube-architecture)<br/>
-
-## Facebook
-
-[Facebook Timeline: Brought To You By The Power Of Denormalization](http://highscalability.com/blog/2012/1/23/facebook-timeline-brought-to-you-by-the-power-of-denormaliza.html)<br/>
-[How Facebook Tells Your Friends You're Safe In A Disaster In Under Five Minutes](http://highscalability.com/blog/2015/9/28/how-facebook-tells-your-friends-youre-safe-in-a-disaster-in.html)<br/>
-[Facebook](http://highscalability.com/blog/category/facebook)<br/>
-[The Instagram Architecture Facebook Bought For A Cool Billion Dollars](http://highscalability.com/blog/2012/4/9/the-instagram-architecture-facebook-bought-for-a-cool-billio.html)<br/>
-[The WhatsApp Architecture Facebook Bought For \$19 Billion](http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html)<br/>
-
-## Instagram
-
-[Instagram Architecture Update: What’s New With Instagram?](http://highscalability.com/blog/2012/4/16/instagram-architecture-update-whats-new-with-instagram.html)<br/>
-[Instagram Improved Their App's Performance. Here's How.](http://highscalability.com/blog/2014/9/29/instagram-improved-their-apps-performance-heres-how.html)<br/>
-[5 Lessons From 5 Years Of Building Instagram](http://highscalability.com/blog/2015/10/21/5-lessons-from-5-years-of-building-instagram.html)(lesson)<br/>
-
-## Netflix
-
-[Netflix: What Happens When You Press Play?](http://highscalability.com/blog/2017/12/11/netflix-what-happens-when-you-press-play.html)<br/>
-[The Eternal Cost Savings Of Netflix's Internal Spot Market](http://highscalability.com/blog/2017/12/4/the-eternal-cost-savings-of-netflixs-internal-spot-market.html)<br/>
-[A 360 Degree View Of The Entire Netflix Stack](http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html)<br/>
-
-## Flickr
-
-[Flickr Architecture](http://highscalability.com/flickr-architecture)<br/>
-[How To Succeed At Capacity Planning Without Really Trying : An Interview With Flickr's John Allspaw On His New Book](http://highscalability.com/blog/2009/6/29/how-to-succeed-at-capacity-planning-without-really-trying-an.html)<br/>
-
-## Amazon
-
-[Amazon Architecture](http://highscalability.com/amazon-architecture)<br/>
-
-## Other
-
-[Cinchcast Architecture - Producing 1,500 Hours Of Audio Every Day](http://highscalability.com/blog/2012/7/16/cinchcast-architecture-producing-1500-hours-of-audio-every-d.html)<br/>
-[Justin.Tv's Live Video Broadcasting Architecture](http://highscalability.com/blog/2010/3/16/justintvs-live-video-broadcasting-architecture.html)<br/>
-
-[StubHub Architecture: The Surprising Complexity Behind The World’s Largest Ticket Marketplace](http://highscalability.com/blog/2012/6/25/stubhub-architecture-the-surprising-complexity-behind-the-wo.html)<br/>
-[NYTimes Architecture: No Head, No Master, No Single Point Of Failure](http://highscalability.com/blog/2014/1/13/nytimes-architecture-no-head-no-master-no-single-point-of-fa.html)<br/>
-
-[Plenty Of Fish Architecture](http://highscalability.com/plentyoffish-architecture)<br/>
-[Stack Overflow Architecture](http://highscalability.com/blog/2009/8/5/stack-overflow-architecture.html)<br/>
-[This. Just. This.](http://highscalability.com/blog/2015/7/16/this-just-this.html)<br/>
-[What If Cars Were Rented Like We Hire Programmers?](http://highscalability.com/blog/2013/1/16/what-if-cars-were-rented-like-we-hire-programmers.html)<br/>
-[Ten Lessons From GitHub’s First Year In 2008](http://highscalability.com/blog/2013/9/11/ten-lessons-from-githubs-first-year-in-2008.html)(lesson)<br/>
-[Is Node.Js Becoming A Part Of The Stack? SimpleGeo Says Yes.](http://highscalability.com/blog/2011/2/22/is-nodejs-becoming-a-part-of-the-stack-simplegeo-says-yes.html)<br/>
-
-# Paper<br/>
-
-[Paper: The Akamai Network - 61,000 Servers, 1,000 Networks, 70 Countries&nbsp;](http://highscalability.com/blog/2011/8/18/paper-the-akamai-network-61000-servers-1000-networks-70-coun.html)(cdn)<br/>
-[Paper: Immutability Changes Everything By Pat Helland](http://highscalability.com/blog/2015/1/26/paper-immutability-changes-everything-by-pat-helland.html)<br/>
-[Paper: Network Stack Specialization For Performance](http://highscalability.com/blog/2014/2/12/paper-network-stack-specialization-for-performance.html)<br/>
-[Awesome List Of Advanced Distributed Systems Papers](http://highscalability.com/blog/2011/5/31/awesome-list-of-advanced-distributed-systems-papers.html)(distributed)<br/>
-
-[Linus: The Whole "Parallel Computing Is The Future" Is A Bunch Of Crock.](http://highscalability.com/blog/2014/12/31/linus-the-whole-parallel-computing-is-the-future-is-a-bunch.html)(distributed)<br/>
-[How Do We Explain The Unreasonable Effectiveness Of IT?](http://highscalability.com/blog/2015/7/6/how-do-we-explain-the-unreasonable-effectiveness-of-it.html)(book)<br/>
-[What Happens While Your Brain Sleeps Is Surprisingly Like How Computers Stay Sane](http://highscalability.com/blog/2013/12/23/what-happens-while-your-brain-sleeps-is-surprisingly-like-ho.html)<br/>
-[How Can We Spark The Movement Of Research Out Of The Ivory Tower And Into Production?](http://highscalability.com/blog/2010/7/22/how-can-we-spark-the-movement-of-research-out-of-the-ivory-t.html)<br/>
-
-# IOT<br/>
-
-[How Would You Build The Next Internet? Loons, Drones, Copters, Satellites, Or Something Else?](http://highscalability.com/blog/2014/1/22/how-would-you-build-the-next-internet-loons-drones-copters-s.html)<br/>
-[Want IoT? Here's How A Major US Utility Collects Power Data From Over 5.5 Million Meters](http://highscalability.com/blog/2015/9/7/want-iot-heres-how-a-major-us-utility-collects-power-data-fr.html)<br/>
-[Hidden History: Driving The Last Spike Of The Transcontinental Railroad Was An Early Version Of The Internet Of Things](http://highscalability.com/blog/2013/11/27/hidden-history-driving-the-last-spike-of-the-transcontinenta.html)<br/>
-
 # Architecture<br/>
 
 [Ask HighScalability: Choose An Async App Server Or Multiple Blocking Servers?](http://highscalability.com/blog/2015/8/24/ask-highscalability-choose-an-async-app-server-or-multiple-b.html)(async)<br/>
@@ -116,12 +33,6 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [64 Network DO’s And DON’Ts For Game Engines. Part IIIa: Server-Side](http://highscalability.com/blog/2015/7/15/64-network-dos-and-donts-for-game-engines-part-iiia-server-s.html)<br/>
 [Make Any Framework Suck Less With These 10 Insightful Lessons](<http://highscalability.com/blog/2014/11/26/make-any-framework-suck-less-with-these-10-insightful-lesson.html(lesson)>)<br/>
 [One Story Of Life As Told Through Queues](http://highscalability.com/blog/2013/11/29/one-story-of-life-as-told-through-queues.html)<br/>
-
-## Resilience
-
-[Here's A 1300 Year Old Solution To Resilience - Rebuild, Rebuild, Rebuild](http://highscalability.com/blog/2014/4/23/heres-a-1300-year-old-solution-to-resilience-rebuild-rebuild.html)<br/>
-[Resiliency Is The New Normal - A Deep Look At What It Means And How To Build It](http://highscalability.com/blog/2012/12/3/resiliency-is-the-new-normal-a-deep-look-at-what-it-means-an.html)<br/>
-[Designing For Resiliency Will Be So 2013](http://highscalability.com/blog/2012/12/31/designing-for-resiliency-will-be-so-2013.html)<br/>
 
 [Architecting Backend For A Social Product](http://highscalability.com/blog/2015/7/22/architecting-backend-for-a-social-product.html)<br/>
 [Using Gossip Protocols For Failure Detection, Monitoring, Messaging And Other Good Things](http://highscalability.com/blog/2011/11/14/using-gossip-protocols-for-failure-detection-monitoring-mess.html)(distributed)<br/>
@@ -141,6 +52,68 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Vinted Architecture: Keeping A Busy Portal Stable By Deploying Several Hundred Times Per Day](http://highscalability.com/blog/2015/2/9/vinted-architecture-keeping-a-busy-portal-stable-by-deployin.html)(devops)<br/>
 [Getting Things Right: A Look At Centralized Vs Decentralized Systems Through The Eyes Of Instant Replay](http://highscalability.com/blog/2014/9/15/getting-things-right-a-look-at-centralized-vs-decentralized.html)(distributed)<br/>
 [10 Common Server Setups For Your Web Application](http://highscalability.com/blog/2014/9/10/10-common-server-setups-for-your-web-application.html)(read)<br/>
+
+## Company<br/>
+
+[5 Lessons And 8 Industry Changes Over 5 Years As Etsy CTO](http://highscalability.com/blog/2015/9/16/5-lessons-and-8-industry-changes-over-5-years-as-etsy-cto.html)(lesson)<br/>
+
+### Google
+
+[Google Architecture](http://highscalability.com/google-architecture)<br/>
+[The Three Ages Of Google - Batch, Warehouse, Instant](http://highscalability.squarespace.com/blog/2011/8/29/the-three-ages-of-google-batch-warehouse-instant.html)<br/>
+[Google Finds: Centralized Control, Distributed Data Architectures Work Better Than Fully Decentralized Architectures](http://highscalability.com/blog/2014/4/7/google-finds-centralized-control-distributed-data-architectu.html)<br/>
+[Matt Cutts: 10 Lessons Learned From The Early Days Of Google](http://highscalability.com/blog/2015/2/4/matt-cutts-10-lessons-learned-from-the-early-days-of-google.html)(lesson)<br/>
+[YouTube Architecture](http://highscalability.com/youtube-architecture)<br/>
+
+### Facebook
+
+[Facebook Timeline: Brought To You By The Power Of Denormalization](http://highscalability.com/blog/2012/1/23/facebook-timeline-brought-to-you-by-the-power-of-denormaliza.html)<br/>
+[How Facebook Tells Your Friends You're Safe In A Disaster In Under Five Minutes](http://highscalability.com/blog/2015/9/28/how-facebook-tells-your-friends-youre-safe-in-a-disaster-in.html)<br/>
+[Facebook](http://highscalability.com/blog/category/facebook)<br/>
+[The Instagram Architecture Facebook Bought For A Cool Billion Dollars](http://highscalability.com/blog/2012/4/9/the-instagram-architecture-facebook-bought-for-a-cool-billio.html)<br/>
+[The WhatsApp Architecture Facebook Bought For \$19 Billion](http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html)<br/>
+
+### Instagram
+
+[Instagram Architecture Update: What’s New With Instagram?](http://highscalability.com/blog/2012/4/16/instagram-architecture-update-whats-new-with-instagram.html)<br/>
+[Instagram Improved Their App's Performance. Here's How.](http://highscalability.com/blog/2014/9/29/instagram-improved-their-apps-performance-heres-how.html)<br/>
+[5 Lessons From 5 Years Of Building Instagram](http://highscalability.com/blog/2015/10/21/5-lessons-from-5-years-of-building-instagram.html)(lesson)<br/>
+
+### Netflix
+
+[Netflix: What Happens When You Press Play?](http://highscalability.com/blog/2017/12/11/netflix-what-happens-when-you-press-play.html)<br/>
+[The Eternal Cost Savings Of Netflix's Internal Spot Market](http://highscalability.com/blog/2017/12/4/the-eternal-cost-savings-of-netflixs-internal-spot-market.html)<br/>
+[A 360 Degree View Of The Entire Netflix Stack](http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html)<br/>
+
+### Flickr
+
+[Flickr Architecture](http://highscalability.com/flickr-architecture)<br/>
+[How To Succeed At Capacity Planning Without Really Trying : An Interview With Flickr's John Allspaw On His New Book](http://highscalability.com/blog/2009/6/29/how-to-succeed-at-capacity-planning-without-really-trying-an.html)<br/>
+
+### Amazon
+
+[Amazon Architecture](http://highscalability.com/amazon-architecture)<br/>
+
+### Other
+
+[Cinchcast Architecture - Producing 1,500 Hours Of Audio Every Day](http://highscalability.com/blog/2012/7/16/cinchcast-architecture-producing-1500-hours-of-audio-every-d.html)<br/>
+[Justin.Tv's Live Video Broadcasting Architecture](http://highscalability.com/blog/2010/3/16/justintvs-live-video-broadcasting-architecture.html)<br/>
+
+[StubHub Architecture: The Surprising Complexity Behind The World’s Largest Ticket Marketplace](http://highscalability.com/blog/2012/6/25/stubhub-architecture-the-surprising-complexity-behind-the-wo.html)<br/>
+[NYTimes Architecture: No Head, No Master, No Single Point Of Failure](http://highscalability.com/blog/2014/1/13/nytimes-architecture-no-head-no-master-no-single-point-of-fa.html)<br/>
+
+[Plenty Of Fish Architecture](http://highscalability.com/plentyoffish-architecture)<br/>
+[Stack Overflow Architecture](http://highscalability.com/blog/2009/8/5/stack-overflow-architecture.html)<br/>
+[This. Just. This.](http://highscalability.com/blog/2015/7/16/this-just-this.html)<br/>
+[What If Cars Were Rented Like We Hire Programmers?](http://highscalability.com/blog/2013/1/16/what-if-cars-were-rented-like-we-hire-programmers.html)<br/>
+[Ten Lessons From GitHub’s First Year In 2008](http://highscalability.com/blog/2013/9/11/ten-lessons-from-githubs-first-year-in-2008.html)(lesson)<br/>
+[Is Node.Js Becoming A Part Of The Stack? SimpleGeo Says Yes.](http://highscalability.com/blog/2011/2/22/is-nodejs-becoming-a-part-of-the-stack-simplegeo-says-yes.html)<br/>
+
+## Resilience
+
+[Here's A 1300 Year Old Solution To Resilience - Rebuild, Rebuild, Rebuild](http://highscalability.com/blog/2014/4/23/heres-a-1300-year-old-solution-to-resilience-rebuild-rebuild.html)<br/>
+[Resiliency Is The New Normal - A Deep Look At What It Means And How To Build It](http://highscalability.com/blog/2012/12/3/resiliency-is-the-new-normal-a-deep-look-at-what-it-means-an.html)<br/>
+[Designing For Resiliency Will Be So 2013](http://highscalability.com/blog/2012/12/31/designing-for-resiliency-will-be-so-2013.html)<br/>
 
 # Microservices<br/>
 
@@ -486,9 +459,36 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [6 Ways To Defeat The Coming Robot Army Swarms](http://highscalability.com/blog/2015/4/1/6-ways-to-defeat-the-coming-robot-army-swarms.html)<br/>
 [Prismatic Architecture - Using Machine Learning On Social Networks To Figure Out What You Should Read On The Web](http://highscalability.com/blog/2012/7/30/prismatic-architecture-using-machine-learning-on-social-netw.html)<br/>
 
+# Other<br/>
+
+[Let's Donate Our Organs And Unused Cloud Cycles To Science](http://highscalability.com/blog/2016/1/6/lets-donate-our-organs-and-unused-cloud-cycles-to-science.html)<br/>
+[The Gig Economy Breaks Social Security](http://highscalability.com/blog/2016/4/12/the-gig-economy-breaks-social-security.html)(economy)<br/>
+[What Ideas In IT Must Die?](http://highscalability.com/blog/2015/10/26/what-ideas-in-it-must-die.html)<br/>
+[Let's Build Maker Cities For Maker People Around New Resources Like Bandwidth, Compute, And Atomically-Precise Manufacturing](http://highscalability.com/blog/2014/9/1/lets-build-maker-cities-for-maker-people-around-new-resource.html)(economy)<br/>
+
+[6 Ways Not To Scale That Will Make You Hip, Popular And Loved By VCs](http://highscalability.com/blog/2011/4/18/6-ways-not-to-scale-that-will-make-you-hip-popular-and-loved.html)<br/>
+
+# Paper<br/>
+
+[Paper: The Akamai Network - 61,000 Servers, 1,000 Networks, 70 Countries&nbsp;](http://highscalability.com/blog/2011/8/18/paper-the-akamai-network-61000-servers-1000-networks-70-coun.html)(cdn)<br/>
+[Paper: Immutability Changes Everything By Pat Helland](http://highscalability.com/blog/2015/1/26/paper-immutability-changes-everything-by-pat-helland.html)<br/>
+[Paper: Network Stack Specialization For Performance](http://highscalability.com/blog/2014/2/12/paper-network-stack-specialization-for-performance.html)<br/>
+[Awesome List Of Advanced Distributed Systems Papers](http://highscalability.com/blog/2011/5/31/awesome-list-of-advanced-distributed-systems-papers.html)(distributed)<br/>
+
+[Linus: The Whole "Parallel Computing Is The Future" Is A Bunch Of Crock.](http://highscalability.com/blog/2014/12/31/linus-the-whole-parallel-computing-is-the-future-is-a-bunch.html)(distributed)<br/>
+[How Do We Explain The Unreasonable Effectiveness Of IT?](http://highscalability.com/blog/2015/7/6/how-do-we-explain-the-unreasonable-effectiveness-of-it.html)(book)<br/>
+[What Happens While Your Brain Sleeps Is Surprisingly Like How Computers Stay Sane](http://highscalability.com/blog/2013/12/23/what-happens-while-your-brain-sleeps-is-surprisingly-like-ho.html)<br/>
+[How Can We Spark The Movement Of Research Out Of The Ivory Tower And Into Production?](http://highscalability.com/blog/2010/7/22/how-can-we-spark-the-movement-of-research-out-of-the-ivory-t.html)<br/>
+
 # Security<br/>
 
 [Auth0 Architecture - Running In Multiple Cloud Providers And Regions](http://highscalability.com/blog/2014/12/1/auth0-architecture-running-in-multiple-cloud-providers-and-r.html)<br/>
 [How Do You Explain The Unreasonable Effectiveness Of Cloud Security?](http://highscalability.com/blog/2018/9/19/how-do-you-explain-the-unreasonable-effectiveness-of-cloud-s.html)<br/>
 [How Facebook's Safety Check Works](http://highscalability.com/blog/2015/11/14/how-facebooks-safety-check-works.html)<br/>
 [The Cat-And-Mouse Story Of Implementing Anti-Spam For Mail.Ru Group’s Email Service And What Tarantool Has To Do With This](http://highscalability.com/blog/2016/8/30/the-cat-and-mouse-story-of-implementing-anti-spam-for-mailru.html)<br/>
+
+# IOT<br/>
+
+[How Would You Build The Next Internet? Loons, Drones, Copters, Satellites, Or Something Else?](http://highscalability.com/blog/2014/1/22/how-would-you-build-the-next-internet-loons-drones-copters-s.html)<br/>
+[Want IoT? Here's How A Major US Utility Collects Power Data From Over 5.5 Million Meters](http://highscalability.com/blog/2015/9/7/want-iot-heres-how-a-major-us-utility-collects-power-data-fr.html)<br/>
+[Hidden History: Driving The Last Spike Of The Transcontinental Railroad Was An Early Version Of The Internet Of Things](http://highscalability.com/blog/2013/11/27/hidden-history-driving-the-last-spike-of-the-transcontinenta.html)<br/>
