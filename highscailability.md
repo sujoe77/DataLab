@@ -27,28 +27,25 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 # Architecture<br/>
 
 [Ask HighScalability: Choose An Async App Server Or Multiple Blocking Servers?](http://highscalability.com/blog/2015/8/24/ask-highscalability-choose-an-async-app-server-or-multiple-b.html)(async)<br/>
-[Segment: Rebuilding Our Infrastructure With Docker, ECS, And Terraform](http://highscalability.com/blog/2015/10/19/segment-rebuilding-our-infrastructure-with-docker-ecs-and-te.html)<br/>
-[Building Globally Distributed, Mission Critical Applications: Lessons From The Trenches Part 2](http://highscalability.com/blog/2015/9/2/building-globally-distributed-mission-critical-applications.html)<br/>
-[Trade Stimulators And The Very Old Idea Of Increasing User Engagement&nbsp;](http://highscalability.com/blog/2015/9/9/trade-stimulators-and-the-very-old-idea-of-increasing-user-e.html)<br/>
-[64 Network DO’s And DON’Ts For Game Engines. Part IIIa: Server-Side](http://highscalability.com/blog/2015/7/15/64-network-dos-and-donts-for-game-engines-part-iiia-server-s.html)<br/>
-[Make Any Framework Suck Less With These 10 Insightful Lessons](<http://highscalability.com/blog/2014/11/26/make-any-framework-suck-less-with-these-10-insightful-lesson.html(lesson)>)<br/>
-[One Story Of Life As Told Through Queues](http://highscalability.com/blog/2013/11/29/one-story-of-life-as-told-through-queues.html)<br/>
+
+[Building Globally Distributed, Mission Critical Applications: Lessons From The Trenches Part 2](http://highscalability.com/blog/2015/9/2/building-globally-distributed-mission-critical-applications.html)(lessons)<br/>
 
 [Architecting Backend For A Social Product](http://highscalability.com/blog/2015/7/22/architecting-backend-for-a-social-product.html)<br/>
+
 [Using Gossip Protocols For Failure Detection, Monitoring, Messaging And Other Good Things](http://highscalability.com/blog/2011/11/14/using-gossip-protocols-for-failure-detection-monitoring-mess.html)(distributed)<br/>
 
-[How Can We Build Better Complex Systems? Containers, Microservices, And Continuous Delivery.](http://highscalability.com/blog/2015/4/27/how-can-we-build-better-complex-systems-containers-microserv.html)<br/>
+[How Can We Build Better Complex Systems? Containers, Microservices, And Continuous Delivery.](http://highscalability.com/blog/2015/4/27/how-can-we-build-better-complex-systems-containers-microserv.html)(lessons)<br/>
 
 [Did The Microsoft Stack Kill MySpace?](http://highscalability.com/blog/2011/3/25/did-the-microsoft-stack-kill-myspace.html)<br/>
 [Aeron: Do We Really Need Another Messaging System?](http://highscalability.com/blog/2014/11/17/aeron-do-we-really-need-another-messaging-system.html)<br/>
-[This Stuff Isn't Taught, You Learn It Bit By Bit As You Solve Each Problem.](http://highscalability.com/blog/2011/2/23/this-stuff-isnt-taught-you-learn-it-bit-by-bit-as-you-solve.html)<br/>
-[What Do You Believe Now That You Didn't Five Years Ago? Centralized Wins. Decentralized Loses.](http://highscalability.com/blog/2018/8/22/what-do-you-believe-now-that-you-didnt-five-years-ago-centra.html)<br/>
-[Under Snowden's Light Software Architecture Choices Become Murky](http://highscalability.com/blog/2014/1/8/under-snowdens-light-software-architecture-choices-become-mu.html)<br/>
+[This Stuff Isn't Taught, You Learn It Bit By Bit As You Solve Each Problem.](http://highscalability.com/blog/2011/2/23/this-stuff-isnt-taught-you-learn-it-bit-by-bit-as-you-solve.html)(lessons,read)<br/>
+[What Do You Believe Now That You Didn't Five Years Ago? Centralized Wins. Decentralized Loses.](http://highscalability.com/blog/2018/8/22/what-do-you-believe-now-that-you-didnt-five-years-ago-centra.html)(distributed)<br/>
 [Paper: The End Of An Architectural Era (It’s Time For A Complete Rewrite)](http://highscalability.com/blog/2009/4/16/paper-the-end-of-an-architectural-era-its-time-for-a-complet.html)(paper)<br/>
-[AppBackplane - A Framework For Supporting Multiple Application Architectures](http://highscalability.com/blog/2013/3/25/appbackplane-a-framework-for-supporting-multiple-application.html)<br/>
+[AppBackplane - A Framework For Supporting Multiple Application Architectures](http://highscalability.com/blog/2013/3/25/appbackplane-a-framework-for-supporting-multiple-application.html)(hardware)<br/>
 [Ask HS: What Will Programming And Architecture Look Like In 2020?](http://highscalability.com/blog/2012/12/23/ask-hs-what-will-programming-and-architecture-look-like-in-2.html)<br/>
-[Beyond Threads And Callbacks - Application Architecture Pros And Cons](http://highscalability.com/blog/2013/3/18/beyond-threads-and-callbacks-application-architecture-pros-a.html)<br/>
-[Architecting Backend For A Social Product](http://highscalability.com/blog/2015/7/22/architecting-backend-for-a-social-product.html)<br/>
+
+[Beyond Threads And Callbacks - Application Architecture Pros And Cons](http://highscalability.com/blog/2013/3/18/beyond-threads-and-callbacks-application-architecture-pros-a.html)(multithread,mustRead)<br/>
+
 [Vinted Architecture: Keeping A Busy Portal Stable By Deploying Several Hundred Times Per Day](http://highscalability.com/blog/2015/2/9/vinted-architecture-keeping-a-busy-portal-stable-by-deployin.html)(devops)<br/>
 [Getting Things Right: A Look At Centralized Vs Decentralized Systems Through The Eyes Of Instant Replay](http://highscalability.com/blog/2014/9/15/getting-things-right-a-look-at-centralized-vs-decentralized.html)(distributed)<br/>
 [10 Common Server Setups For Your Web Application](http://highscalability.com/blog/2014/9/10/10-common-server-setups-for-your-web-application.html)(read)<br/>
@@ -96,6 +93,8 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 
 ### Other
 
+[Segment: Rebuilding Our Infrastructure With Docker, ECS, And Terraform](http://highscalability.com/blog/2015/10/19/segment-rebuilding-our-infrastructure-with-docker-ecs-and-te.html)<br/>
+
 [Cinchcast Architecture - Producing 1,500 Hours Of Audio Every Day](http://highscalability.com/blog/2012/7/16/cinchcast-architecture-producing-1500-hours-of-audio-every-d.html)<br/>
 [Justin.Tv's Live Video Broadcasting Architecture](http://highscalability.com/blog/2010/3/16/justintvs-live-video-broadcasting-architecture.html)<br/>
 
@@ -108,6 +107,10 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [What If Cars Were Rented Like We Hire Programmers?](http://highscalability.com/blog/2013/1/16/what-if-cars-were-rented-like-we-hire-programmers.html)<br/>
 [Ten Lessons From GitHub’s First Year In 2008](http://highscalability.com/blog/2013/9/11/ten-lessons-from-githubs-first-year-in-2008.html)(lesson)<br/>
 [Is Node.Js Becoming A Part Of The Stack? SimpleGeo Says Yes.](http://highscalability.com/blog/2011/2/22/is-nodejs-becoming-a-part-of-the-stack-simplegeo-says-yes.html)<br/>
+
+[64 Network DO’s And DON’Ts For Game Engines. Part IIIa: Server-Side](http://highscalability.com/blog/2015/7/15/64-network-dos-and-donts-for-game-engines-part-iiia-server-s.html)<br/>
+
+[Make Any Framework Suck Less With These 10 Insightful Lessons](http://highscalability.com/blog/2014/11/26/make-any-framework-suck-less-with-these-10-insightful-lesson.html)(lesson,frontEnd)<br/>
 
 ## Resilience
 
@@ -140,6 +143,8 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Cloud Programming Directly Feeds Cost Allocation Back Into Software Design](http://highscalability.com/blog/2009/3/6/cloud-programming-directly-feeds-cost-allocation-back-into-s.html)<br/>
 
 [Machine VM + Cloud API - Rewriting The Cloud From Scratch](http://highscalability.com/blog/2010/10/21/machine-vm-cloud-api-rewriting-the-cloud-from-scratch.html)<br/>
+
+[Under Snowden's Light Software Architecture Choices Become Murky](http://highscalability.com/blog/2014/1/8/under-snowdens-light-software-architecture-choices-become-mu.html)(cloud)<br/>
 
 ## Linux
 
@@ -460,6 +465,8 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Prismatic Architecture - Using Machine Learning On Social Networks To Figure Out What You Should Read On The Web](http://highscalability.com/blog/2012/7/30/prismatic-architecture-using-machine-learning-on-social-netw.html)<br/>
 
 # Other<br/>
+
+[Trade Stimulators And The Very Old Idea Of Increasing User Engagement&nbsp;](http://highscalability.com/blog/2015/9/9/trade-stimulators-and-the-very-old-idea-of-increasing-user-e.html)<br/>
 
 [Let's Donate Our Organs And Unused Cloud Cycles To Science](http://highscalability.com/blog/2016/1/6/lets-donate-our-organs-and-unused-cloud-cycles-to-science.html)<br/>
 [The Gig Economy Breaks Social Security](http://highscalability.com/blog/2016/4/12/the-gig-economy-breaks-social-security.html)(economy)<br/>
