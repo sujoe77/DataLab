@@ -39,7 +39,6 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 
 ## Google
 
-[Google Pro Tip: Use Back-Of-The-Envelope-Calculations To Choose The Best Design](http://highscalability.com/blog/2011/1/26/google-pro-tip-use-back-of-the-envelope-calculations-to-choo.html)<br/>
 [Google Architecture](http://highscalability.com/google-architecture)<br/>
 [The Three Ages Of Google - Batch, Warehouse, Instant](http://highscalability.squarespace.com/blog/2011/8/29/the-three-ages-of-google-batch-warehouse-instant.html)<br/>
 [Google Finds: Centralized Control, Distributed Data Architectures Work Better Than Fully Decentralized Architectures](http://highscalability.com/blog/2014/4/7/google-finds-centralized-control-distributed-data-architectu.html)<br/>
@@ -219,6 +218,11 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 
 # Realtime<br/>
 
+[Numbers Everyone Should Know](http://highscalability.com/numbers-everyone-should-know)<br/>
+[More Numbers Every Awesome Programmer Must Know](http://highscalability.com/blog/2013/1/15/more-numbers-every-awesome-programmer-must-know.html)<br/>
+[Google Pro Tip: Use Back-Of-The-Envelope-Calculations To Choose The Best Design](http://highscalability.com/blog/2011/1/26/google-pro-tip-use-back-of-the-envelope-calculations-to-choo.html)<br/>
+[Grace Hopper To Programmers: Mind Your Nanoseconds!](http://highscalability.com/blog/2012/3/1/grace-hopper-to-programmers-mind-your-nanoseconds.html)<br/>
+
 [DataSift Architecture: Realtime Datamining At 120,000 Tweets Per Second](http://highscalability.com/blog/2011/11/29/datasift-architecture-realtime-datamining-at-120000-tweets-p.html)<br/>
 [Facebook's New Real-Time Messaging System: HBase To Store 135+ Billion Messages A Month](http://highscalability.com/blog/2010/11/16/facebooks-new-real-time-messaging-system-hbase-to-store-135.html)<br/>
 [Google's Colossus Makes Search Real-Time By Dumping MapReduce](http://highscalability.com/blog/2010/9/11/googles-colossus-makes-search-real-time-by-dumping-mapreduce.html)<br/>
@@ -227,15 +231,14 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 
 # Latency<br/>
 
+[Latency is Everywhere and it Costs You Sales - How to Crush it](http://highscalability.com/blog/2009/7/25/latency-is-everywhere-and-it-costs-you-sales-how-to-crush-it.html)(mustRead)<br/>
+
 [Google On Latency Tolerant Systems: Making A Predictable Whole Out Of Unpredictable Parts](http://highscalability.com/blog/2012/6/18/google-on-latency-tolerant-systems-making-a-predictable-whol.html)<br/>
-[Latency is Everywhere and it Costs You Sales - How to Crush it](http://highscalability.com/blog/2009/7/25/latency-is-everywhere-and-it-costs-you-sales-how-to-crush-it.html)<br/>
 [How Does The Use Of Docker Effect Latency?](http://highscalability.com/blog/2015/12/16/how-does-the-use-of-docker-effect-latency.html)<br/>
-[Grace Hopper To Programmers: Mind Your Nanoseconds!](http://highscalability.com/blog/2012/3/1/grace-hopper-to-programmers-mind-your-nanoseconds.html)<br/>
 [How Can Batching Requests Actually Reduce Latency?](http://highscalability.com/blog/2013/12/4/how-can-batching-requests-actually-reduce-latency.html)<br/>
 [Google: Taming The Long Latency Tail - When More Machines Equals Worse Results](http://highscalability.com/blog/2012/3/12/google-taming-the-long-latency-tail-when-more-machines-equal.html)<br/>
 [The Clever Ways Chrome Hides Latency By Anticipating Your Every Need](http://highscalability.com/blog/2012/6/18/the-clever-ways-chrome-hides-latency-by-anticipating-your-ev.html)<br/>
 [Think Of Latency As A Pseudo-Permanent Network Partition](http://highscalability.com/blog/2010/8/12/think-of-latency-as-a-pseudo-permanent-network-partition.html)<br/>
-[More Numbers Every Awesome Programmer Must Know](http://highscalability.com/blog/2013/1/15/more-numbers-every-awesome-programmer-must-know.html)<br/>
 
 # Scailing<br/>
 
