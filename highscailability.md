@@ -72,6 +72,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 
 ### Instagram
 
+[This. Just. This.](http://highscalability.com/blog/2015/7/16/this-just-this.html)<br/>
 [Instagram Architecture Update: What’s New With Instagram?](http://highscalability.com/blog/2012/4/16/instagram-architecture-update-whats-new-with-instagram.html)<br/>
 [Instagram Improved Their App's Performance. Here's How.](http://highscalability.com/blog/2014/9/29/instagram-improved-their-apps-performance-heres-how.html)<br/>
 [5 Lessons From 5 Years Of Building Instagram](http://highscalability.com/blog/2015/10/21/5-lessons-from-5-years-of-building-instagram.html)(lesson)<br/>
@@ -91,6 +92,11 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 
 [Amazon Architecture](http://highscalability.com/amazon-architecture)<br/>
 
+### Microsoft
+
+[Plenty Of Fish Architecture](http://highscalability.com/plentyoffish-architecture)<br/>
+[Stack Overflow Architecture](http://highscalability.com/blog/2009/8/5/stack-overflow-architecture.html)<br/>
+
 ### Other
 
 [Segment: Rebuilding Our Infrastructure With Docker, ECS, And Terraform](http://highscalability.com/blog/2015/10/19/segment-rebuilding-our-infrastructure-with-docker-ecs-and-te.html)<br/>
@@ -101,10 +107,6 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [StubHub Architecture: The Surprising Complexity Behind The World’s Largest Ticket Marketplace](http://highscalability.com/blog/2012/6/25/stubhub-architecture-the-surprising-complexity-behind-the-wo.html)<br/>
 [NYTimes Architecture: No Head, No Master, No Single Point Of Failure](http://highscalability.com/blog/2014/1/13/nytimes-architecture-no-head-no-master-no-single-point-of-fa.html)<br/>
 
-[Plenty Of Fish Architecture](http://highscalability.com/plentyoffish-architecture)<br/>
-[Stack Overflow Architecture](http://highscalability.com/blog/2009/8/5/stack-overflow-architecture.html)<br/>
-[This. Just. This.](http://highscalability.com/blog/2015/7/16/this-just-this.html)<br/>
-[What If Cars Were Rented Like We Hire Programmers?](http://highscalability.com/blog/2013/1/16/what-if-cars-were-rented-like-we-hire-programmers.html)<br/>
 [Ten Lessons From GitHub’s First Year In 2008](http://highscalability.com/blog/2013/9/11/ten-lessons-from-githubs-first-year-in-2008.html)(lesson)<br/>
 [Is Node.Js Becoming A Part Of The Stack? SimpleGeo Says Yes.](http://highscalability.com/blog/2011/2/22/is-nodejs-becoming-a-part-of-the-stack-simplegeo-says-yes.html)<br/>
 
@@ -466,6 +468,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 
 # Other<br/>
 
+[What If Cars Were Rented Like We Hire Programmers?](http://highscalability.com/blog/2013/1/16/what-if-cars-were-rented-like-we-hire-programmers.html)<br/>
 [Trade Stimulators And The Very Old Idea Of Increasing User Engagement&nbsp;](http://highscalability.com/blog/2015/9/9/trade-stimulators-and-the-very-old-idea-of-increasing-user-e.html)<br/>
 
 [Let's Donate Our Organs And Unused Cloud Cycles To Science](http://highscalability.com/blog/2016/1/6/lets-donate-our-organs-and-unused-cloud-cycles-to-science.html)<br/>
