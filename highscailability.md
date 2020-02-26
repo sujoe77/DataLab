@@ -4,6 +4,8 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 
 [Stuff the Internet Says on Scalability](http://highscalability.com/blog/category/hot-links)<br/>
 [Useful Scalability Blogs](http://highscalability.com/blog/category/blog)<br/>
+[Hacker News](http://ycombinator.com)<br/>
+[reddit](https://www.reddit.com/)<br/>
 
 # Strategies
 
@@ -351,6 +353,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Google Strategy: Tree Distribution Of Requests And Responses](http://highscalability.com/blog/2011/2/1/google-strategy-tree-distribution-of-requests-and-responses.html)<br/>
 [Strategy: Change The Problem](http://highscalability.com/blog/2014/9/3/strategy-change-the-problem.html)<br/>
 [Big Data Counting: How To Count A Billion Distinct Objects Using Only 1.5KB Of Memory](http://highscalability.com/blog/2012/4/5/big-data-counting-how-to-count-a-billion-distinct-objects-us.html)<br/>
+[Linus: The Whole "Parallel Computing Is The Future" Is A Bunch Of Crock.](http://highscalability.com/blog/2014/12/31/linus-the-whole-parallel-computing-is-the-future-is-a-bunch.html)(distributed)(multithread,mustRead)<br/>
 
 # Data<br/>
 
@@ -393,7 +396,6 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Jim Starkey Is Creating A Brave New World By Rethinking Databases For The Cloud](http://highscalability.com/blog/2011/8/4/jim-starkey-is-creating-a-brave-new-world-by-rethinking-data.html)<br/>
 [The Mother Of All Database Normalization Debates On Coding Horror](http://highscalability.com/blog/2008/7/16/the-mother-of-all-database-normalization-debates-on-coding-h.html)<br/>
 [MemSQL Architecture - The Fast (MVCC, InMem, LockFree, CodeGen) And Familiar (SQL)](http://highscalability.com/blog/2012/8/14/memsql-architecture-the-fast-mvcc-inmem-lockfree-codegen-and.html)<br/>
-
 [Changing Architectures: New Datacenter Networks Will Set Your Code And Data Free](http://highscalability.com/blog/2012/9/11/changing-architectures-new-datacenter-networks-will-set-your.html)<br/>
 [VoltDB Decapitates Six SQL Urban Myths And Delivers Internet Scale OLTP In The Process](http://highscalability.com/blog/2010/6/28/voltdb-decapitates-six-sql-urban-myths-and-delivers-internet.html)<br/>
 [8 Ways Stardog Made Its Database Insanely Scalable](http://highscalability.com/blog/2014/1/20/8-ways-stardog-made-its-database-insanely-scalable.html)<br/>
@@ -404,9 +406,8 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Switch Your Databases To Flash Storage. Now. Or You're Doing It Wrong.](http://highscalability.com/blog/2012/12/10/switch-your-databases-to-flash-storage-now-or-youre-doing-it.html)<br/>
 [We Are Leaving 3x-4x Performance On The Table Just Because Of Configuration](http://highscalability.com/blog/2014/11/19/we-are-leaving-3x-4x-performance-on-the-table-just-because-o.html)<br/>
 [When All The Program's A Graph - Prismatic's Plumbing Library](http://highscalability.com/blog/2013/2/14/when-all-the-programs-a-graph-prismatics-plumbing-library.html)<br/>
-[ZooKeeper - A Reliable, Scalable Distributed Coordination System](http://highscalability.com/blog/2008/7/15/zookeeper-a-reliable-scalable-distributed-coordination-syste.html)<br/>
+[ZooKeeper - A Reliable, Scalable Distributed Coordination System](http://highscalability.com/blog/2008/7/15/zookeeper-a-reliable-scalable-distributed-coordination-syste.html)(distributed)<br/>
 [Building Scalable Systems Using Data As A Composite Material](http://highscalability.com/blog/2009/11/16/building-scalable-systems-using-data-as-a-composite-material.html)<br/>
-
 [Drop ACID And Think About Data](http://highscalability.com/blog/2009/5/5/drop-acid-and-think-about-data.html)<br/>
 [Stack Overflow Makes Slow Pages 100x Faster By Simple SQL Tuning](http://highscalability.com/blog/2011/5/2/stack-overflow-makes-slow-pages-100x-faster-by-simple-sql-tu.html)<br/>
 
@@ -416,11 +417,10 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [Rescuing An Outsourced Project From Collapse: 8 Problems Found And 8 Lessons Learned](http://highscalability.com/blog/2015/2/11/rescuing-an-outsourced-project-from-collapse-8-problems-foun.html)(lesson)<br/>
 [All Employees Should Be Limited Only By Their Ability Rather Than An Absence Of Resources.](http://highscalability.com/blog/2014/12/3/all-employees-should-be-limited-only-by-their-ability-rather.html)<br/>
 [How Debugging Is Like Hunting Serial Killers](http://highscalability.com/blog/2015/7/30/how-debugging-is-like-hunting-serial-killers.html)<br/>
-[All Employees Should Be Limited Only By Their Ability Rather Than An Absence Of Resources](http://highscalability.com/blog/2014/12/3/all-employees-should-be-limited-only-by-their-ability-rather.html)<br/>
 [100 Curse Free Lessons From Gordon Ramsay On Building Great Software](http://highscalability.com/blog/2013/8/12/100-curse-free-lessons-from-gordon-ramsay-on-building-great.html)(lesson)<br/>
 [How Do You Create A 100th Monkey Software Development Culture?](http://highscalability.com/blog/2013/7/17/how-do-you-create-a-100th-monkey-software-development-cultur.html)<br/>
 [At Some Point The Cost Of Servers Outweighs The Cost Of Programmers](http://highscalability.com/blog/2009/4/5/at-some-point-the-cost-of-servers-outweighs-the-cost-of-prog.html)<br/>
-[How Is Software Developed At Amazon?](http://highscalability.com/blog/2019/3/4/how-is-software-developed-at-amazon.html)<br/>
+[How Is Software Developed At Amazon?](http://highscalability.com/blog/2019/3/4/how-is-software-developed-at-amazon.html)(strategy)<br/>
 [The Ultimate Guide: 5 Methods For Debugging Production Servers At Scale](http://highscalability.com/blog/2015/1/7/the-ultimate-guide-5-methods-for-debugging-production-server.html)<br/>
 [Malice Or Stupidity Or Inattention? Using Code Reviews To Find Backdoors](http://highscalability.com/blog/2016/3/2/malice-or-stupidity-or-inattention-using-code-reviews-to-fin.html)<br/>
 
@@ -457,29 +457,12 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [6 Ways To Defeat The Coming Robot Army Swarms](http://highscalability.com/blog/2015/4/1/6-ways-to-defeat-the-coming-robot-army-swarms.html)<br/>
 [Prismatic Architecture - Using Machine Learning On Social Networks To Figure Out What You Should Read On The Web](http://highscalability.com/blog/2012/7/30/prismatic-architecture-using-machine-learning-on-social-netw.html)<br/>
 
-# Other<br/>
-
-[What If Cars Were Rented Like We Hire Programmers?](http://highscalability.com/blog/2013/1/16/what-if-cars-were-rented-like-we-hire-programmers.html)<br/>
-[Trade Stimulators And The Very Old Idea Of Increasing User Engagement&nbsp;](http://highscalability.com/blog/2015/9/9/trade-stimulators-and-the-very-old-idea-of-increasing-user-e.html)<br/>
-
-[Let's Donate Our Organs And Unused Cloud Cycles To Science](http://highscalability.com/blog/2016/1/6/lets-donate-our-organs-and-unused-cloud-cycles-to-science.html)<br/>
-[The Gig Economy Breaks Social Security](http://highscalability.com/blog/2016/4/12/the-gig-economy-breaks-social-security.html)(economy)<br/>
-[What Ideas In IT Must Die?](http://highscalability.com/blog/2015/10/26/what-ideas-in-it-must-die.html)<br/>
-[Let's Build Maker Cities For Maker People Around New Resources Like Bandwidth, Compute, And Atomically-Precise Manufacturing](http://highscalability.com/blog/2014/9/1/lets-build-maker-cities-for-maker-people-around-new-resource.html)(economy)<br/>
-
-[6 Ways Not To Scale That Will Make You Hip, Popular And Loved By VCs](http://highscalability.com/blog/2011/4/18/6-ways-not-to-scale-that-will-make-you-hip-popular-and-loved.html)<br/>
-
 # Paper<br/>
 
 [Paper: The Akamai Network - 61,000 Servers, 1,000 Networks, 70 Countries&nbsp;](http://highscalability.com/blog/2011/8/18/paper-the-akamai-network-61000-servers-1000-networks-70-coun.html)(cdn)<br/>
 [Paper: Immutability Changes Everything By Pat Helland](http://highscalability.com/blog/2015/1/26/paper-immutability-changes-everything-by-pat-helland.html)<br/>
 [Paper: Network Stack Specialization For Performance](http://highscalability.com/blog/2014/2/12/paper-network-stack-specialization-for-performance.html)<br/>
 [Awesome List Of Advanced Distributed Systems Papers](http://highscalability.com/blog/2011/5/31/awesome-list-of-advanced-distributed-systems-papers.html)(distributed)<br/>
-
-[Linus: The Whole "Parallel Computing Is The Future" Is A Bunch Of Crock.](http://highscalability.com/blog/2014/12/31/linus-the-whole-parallel-computing-is-the-future-is-a-bunch.html)(distributed)<br/>
-[How Do We Explain The Unreasonable Effectiveness Of IT?](http://highscalability.com/blog/2015/7/6/how-do-we-explain-the-unreasonable-effectiveness-of-it.html)(book)<br/>
-[What Happens While Your Brain Sleeps Is Surprisingly Like How Computers Stay Sane](http://highscalability.com/blog/2013/12/23/what-happens-while-your-brain-sleeps-is-surprisingly-like-ho.html)<br/>
-[How Can We Spark The Movement Of Research Out Of The Ivory Tower And Into Production?](http://highscalability.com/blog/2010/7/22/how-can-we-spark-the-movement-of-research-out-of-the-ivory-t.html)<br/>
 
 # Security<br/>
 
@@ -493,3 +476,16 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [How Would You Build The Next Internet? Loons, Drones, Copters, Satellites, Or Something Else?](http://highscalability.com/blog/2014/1/22/how-would-you-build-the-next-internet-loons-drones-copters-s.html)<br/>
 [Want IoT? Here's How A Major US Utility Collects Power Data From Over 5.5 Million Meters](http://highscalability.com/blog/2015/9/7/want-iot-heres-how-a-major-us-utility-collects-power-data-fr.html)<br/>
 [Hidden History: Driving The Last Spike Of The Transcontinental Railroad Was An Early Version Of The Internet Of Things](http://highscalability.com/blog/2013/11/27/hidden-history-driving-the-last-spike-of-the-transcontinenta.html)<br/>
+
+# Other<br/>
+
+[What If Cars Were Rented Like We Hire Programmers?](http://highscalability.com/blog/2013/1/16/what-if-cars-were-rented-like-we-hire-programmers.html)<br/>
+[Trade Stimulators And The Very Old Idea Of Increasing User Engagement&nbsp;](http://highscalability.com/blog/2015/9/9/trade-stimulators-and-the-very-old-idea-of-increasing-user-e.html)<br/>
+[Let's Donate Our Organs And Unused Cloud Cycles To Science](http://highscalability.com/blog/2016/1/6/lets-donate-our-organs-and-unused-cloud-cycles-to-science.html)<br/>
+[The Gig Economy Breaks Social Security](http://highscalability.com/blog/2016/4/12/the-gig-economy-breaks-social-security.html)(economy)<br/>
+[What Ideas In IT Must Die?](http://highscalability.com/blog/2015/10/26/what-ideas-in-it-must-die.html)<br/>
+[Let's Build Maker Cities For Maker People Around New Resources Like Bandwidth, Compute, And Atomically-Precise Manufacturing](http://highscalability.com/blog/2014/9/1/lets-build-maker-cities-for-maker-people-around-new-resource.html)(economy)<br/>
+[6 Ways Not To Scale That Will Make You Hip, Popular And Loved By VCs](http://highscalability.com/blog/2011/4/18/6-ways-not-to-scale-that-will-make-you-hip-popular-and-loved.html)<br/>
+[How Do We Explain The Unreasonable Effectiveness Of IT?](http://highscalability.com/blog/2015/7/6/how-do-we-explain-the-unreasonable-effectiveness-of-it.html)(book)<br/>
+[What Happens While Your Brain Sleeps Is Surprisingly Like How Computers Stay Sane](http://highscalability.com/blog/2013/12/23/what-happens-while-your-brain-sleeps-is-surprisingly-like-ho.html)<br/>
+[How Can We Spark The Movement Of Research Out Of The Ivory Tower And Into Production?](http://highscalability.com/blog/2010/7/22/how-can-we-spark-the-movement-of-research-out-of-the-ivory-t.html)<br/>
