@@ -12,34 +12,33 @@ Source code from MIT 6.824 Distributed system
 
 # Concurrency primitives
 * Time
-- sleep.go: time.Now, time.Sleep
-- sleep-cancel.go: don't write infinite loops; in labs, rf.killed()
+    - sleep.go: time.Now, time.Sleep
+    - sleep-cancel.go: don't write infinite loops; in labs, rf.killed()
 
 * Mutexes
-- bad.go
-- basic.go: basic usage
-    - defer, semantics
-- per-field.go: locks protect invariants, not "locks protect access to shared data"
-    - critical section: temporarily break invariants, restore them before
+    - bad.go
+    - basic.go: basic usage
+        - defer, semantics
+    - per-field.go: locks protect invariants, not "locks protect access to shared data"
+        - critical section: temporarily break invariants, restore them before
       unlock, so nobody observes in-progress updates
-    - lock: ensure atomicity of block of code
+        - lock: ensure atomicity of block of code
         - racing audits and transfers
-- bank.go
+    - bank.go
 
 * Condition variables
-- use case; wait, signal, broadcast
-- vote-count-1.go ... vote-count-4.go
-- cond.txt, how to avoid bugs
-    - lock around use
-    - check condition in loop
+    - use case; wait, signal, broadcast
+    - vote-count-1.go ... vote-count-4.go
+    - cond.txt, how to avoid bugs
+        - lock around use
+        - check condition in loop
 
 * Channels
-- queue-like synchronization primitive
-- producer-consumer.go
-- wait for N things
-- not good for
-    - kicking another goroutine, that may or may not be waiting
-- unbuffered.go: default, synchronous!
-- deadlock.go
-- I personally avoid channels for the most part and program with shared memory
-  (mutexes and condvars) instead
+    - queue-like synchronization primitive
+    - producer-consumer.go
+    - wait for N things
+    - not good for
+        - kicking another goroutine, that may or may not be waiting
+    - unbuffered.go: default, synchronous!
+    - deadlock.go
+    - I personally avoid channels for the most part and program with shared memory (mutexes and condvars) instead
