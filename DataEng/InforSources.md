@@ -1,7 +1,7 @@
 Here list source of information of "Design Data Intensive Applications"
 
-* Persenal blogs
-* Tech company research / blogs
+- Persenal blogs
+- Tech company research / blogs
   - Google
   - Kafka
   - Stripe
@@ -16,7 +16,7 @@ Here list source of information of "Design Data Intensive Applications"
   - blog.cloudera.com
   - yahoo.com
   - linkedin
-* Tech sites
+- Tech sites
   - Hacker news https://news.ycombinator.com
   - medium.com
   - arXiv
@@ -28,11 +28,11 @@ Here list source of information of "Design Data Intensive Applications"
   - slideshare.net
   - dzone
   - technologyreview.com
-* Universities
+- Universities
   - UC Berkerley http://people.eecs.berkeley.edu/~brewer/cs262/systemr.html
   - MIT
   -
-* Conference
+- Conference
   - USENIX https://www.usenix.org/
     - Symposium on Networked Systems Design and Implementation (NSDI) https://www.usenix.org/conference/nsdi20
     - Conference in Hot Topics in Cloud Computing (HotCloud)
@@ -86,7 +86,7 @@ Here list source of information of "Design Data Intensive Applications"
   - International Workshop onWeb Services and Formal Methods (WS-FM)
   - International Workshop on Embedded Software (EMSOFT)
   - International Conference for High Performance Computing, Networking, Storage andAnalysis (SC12)
-* Journal
+- Journal
   - The Bell System Technical Journal
   - Journal of the ACM
   - IEEE Computer Magazine
@@ -101,7 +101,7 @@ Here list source of information of "Design Data Intensive Applications"
   - ACM Transactons on...
   - IEEE Software
   - Computer Science and Engineering Technical Report
-* Book, publish companies
+- Book, publish companies
   - O’Reilly Software Architecture Conference https://conferences.oreilly.com/software-architecture/sa-ny
   - Manning
   - Software Engineering for Machine Learning http://se4ml.org/
@@ -109,10 +109,12 @@ Here list source of information of "Design Data Intensive Applications"
   - John Wiley & Sons
   - nowpublishers https://www.nowpublishers.com
   - Elsevier DigitalPress
-* People
+- People
   - Martin Kleppman
   - Michael Stonebraker
   - Kyle Kingsbury http://aphyr.com
   - Martin fowler
   - bailis.org
   - Jay Kreps
+  - James Nicholas Gray
+  - Barbara Liskov
