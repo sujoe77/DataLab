@@ -8,7 +8,7 @@
 [8] David Fiala, Frank Mueller, Christian Engelmann, et al.: "Detection and Correc‐tion of Silent Data Corruption for Large-Scale High-Performance Computing," atInternational Conference for High Performance Computing, Networking, Storage andAnalysis (SC12), November 2012.
 [9] Arjun Singh, Joon Ong, Amit Agarwal, et al.: "Jupiter Rising: A Decade of ClosTopologies and Centralized Control in Google’s Datacenter Network," at AnnualConference of the ACM Special Interest Group on Data Communication (SIGCOMM),August 2015. doi:10.1145/2785956.2787508
 [10] Glenn K. Lockwood: "Hadoop’s Uncomfortable Fit in HPC," glennklock‐wood.blogspot.co.uk, May 16, 2014.
-[11] John von Neumann: "Probabilistic Logics and the Synthesis of Reliable Organ‐isms from Unreliable Components," in Automata Studies (AM-34), edited by ClaudeE. Shannon and John McCarthy, Princeton University Press, 1956. ISBN:978-0-691-07916-5
+[11] John von Neumann: "Probabilistic Logics and the Synthesis of Reliable Organisms from Unreliable Components," in Automata Studies (AM-34), edited by ClaudeE. Shannon and John McCarthy, Princeton University Press, 1956. ISBN:978-0-691-07916-5
 [12] Richard W. Hamming: The Art of Doing Science and Engineering. Taylor & Fran‐cis, 1997. ISBN: 978-9-056-99500-3
 [13] Claude E. Shannon: "A Mathematical Theory of Communication," The Bell Sys‐tem Technical Journal, volume 27, number 3, pages 379–423 and 623–656, July 1948.
 [14] Peter Bailis and Kyle Kingsbury: "The Network Is Reliable," ACM Queue, vol‐ume 12, number 7, pages 48-55, July 2014. doi:10.1145/2639988.2639988
@@ -29,11 +29,11 @@
 [29] Steve Newman: "A Systematic Look at EC2 I/O," blog.scalyr.com, October 16,2012.
 [30] Naohiro Hayashibara, Xavier Défago, Rami Yared, and Takuya Katayama: "Theφ Accrual Failure Detector," Japan Advanced Institute of Science and Technology,School of Information Science, Technical Report IS-RR-2004-010, May 2004.
 [31] Jeffrey Wang: "Phi Accrual Failure Detector," ternarysearch.blogspot.co.uk,August 11, 2013.
-[32] Srinivasan Keshav: An Engineering Approach to Computer Networking: ATMNetworks, the Internet, and the Telephone Network. Addison-Wesley Professional,May 1997. ISBN: 978-0-201-63442-6
+[32] Srinivasan Keshav: An Engineering Approach to Computer Networking: ATM Networks, the Internet, and the Telephone Network. Addison-Wesley Professional,May 1997. ISBN: 978-0-201-63442-6
 [33] Cisco, "Integrated Services Digital Network," docwiki.cisco.com.
 [34] Othmar Kyas: ATM Networks. International Thomson Publishing, 1995. ISBN:978-1-850-32128-6
 [35] "InfiniBand FAQ," Mellanox Technologies, December 22, 2014.
-[36] Jose Renato Santos, Yoshio Turner, and G. (John) Janakiraman: "End-to-EndCongestion Control for InfiniBand," at 22nd Annual Joint Conference of the IEEEComputer and Communications Societies (INFOCOM), April 2003. Also published byHP Laboratories Palo Alto, Tech Report HPL-2002-359. doi:10.1109/INFCOM.2003.1208949
+[36] Jose Renato Santos, Yoshio Turner, and G. (John) Janakiraman: "End-to-EndCongestion Control for InfiniBand," at 22nd Annual Joint Conference of the IEEE Computer and Communications Societies (INFOCOM), April 2003. Also published byHP Laboratories Palo Alto, Tech Report HPL-2002-359. doi:10.1109/INFCOM.2003.1208949
 [37] Ulrich Windl, David Dalton, Marc Martinec, and Dale R. Worley: "The NTPFAQ and HOWTO," ntp.org, November 2006.
 [38] John Graham-Cumming: "How and why the leap second affected CloudflareDNS," blog.cloudflare.com, January 1, 2017.
 [39] David Holmes: "Inside the Hotspot VM: Clocks, Timers and Scheduling Events– Part I – Windows," blogs.oracle.com, October 2, 2006.
@@ -44,7 +44,7 @@
 [44] Viliam Holub: "Synchronizing Clocks in a Cassandra Cluster Pt. 1 – The Prob‐lem," blog.logentries.com, March 14, 2014.
 [45] Poul-Henning Kamp: "The One-Second War (What Time Will You Die?),"ACM Queue, volume 9, number 4, pages 44–48, April 2011. doi:10.1145/1966989.1967009
 [46] Nelson Minar: "Leap Second Crashes Half the Internet," somebits.com, July 3,2012.
-[47] Christopher Pascoe: "Time, Technology and Leaping Seconds," googleblog.blog‐spot.co.uk, September 15, 2011.
+[47] Christopher Pascoe: "Time, Technology and Leaping Seconds," googleblog.blogspot.co.uk, September 15, 2011.
 [48] Mingxue Zhao and Jeff Barr: "Look Before You Leap – The Coming Leap Secondand AWS," aws.amazon.com, May 18, 2015.
 [49] Darryl Veitch and Kanthaiah Vijayalayan: "Network Timing and the 2015 LeapSecond," at 17th International Conference on Passive and Active Measurement(PAM), April 2016. doi:10.1007/978-3-319-30505-9_29
 [50] "Timekeeping in VMware Virtual Machines," Information Guide, VMware, Inc.,December 2011.

@@ -1,0 +1,38 @@
+[0] Chandramohan A. Thekkath, Timothy Mann,  Edward K. Lee: "Frangipani: a scalable distributed file system", 16th ACM Symposium on Operating Systems Principles (SOSP) , 1997 
+[1] Thomas E. Anderson, Michael D. Dahlin, Jeanna M. Neefe, David A. Patterson, Drew S. Roselli, and Randolph Y. Wang. Serverless network file systems. ACM Transactions on Computer Systems, 14(1):41–79, February 1996. 
+[2] Philip A. Bernstein, Vassos Hadzilacos, and Nathan Goodman. Concurrency Control and Recovery in Database Systems. Addison-Wesley, 1987. 
+[3] Anupam Bhide, Elmootazbellah N. Elnozahy, and Stephen P. Morgan. A highly available network file server. In Proceedings of the Winter USENIX Conference, pages 199–205, January 1991. 
+[4] A. D. Birrell and R. M. Needham. A universal file server. IEEE Transactions on Software Engineering, SE-6(5):450– 453, September 1980. 
+[5] Andrew D. Birrell, Andy Hisgen, Charles Jerian, Timothy Mann, and Garret Swart. The Echo distributed file system. Research Report 111, Systems Research Center, Digital Equipment Corporation, September 1993. 
+[6] Michael Burrows. Efficient Data Sharing. PhD thesis, University of Cambridge, September 1988. 
+[7] C. Chao, R. English, D. Jacobson, A. Stepanov, and J. Wilkes. Mime: A high performance parallel storage device with strong recovery guarantees. Technical Report HPL-CSP-929, Hewlett-Packard Laboratories, November 1992. 
+[8] Jeffrey S. Chase, Henry M. Levy, Michael J. Feeley, and Edward D. Lazowska. Sharing and protection in a singleaddress-space operating system. ACM Transactions on Computer Systems, 12(4):271–307, November 1994. 
+[9] Sailesh Chutani, Owen T. Anderson, Michael L. Kazar, Bruce W. Leverett, W. Anthony Mason, and Robert N. Sidebotham. The Episode file system. In Proceedings of the Winter USENIX Conference, pages 43–60, January 1992. 
+[10] Wiebren de Jonge, M. Frans Kaashoek, and Wilson C. Hsieh. The logical disk: A new approach to improving file systems. In Proc. 14th Symp. on Operating Systems Principles, pages 15–28, December 1989. 
+[11] Murthy Devarakonda, Bill Kish, and Ajay Mohindra. Recovery in the Calypso file system. ACM Transactions on Computer Systems, 14(3):287–310, August 1996. 
+[12] Murthy Devarakonda, Ajay Mohindra, Jill Simoneaux, and William H. Tetzlaff. Evaluation of design alternatives for a cluster file system. In Proceedings of the Winter USENIX Conference, pages 35–46, January 1995. 
+[13] Garth A. Gibson, David F. Nagle, Khalil Amiri, Fay W. Chang, Eugene M. Feinberg, Howard Gobioff, Chen Lee, Berend Ozceri, Erik Riedel, David Rochberg, and Jim Zelenka. File server scaling with network-attached secure disks. In Proceedings of the ACM International Conference on Measurements and Modeling of Computer Systems (Sigmetrics ’97), pages 272–284, June 1997. 
+[14] Andrew C. Goldstein. The design and implementation of a distributed file system. Digital Technical Journal, 1(5):45– 55, September 1987. Digital Equipment Corporation, 50 Nagog Park, AK02-3/B3, Acton, MA 01720-9843. 
+[15] Cary Gray and David Cheriton. Leases: An efficient faulttolerant mechanism for distributed file cache consistency. In Proc. 12th Symp. on Operating Systems Principles, pages 202–210, December 1989. 
+[16] Robert Hagmann. Reimplementing the Cedar file system using logging and group commit. In Proc. 11th Symp. on Operating Systems Principles, pages 155–162, November 1987. 
+[17] John H. Hartman and John K. Ousterhout. The Zebra striped network file system. ACM Transactions on Computer Systems, 13(3):274–310, August 1995. 
+[18] Andy Hisgen, Andrew Birrell, Charles Jerian, Timothy Mann, and Garret Swart. New-value logging in the Echo replicated file system. Research Report 104, Systems Research Center, Digital Equipment Corporation, June 1993. 
+[19] John H. Howard, Michael L. Kazar, Sherri G. Menees, David A. Nichols, M. Satyanarayanan, Robert N. Sidebotham, and Michael J. West. Scale and performance in a distributed file system. ACM Transactions on Computer Systems, 6(1):51–81, February 1988. 
+[20] James E. Johnson and William A. Laing. Overview of the Spiralog file system. Digital Technical Journal, 8(2):5–14, 1996. Digital Equipment Corporation, 50 Nagog Park, AK023/B3, Acton, MA 01720-9843. 
+[21] Michael L. Kazar, Bruce W. Leverett, Owen T. Anderson, Vasilis Apostolides, Ben A. Bottos, Sailesh Chutani, Craig F. Everhart, W. Antony Mason, Shu-Tsui Tu, and Edward R. Zayas. DEcorum file system architectural overview. In Proceedings of the Summer USENIX Conference,pages 151–164, June 1990. 
+[22] Nancy P. Kronenberg, Henry M. Levy, and William D. Strecker. VAXclusters: A closely-coupled distributed system. ACM Transactions on Computer Systems, 4(2):130–146, May 1986. 
+[23] Leslie Lamport. The part-time parliament. Research Report 49, Systems Research Center, Digital Equipment Corporation, September 1989. 
+[24] Edward K. Lee and Chandramohan A. Thekkath. Petal: Distributed virtual disks. In Proc. 7th Intl. Conf. on Architectural Support for Programming Languages and Operating Systems, pages 84–92, October 1996. 
+[25] Barbara Liskov, Sanjay Ghemawat, Robert Gruber, Paul Johnson, Liuba Shrira, and Michael Williams. Replication in the Harp file system. In Proc. 13th Symp. on Operating Systems Principles, pages 226–238, October 1991. 
+[26] Timothy Mann, Andrew Birrell, Andy Hisgen, Charles Jerian, and Garret Swart. A coherent distributed file cache with directory write-behind. ACM Transactions on Computer Systems, 12(2):123–164, May 1994. 
+[27] Marshal Kirk McKusick, William N. Joy, Samuel J. Leffler, and Robert S. Fabry. A fast file system for UNIX. ACM Transactions on Computer Systems, 2(3):181–197, August 1984. 
+[28] James G. Mitchell and Jeremy Dion. A comparison of two network-based file servers. Communications of the ACM, 25(4):233–245, April 1982. 
+[29] Sape J. Mullender and Andrew S. Tanenbaum. Immediate files. Software—Practice and Experience, 14(4):365–368, April 1984. 
+[30]Michael N. Nelson, Brent B. Welch, and John K. Ousterhout. Caching in the Sprite network file system. ACM Transactions on Computer Systems, 6(1):134–154, February 1988. 
+[31] Brian Pawlowski, Chet Juszczak, Peter Staubach, Carl Smith, Diane Lebel, and David Hitz. NFS version 3 design and implementation. In Proceedings of the Summer USENIX Conference, pages 137–152, June 1994. 
+[32] Mendel Rosenblum and John K. Ousterhout. The design and implementation of a log-structured file system. ACM Transactions on Computer Systems, 10(1):26–52, February 1992. 
+[33] Russel Sandberg, David Goldberg, Steve Kleiman, Dan Walsh, and Bob Lyon. Design and implemention of the Sun network filesystem. In Proceedings of the Summer USENIX Conference, pages 119–130, June 1985. 
+[34] Robert A. Shillner and Edward W. Felten. Simplifying distributed file systems using a shared logical disk. Technical Report TR-524-96, Dept. of Computer Science, Princeton University, 1996. 
+[35] Garret Swart, Andrew Birrell, Andy Hisgen, Charles Jerian, and Timothy Mann. Availability in the Echo file system. Research Report 112, Systems Research Center, Digital Equipment Corporation, September 1993. 
+[36] Randy Wang, Tom Anderson, and Mike Dahlin. Experience with a distributed file system implementation. Technical report, University of California, Berkeley, Computer Science Division, June 1997. 
+[37] Edward Wobber, Martin Abadi, Michael Burrows, and Butler Lampson. Authentication in the Taos operating system. ACM Transactions on Computer Systems, 12(1):3–32, February 1994.  

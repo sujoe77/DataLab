@@ -1,0 +1,48 @@
+ref_10.txt:[13] Eric S. Raymond: The Art of UNIX Programming. Addison-Wesley, 2003. ISBN:978-0-13-142901-7
+ref_10.txt:[26] Tom White: Hadoop: The Definitive Guide, 4th edition. O’Reilly Media, 2015.ISBN: 978-1-491-90163-2
+ref_10.txt:[37] Mark Grover, Ted Malaska, Jonathan Seidman, and Gwen Shapira: Hadoop Application Architectures. O’Reilly Media, 2015. ISBN: 978-1-491-90004-8
+ref_10.txt:[62] Holden Karau, Andy Konwinski, Patrick Wendell, and Matei Zaharia: Learning Spark. O’Reilly Media, 2015. ISBN: 978-1-449-35904-1
+ref_11.txt:[2] Harold Abelson, Gerald Jay Sussman, and Julie Sussman: Structure and Interpretation of Computer Programs, 2nd edition. MIT Press, 1996. ISBN:978-0-262-51087-5, available online at mitpress.mit.edu
+ref_11.txt:[4] Joseph M. Hellerstein and Michael Stonebraker: Readings in Database Systems,4th edition. MIT Press, 2005. ISBN: 978-0-262-69314-1, available online at red‐book.cs.berkeley.edu
+ref_11.txt:[9] Pieter Hintjens: ZeroMQ – The Guide. O’Reilly Media, 2013. ISBN:978-1-449-33404-8
+ref_11.txt:[44] Vaughn Vernon: Implementing Domain-Driven Design. Addison-Wesley Profes‐sional, 2013. ISBN: 978-0-321-83457-7
+ref_11.txt:[50] Ashish Gupta and Inderpal Singh Mumick: Materialized Views: Techniques,Implementations, and Applications. MIT Press, 1999. ISBN: 978-0-262-57122-7
+ref_11.txt:[89] Ralph Kimball and Margy Ross: The Data Warehouse Toolkit: The DefinitiveGuide to Dimensional Modeling, 3rd edition. John Wiley & Sons, 2013. ISBN:978-1-118-53080-1
+ref_12.txt:[12] Nathan Marz and James Warren: Big Data: Principles and Best Practices of Scalable Real-Time Data Systems. Manning, 2015. ISBN: 978-1-617-29034-3
+ref_12.txt:[28] Peter Van Roy and Seif Haridi: Concepts, Techniques, and Models of Computer Programming. MIT Press, 2004. ISBN: 978-0-262-22069-9
+ref_12.txt:[87] Cathy O’Neil: Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy. Crown Publishing, 2016. ISBN: 978-0-553-41881-1
+ref_12.txt:[92] Donella H. Meadows and Diana Wright: Thinking in Systems: A Primer. ChelseaGreen Publishing, 2008. ISBN: 978-1-603-58055-7
+ref_12.txt:[96] Bruce Schneier: Data and Goliath: The Hidden Battles to Collect Your Data andControl Your World. W. W. Norton, 2015. ISBN: 978-0-393-35217-7
+ref_1.txt:[17] Martin Fowler: Patterns of Enterprise Application Architecture. Addison Wesley,2002. ISBN: 978-0-321-12742-6
+ref_1.txt:[31] Frederick P Brooks: "No Silver Bullet – Essence and Accident in Software Engineering," in The Mythical Man-Month, Anniversary edition, Addison-Wesley, 1995.ISBN: 978-0-201-83595-3
+ref_2.txt:[2] Michael Stonebraker and Joseph M. Hellerstein: "What Goes Around Comes Around," in Readings in Database Systems, 4th edition, MIT Press, pages 2–41, 2005.ISBN: 978-0-262-69314-1
+ref_2.txt:[3] Pramod J. Sadalage and Martin Fowler: NoSQL Distilled. Addison-Wesley, August2012. ISBN: 978-0-321-82662-6
+ref_2.txt:[6] Michael Wagner: SQL/XML:2006 – Evaluierung der Standardkonformität ausge‐wählter Datenbanksysteme. Diplomica Verlag, Hamburg, 2010. ISBN:978-3-836-64609-3
+ref_2.txt:[16] J. S. Knowles and D. M. R. Bell: "The CODASYL Model," in Databases—Roleand Structure: An Advanced Course, edited by P. M. Stocker, P. M. D. Gray, and M. P.Atkinson, pages 19–56, Cambridge University Press, 1984. ISBN: 978-0-521-25430-4
+ref_2.txt:[46] Serge Abiteboul, Richard Hull, and Victor Vianu: Foundations of Databases.Addison-Wesley, 1995. ISBN: 978-0-201-53771-0, available online at web‐dam.inria.fr/Alice
+ref_3.txt:[1] Alfred V. Aho, John E. Hopcroft, and Jeffrey D. Ullman: Data Structures and Algorithms. Addison-Wesley, 1983. ISBN: 978-0-201-00023-8
+ref_3.txt:[2] Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein:Introduction to Algorithms, 3rd edition. MIT Press, 2009. ISBN: 978-0-262-53305-8
+ref_3.txt:[40] Christopher D. Manning, Prabhakar Raghavan, and Hinrich Schütze: Introduction to Information Retrieval. Cambridge University Press, 2008. ISBN:978-0-521-86571-5, available online at nlp.stanford.edu/IR-book
+ref_3.txt:[55] Ralph Kimball and Margy Ross: The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling, 3rd edition. John Wiley & Sons, July 2013. ISBN:978-1-118-53080-1
+ref_4.txt:[27] John Larmouth: ASN.1 Complete. Morgan Kaufmann, 1999. ISBN:978-0-122-33435-1
+ref_4.txt:[31] Sam Newman: Building Microservices. O’Reilly Media, 2015. ISBN:978-1-491-95035-7
+ref_5.txt:[25] Terry Pratchett: Reaper Man: A Discworld Novel. Victor Gollancz, 1991. ISBN:978-0-575-04979-6
+ref_5.txt:[29] J. Chris Anderson, Jan Lehnardt, and Noah Slater: CouchDB: The DefinitiveGuide. O’Reilly Media, 2010. ISBN: 978-0-596-15589-6
+ref_7.txt:[2] Jim N. Gray, Raymond A. Lorie, Gianfranco R. Putzolu, and Irving L. Traiger:"Granularity of Locks and Degrees of Consistency in a Shared Data Base," in Modelling in Data Base Management Systems: Proceedings of the IFIP Working Conferenceon Modelling in Data Base Management Systems, edited by G. M. Nijssen, pages 364–394, Elsevier/North Holland Publishing, 1976. Also in Readings in Database Systems,4th edition, edited by Joseph M. Hellerstein and Michael Stonebraker, MIT Press,2005. ISBN: 978-0-262-69314-1
+ref_7.txt:[10] Philip A. Bernstein, Vassos Hadzilacos, and Nathan Goodman: Concurrency Control and Recovery in Database Systems. Addison-Wesley, 1987. ISBN:978-0-201-10715-9, available online at research.microsoft.com.
+ref_7.txt:[35] J. Chris Anderson, Jan Lehnardt, and Noah Slater: CouchDB: The DefinitiveGuide. O’Reilly Media, 2010. ISBN: 978-0-596-15589-6
+ref_8.txt:[3] Sydney Padua: The Thrilling Adventures of Lovelace and Babbage: The (Mostly)True Story of the First Computer. Particular Books, April 2015. ISBN:978-0-141-98151-2
+ref_8.txt:[7] Luiz André Barroso, Jimmy Clidaras, and Urs Hölzle: "The Datacenter as a Computer: An Introduction to the Design of Warehouse-Scale Machines, Second Edi‐tion," Synthesis Lectures on Computer Architecture, volume 8, number 3, Morgan &Claypool Publishers, July 2013. doi:10.2200/S00516ED2V01Y201306CAC024, ISBN:978-1-627-05010-4
+ref_8.txt:[11] John von Neumann: "Probabilistic Logics and the Synthesis of Reliable Organisms from Unreliable Components," in Automata Studies (AM-34), edited by ClaudeE. Shannon and John McCarthy, Princeton University Press, 1956. ISBN:978-0-691-07916-5
+ref_8.txt:[12] Richard W. Hamming: The Art of Doing Science and Engineering. Taylor & Fran‐cis, 1997. ISBN: 978-9-056-99500-3
+ref_8.txt:[32] Srinivasan Keshav: An Engineering Approach to Computer Networking: ATM Networks, the Internet, and the Telephone Network. Addison-Wesley Professional,May 1997. ISBN: 978-0-201-63442-6
+ref_8.txt:[34] Othmar Kyas: ATM Networks. International Thomson Publishing, 1995. ISBN:978-1-850-32128-6
+ref_8.txt:[74] Flavio P. Junqueira and Benjamin Reed: ZooKeeper: Distributed Process Coordi‐nation. O’Reilly Media, 2013. ISBN: 978-1-449-36130-3
+ref_8.txt:[78] Jim N. Gray: "Notes on Data Base Operating Systems," in Operating Systems: AnAdvanced Course, Lecture Notes in Computer Science, volume 60, edited by R. Bayer,R. M. Graham, and G. Seegmüller, pages 393–481, Springer-Verlag, 1978. ISBN:978-3-540-08755-7
+ref_9.txt:[13] Philip A. Bernstein, Vassos Hadzilacos, and Nathan Goodman: Concurrency Control and Recovery in Database Systems. Addison-Wesley, 1987. ISBN:978-0-201-10715-9, available online at research.microsoft.com.
+ref_9.txt:[15] Flavio P. Junqueira and Benjamin Reed: ZooKeeper: Distributed Process Coordi‐nation. O’Reilly Media, 2013. ISBN: 978-1-449-36130-3
+ref_9.txt:[18] Morali Vallath: Oracle 10g RAC Grid, Services & Clustering. Elsevier DigitalPress, 2006. ISBN: 978-1-555-58321-7
+ref_9.txt:[25] Christian Cachin, Rachid Guerraoui, and Luís Rodrigues: Introduction to Reliable and Secure Distributed Programming, 2nd edition. Springer, 2011. ISBN:978-3-642-15259-7, doi:10.1007/978-3-642-15260-3
+ref_9.txt:[58] Hagit Attiya and Jennifer Welch: Distributed Computing: Fundamentals, Simulations and Advanced Topics, 2nd edition. John Wiley & Sons, 2004. ISBN:978-0-471-45324-6, doi:10.1002/0471478210
+ref_9.txt:[76] "Distributed Transaction Processing: The XA Specification," X/Open CompanyLtd., Technical Standard XO/CAE/91/300, December 1991. ISBN: 978-1-872-63024-3
+ref_9.txt:[110] Kenneth P. Birman: "A History of the Virtual Synchrony Replication Model,"in Replication: Theory and Practice, Springer LNCS volume 5959, chapter 6, pages91–120, 2010. ISBN: 978-3-642-11293-5, doi:10.1007/978-3-642-11294-2_6

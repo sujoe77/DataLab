@@ -1,7 +1,8 @@
-package other;
+package Ref;
 
 import org.apache.commons.io.FileUtils;
 import org.testng.annotations.Test;
+import ref.Ref;
 
 import java.io.File;
 import java.io.IOException;
@@ -12,7 +13,6 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static java.util.Arrays.asList;
-import static org.apache.commons.lang3.StringUtils.isEmpty;
 import static org.apache.commons.lang3.StringUtils.isNotEmpty;
 
 public class ParseRef {
@@ -63,7 +63,7 @@ public class ParseRef {
     }
 
     private static List<String> getLines() throws IOException {
-        String folder = "src/main/java/other/ref";
+        String folder = "src/main/java/ref";
         List<String> lines = new ArrayList<>();
         for (int i = 0; i < 12; i++) {
             String name = "ref_" + (i + 1) + ".txt";
@@ -110,7 +110,7 @@ public class ParseRef {
         List<String> keywords = asList("OSDI", "CIDR", "SIGMOD", "VLDB", "QCon", "HotOS", "PODC", "SoCC", "ICDE", "STOC", "EuroSys", "FAST", "SOSP", "TOCS",
                 "NSDI", "ISCA", "MTAGS", "EDBT", "LADIS", "USITS", "INFOCOM", "HPBDC", "PDIS", "RSWeb", "TOPLAS", "SIGCOMM", "PLDI", "COMPSAC", "CSCW", "SIGCOMM", "HotCloud",
                 "WSFM", "SE4ML", "WDAG", "FTCS", "JFLA", "TODS", "PLoP", "DAIS", "PODS", "ATC", "LISA", "ECOOP", "AofA", "PAM", "ICIS", "SPA", "PLOS", "NetDB", "NDSS", "DSN", "PGCon", "EMSOFT",
-                "O’Reilly", "MIT Press", "arXiv", "Microsoft Research", "blogspot", "twitter.com", "github", "apache", "IBM", "Oracle", "ISBN", "John Wiley & Sons", "amazon");
+                "O’Reilly", "MIT Press", "arXiv", "Microsoft Research", "blogspot", "twitter.com", "github", "apache", "IBM", "Oracle", "ISBN", "John Wiley & Sons", "amazon", "Springer");
         for (String keyword : keywords) {
             if (ret.contains(keyword)) {
                 return keyword;
@@ -141,6 +141,7 @@ public class ParseRef {
         String line = "[90] \"A Review of the Data Broker Industry: Collection, Use, and Sale of ConsumerData for Marketing Purposes,\" Staff Report, United States Senate Committee on Com‐merce, Science, and Transportation, commerce.senate.gov, December 2013.";
         line = "[30] AppJet, Inc.: \"Etherpad and EasySync Technical Manual,\" github.com, March 26,2011.";
         line = "[17] Martin Fowler: Patterns of Enterprise Application Architecture. Addison Wesley,2002. ISBN: 978-0-321-12742-6";
+        line = ":[12] Richard W. Hamming: The Art of Doing Science and Engineering. Taylor & Fran‐cis, 1997. ISBN: 978-9-056-99500-3";
         Ref ret = getRef(line);
         System.out.println(ret);
     }

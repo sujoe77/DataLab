@@ -31,11 +31,11 @@
 [31] John Day-Richter: "What’s Different About the New Google Docs: Making Col‐laboration Fast," googledrive.blogspot.com, 23 September 2010.
 [32] Martin Kleppmann and Alastair R. Beresford: "A Conflict-Free Replicated JSONDatatype," arXiv:1608.03960, August 13, 2016.
 [33] Frazer Clement: "Eventual Consistency – Detecting Conflicts," messagepass‐ing.blogspot.co.uk, October 20, 2011.
-[34] Robert Hodges: "State of the Art for MySQL Multi-Master Replication," at Per‐cona Live: MySQL Conference & Expo, April 2013.
+[34] Robert Hodges: "State of the Art for MySQL Multi-Master Replication," at Percona Live: MySQL Conference & Expo, April 2013.
 [35] John Daily: "Clocks Are Bad, or, Welcome to the Wonderful World of Dis‐tributed Systems," basho.com, November 12, 2013.
 [36] Riley Berton: "Is Bi-Directional Replication (BDR) in Postgres Transactional?,"sdf.org, January 4, 2016.
 [37] Giuseppe DeCandia, Deniz Hastorun, Madan Jampani, et al.: "Dynamo: Ama‐zon’s Highly Available Key-Value Store," at 21st ACM Symposium on Operating Sys‐tems Principles (SOSP), October 2007.
-[38] Marc Shapiro, Nuno Preguiça, Carlos Baquero, and Marek Zawirski: "A Com‐prehensive Study of Convergent and Commutative Replicated Data Types," INRIAResearch Report no. 7506, January 2011.
+[38] Marc Shapiro, Nuno Preguiça, Carlos Baquero, and Marek Zawirski: "A Com‐prehensive Study of Convergent and Commutative Replicated Data Types," INRIA Research Report no. 7506, January 2011.
 [39] Sam Elliott: "CRDTs: An UPDATE (or Maybe Just a PUT)," at RICON West,October 2013.
 [40] Russell Brown: "A Bluffers Guide to CRDTs in Riak," gist.github.com, October28, 2013.
 [41] Benjamin Farinier, Thomas Gazagnaire, and Anil Madhavapeddy: "MergeablePersistent Data Structures," at 26es Journées Francophones des Langages Applicatifs(JFLA), January 2015.

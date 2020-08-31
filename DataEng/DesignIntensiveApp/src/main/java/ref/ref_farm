@@ -1,0 +1,44 @@
+No compromises: distributed transactions with consistency, availability, and performance
+Aleksandar Dragojevi ́ c, Dushyanth Narayanan, Edmund B. Nightingale, Matthew Renzelmann, Alex Shamis, Anirudh Badam, Miguel Castro
+Microsoft Research
+
+[1] Memcached. http://memcached.org. 
+[2] Viking  Technology.  http://www. vikingtechnology.com/. 
+[3] Apache Cassandra.  http://cassandra.apache. org/, 2015. 
+[4] MySQL. http://www.mysql.com/, 2015. 
+[5] neo4j. http://neo4j.com/, 2015. 
+[6] redis. http://redis.io/, 2015. 
+[7] A DYA , A., D UNAGAN , J., AND WOLMAN , A. Centrifuge: Integrated lease management and partitioning for cloud services.  In Proceedings of the 7th USENIX Symposium on Networked Systems Design and Implementation (2010), NSDI’10. 
+[8] AGUILERA, M. K., M ERCHANT, A., S HAH , M., V EITCH , A., AND KARAMANOLIS , C. Sinfonia: A new paradigm for building scalable distributed systems. In Proceedings of 21st ACM SIGOPS Symposium on Operating Systems Principles (2007), SOSP’07. 
+[9] C HANG , F., D EAN , J., GHEMAWAT, S., H SIEH , W. C., W ALLACH , D. A., BURROWS , M., C HANDRA , T., F IKES , A., AND GRUBER , R. E. Bigtable: A distributed storage system for structured data. In Proceedings of the 6th USENIX Symposium on Operating Systems Design and Implementation (2006), OSDI’06. 
+[10] C HOCKLER, G. V., K EIDAR , I., AND VITENBERG , R. Group communication specifications: a comprehensive study. ACM Computing Surveys (CSUR) 33, 4 (2001). 
+[11] C ORBETT , J. C., D EAN , J., E PSTEIN, M., F IKES, A., FROST, C., FURMAN , J. J., GHEMAWAT, S., GUBAREV , A., H EISER , C., H OCHSCHILD , P., H SIEH , W. C., K ANTHAK , S., KOGAN , E., L I , H., LLOYD , A., M ELNIK , S., M WAURA , D., N AGLE , D., Q UINLAN , S., R AO , R., ROLIG , L., SAITO , Y., S ZYMANIAK, M., T AYLOR, C., W ANG, R., AND W OOD FORD, D. Spanner: Google’s globally-distributed database. In Proceedings of the 10th USENIX Symposium on Operating Systems Design and Implementation (2012), OSDI’12. 
+[12] DALESSANDRO, L., AND S COTT, M. L. Sandboxing transactional memory. In Proceedings of the 21st ACM International Conference on Parallel Architectures and Compilation Techniques (2012), PACT’12. 
+[13] D EC ANDIA , G., HASTORUN, D., JAMPANI, M., K AKULA PATI , G., L AKSHMAN , A., P ILCHIN, A., SIVASUBRAMA NIAN , S., VOSSHALL, P., AND VOGELS, W. Dynamo: Amazon’s highly available key-value store. In Proceedings of the the 21st ACM Symposium on Operating Systems Principles (2007), SOSP’07. 
+[14] D IACONU , C., F REEDMAN , C., I SMERT, E., L ARSON, P.A.,   ̊ MITTAL , P., S TONECIPHER, R., VERMA, N., AND ZWILLING, M. Hekaton: SQL Server’s memory-optimized OLTP engine. In Proceedings of the ACM SIGMOD International Conference on Management of Data (2013), SIGMOD’13. 
+[15] D ICE , D., SHALEV, O., AND S HAVIT, N. Transactional locking II. In Proceedings of the 20th International Symposium on Distributed Computing (2006), DISC’06. 
+[16] D RAGOJEVI C  ́ , A., NARAYANAN , D., HODSON , O., AND C ASTRO , M. FaRM: Fast remote memory. In Proceedings of the 11th USENIX Conference on Networked Systems Design and Implementation (2014), NSDI’14. 
+[17] G RAEFE , G. Write-optimized B-trees. In Proceedings of the 30th International Conference on Very Large Data Bases (2004), VLDB’04. 
+[18] GRAY , C., AND CHERITON, D. Leases: An efficient faulttolerant mechanism for distributed file cache consistency. SIGOPS Operating Systems Review (OSR) 23, 5 (1989). 
+[19] GRAY , J., AND R EUTER , A. Transaction Processing: Concepts and Techniques. 1992. 
+[20] GUERRAOUI, R., AND K APALKA , M. On the correctness of transactional memory. In Proceedings of the 13th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (2008), PPoPP’08. 
+[21] HUNT, P., K ONAR , M., J UNQUEIRA, F. P., AND R EED , B. Zookeeper: wait-free coordination for internet-scale systems. In Proceedings of the 2010 USENIX Annual Technical Conference (2010), USENIX ATC’10. 
+[22] INFINI BAND T RADE ASSOCIATION . Supplement to InfiniBand Architecture Specification Volume 1 Release 1.2.2 Annex A16: RDMA over Converged Ethernet (RoCE), 2010. 
+[23] KALIA, A., KAMINSKY , M., AND ANDERSEN , D. G. Using RDMA efficiently for key-value services. In Proceedings of the 2014 Conference on Applications, Technologies, Architectures, and Protocols for Computer Communications (2014), SIGCOMM’14. 
+[24] L AMPORT, L. The part-time parliament. ACM Transactions on Computer Systems 16, 2. 
+[25] L AMPORT, L., M ALKHI , D., AND Z HOU , L. Vertical Paxos and primary-backup replication. In Proceedings of the 28th ACM Symposium on Principles of Distributed Computing (2009), PODC’09. 
+[26] L ARSON , P.- A.,   ̊ B LANAS , S., D IACONU , C., F REEDMAN , C., P ATEL , J. M., AND ZWILLING, M. High-performance concurrency control mechanisms for main-memory databases. PVLDB 5, 4 (2011). 
+[27] L EHMAN, P. L., AND YAO , S. B. Efficient locking for concurrent operations on B-trees. ACM Transactions on Database Systems 6, 4 (Dec. 1981). 
+[28] MICROSOFT.  Scaling out SQL Server.  http: //www.microsoft.com/en-us/servercloud/solutions/high-availability.aspx. 
+[29] MICROSOFT.  Open CloudServer OCS V2 specification: Blade, 2014. 
+[30] MICROSOFT.  OCS Open CloudServer power supply v2.0.  http://www.opencompute.org/wiki/ Server/SpecsAndDesigns, 2015. 
+[31] MITCHELL, C., YIFENG , G., AND J INYANG, L. Using onesided RDMA reads to build a fast, CPU-efficient key-value store. In Proceedings of the 2013 USENIX Annual Technical Conference (2013), USENIX ATC’13. 
+[32] NEUVONEN , S., WOLSKI , A., MANNER , M., AND R AATIKKA, V.  Telecom Application Transaction Processing benchmark.  http://tatpbenchmark. sourceforge.net/. 
+[33] ONGARO, D., R UMBLE, S. M., S TUTSMAN, R., O USTER HOUT , J., AND ROSENBLUM , M. Fast crash recovery in RAMCloud. In Proceedings of the 23rd ACM Symposium on Operating Systems Principles (2011), SOSP’11. 
+[34] RUMBLE, S. M., K EJRIWAL , A., AND OUSTERHOUT, J. Log-structured Memory for DRAM-based Storage. In Proceedings of the 12th USENIX Conference on File and Storage Technologies (2014), FAST’14. 
+[35] SETHI, R. Useless actions make a difference: Strict serializability of database updates. JACM 29, 2 (1982). 
+[36] SHAUN HARRIS. Microsoft reinvents datacenter power backup with new Open Compute project specification. http://blogs.msdn.com/b/windowsazure/ archive/2012/11/13/windows-azurebenchmarks-show-top-performance-forbig-compute.aspx, 2015. 
+[37] SOWELL , B., GOLAB, W. M., AND SHAH, M. A. Minuet: A scalable distributed multiversion B-tree. PVLDB 5, 9 (2012). 
+[38] TRANSACTION PROCESSING P ERFORMANCE COUNCIL (TPC). TPC benchmark C: Standard specification. http: //www.tpc.org. 
+[39] TU, S., Z HENG , W., KOHLER , E., L ISKOV , B., AND M ADDEN , S. Speedy transactions in multicore in-memory databases. In Proceedings of the 24th Symposium on Operating Systems Principles (2013), SOSP’13. 
+[40] ZHENG , W., T U , S., KOHLER, E., AND L ISKOV , B. Fast databases with fast durability and recovery through multicore parallelism. In Proceedings of the 11th USENIX Symposium on Operating Systems Design and Implementation (2014), OSDI’14.  

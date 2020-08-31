@@ -1,7 +1,7 @@
 [1] Rachid Belaid: "Postgres Full-Text Search is Good Enough!," rachbelaid.com, July13, 2015.
 [2] Philippe Ajoux, Nathan Bronson, Sanjeev Kumar, et al.: "Challenges to AdoptingStronger Consistency at Scale," at 15th USENIX Workshop on Hot Topics in Operat‐ing Systems (HotOS), May 2015.
 [3] Pat Helland and Dave Campbell: "Building on Quicksand," at 4th Biennial Con‐ference on Innovative Data Systems Research (CIDR), January 2009.
-[4] Jessica Kerr: "Provenance and Causality in Distributed Systems," blog.jessi‐tron.com, September 25, 2016.
+[4] Jessica Kerr: "Provenance and Causality in Distributed Systems," blog.jessitron.com, September 25, 2016.
 [5] Kostas Tzoumas: "Batch Is a Special Case of Streaming," data-artisans.com, Sep‐tember 15, 2015.
 [6] Shinji Kim and Robert Blafford: "Stream Windowing Performance Analysis: Con‐cord and Spark Streaming," concord.io, July 6, 2016.
 [7] Jay Kreps: "The Log: What Every Software Engineer Should Know About Real-Time Data’s Unifying Abstraction," engineering.linkedin.com, December 16, 2013.
@@ -9,7 +9,7 @@
 [9] "Great Western Railway (1835–1948)," Network Rail Virtual Archive, network‐rail.co.uk.
 [10] Jacqueline Xu: "Online Migrations at Scale," stripe.com, February 2, 2017.
 [11] Molly Bartlett Dishman and Martin Fowler: "Agile Architecture," at O’ReillySoftware Architecture Conference, March 2015.
-[12] Nathan Marz and James Warren: Big Data: Principles and Best Practices of Scala‐ble Real-Time Data Systems. Manning, 2015. ISBN: 978-1-617-29034-3
+[12] Nathan Marz and James Warren: Big Data: Principles and Best Practices of Scalable Real-Time Data Systems. Manning, 2015. ISBN: 978-1-617-29034-3
 [13] Oscar Boykin, Sam Ritchie, Ian O’Connell, and Jimmy Lin: "Summingbird: AFramework for Integrating Batch and Online MapReduce Computations," at 40thInternational Conference on Very Large Data Bases (VLDB), September 2014.
 [14] Jay Kreps: "Questioning the Lambda Architecture," oreilly.com, July 2, 2014.
 [15] Raul Castro Fernandez, Peter Pietzuch, Jay Kreps, et al.: "Liquid: Unifying Near‐line and Offline Big Data Integration," at 7th Biennial Conference on Innovative DataSystems Research (CIDR), January 2015.
@@ -25,7 +25,7 @@
 [25] Derek G Murray, Frank McSherry, Rebecca Isaacs, et al.: "Naiad: A Timely Data‐flow System," at 24th ACM Symposium on Operating Systems Principles (SOSP),pages 439–455, November 2013. doi:10.1145/2517349.2522738
 [26] Gwen Shapira: "We have a bunch of customers who are implementing ‘databaseinside-out’ concept and they all ask ‘is anyone else doing it? are we crazy?’" twit‐ter.com, July 28, 2016.
 [27] Martin Kleppmann: "Turning the Database Inside-out with Apache Samza," atStrange Loop, September 2014.
-[28] Peter Van Roy and Seif Haridi: Concepts, Techniques, and Models of ComputerProgramming. MIT Press, 2004. ISBN: 978-0-262-22069-9
+[28] Peter Van Roy and Seif Haridi: Concepts, Techniques, and Models of Computer Programming. MIT Press, 2004. ISBN: 978-0-262-22069-9
 [29] "Juttle Documentation," juttle.github.io, 2016.
 [30] Evan Czaplicki and Stephen Chong: "Asynchronous Functional Reactive Pro‐gramming for GUIs," at 34th ACM SIGPLAN Conference on Programming LanguageDesign and Implementation (PLDI), June 2013. doi:10.1145/2491956.2462161
 [31] Engineer Bainomugisha, Andoni Lombide Carreton, Tom van Cutsem, StijnMostinckx, and Wolfgang de Meuter: "A Survey on Reactive Programming," ACM Computing Surveys, volume 45, number 4, pages 1–34, August 2013. doi:10.1145/2501654.2501666
@@ -64,7 +64,7 @@
 [64] Jim N. Gray and Catharine van Ingen: "Empirical Measurements of Disk FailureRates and Error Rates," Microsoft Research, MSR-TR-2005-166, December 2005.
 [65] Annamalai Gurusami and Daniel Price: "Bug #73170: Duplicates in Unique Sec‐ondary Index Because of Fix of Bug#68021," bugs.mysql.com, July 2014.
 [66] Gary Fredericks: "Postgres Serializability Bug," github.com, September 2015.
-[67] Xiao Chen: "HDFS DataNode Scanners and Disk Checker Explained," blog.clou‐dera.com, December 20, 2016.
+[67] Xiao Chen: "HDFS DataNode Scanners and Disk Checker Explained," blog.cloudera.com, December 20, 2016.
 [68] Jay Kreps: "Getting Real About Distributed System Reliability," blog.empathy‐box.com, March 19, 2012.
 [69] Martin Fowler: "The LMAX Architecture," martinfowler.com, July 12, 2011.
 [70] Sam Stokes: "Move Fast with Confidence," blog.samstokes.co.uk, July 11, 2016.
@@ -77,14 +77,14 @@
 [77] "Software Engineering Code of Ethics and Professional Practice," Association forComputing Machinery, acm.org, 1999.
 [78] François Chollet: "Software development is starting to involve important ethicalchoices," twitter.com, October 30, 2016.
 [79] Igor Perisic: "Making Hard Choices: The Quest for Ethics in Machine Learning,"engineering.linkedin.com, November 2016.
-[80] John Naughton: "Algorithm Writers Need a Code of Conduct," theguar‐dian.com, December 6, 2015.
+[80] John Naughton: "Algorithm Writers Need a Code of Conduct," theguardian.com, December 6, 2015.
 [81] Logan Kugler: "What Happens When Big Data Blunders?," Communications of the ACM, volume 59, number 6, pages 15–16, June 2016. doi:10.1145/2911975
 [82] Bill Davidow: "Welcome to Algorithmic Prison," theatlantic.com, February 20,2014.
 [83] Don Peck: "They’re Watching You at Work," theatlantic.com, December 2013.
-[84] Leigh Alexander: "Is an Algorithm Any Less Racist Than a Human?" theguar‐dian.com, August 3, 2016.
+[84] Leigh Alexander: "Is an Algorithm Any Less Racist Than a Human?" theguardian.com, August 3, 2016.
 [85] Jesse Emspak: "How a Machine Learns Prejudice," scientificamerican.com,December 29, 2016.
 [86] Maciej Cegłowski: "The Moral Economy of Tech," idlewords.com, June 2016.
-[87] Cathy O’Neil: Weapons of Math Destruction: How Big Data Increases Inequalityand Threatens Democracy. Crown Publishing, 2016. ISBN: 978-0-553-41881-1
+[87] Cathy O’Neil: Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy. Crown Publishing, 2016. ISBN: 978-0-553-41881-1
 [88] Julia Angwin: "Make Algorithms Accountable," nytimes.com, August 1, 2016.
 [89] Bryce Goodman and Seth Flaxman: "European Union Regulations on Algorith‐mic Decision-Making and a ‘Right to Explanation’," arXiv:1606.08813, August 31,2016.
 [90] "A Review of the Data Broker Industry: Collection, Use, and Sale of ConsumerData for Marketing Purposes," Staff Report, United States Senate Committee on Com‐merce, Science, and Transportation, commerce.senate.gov, December 2013.
@@ -98,7 +98,7 @@
 [98] Tony Beltramelli: "Deep-Spying: Spying Using Smartwatch and Deep Learning,"Masters Thesis, IT University of Copenhagen, December 2015. Available atarxiv.org/abs/1512.05616
 [99] Shoshana Zuboff: "Big Other: Surveillance Capitalism and the Prospects of anInformation Civilization," Journal of Information Technology, volume 30, number 1,pages 75–89, April 2015. doi:10.1057/jit.2015.5
 [100] Carina C. Zona: "Consequences of an Insightful Algorithm," at GOTO Berlin,November 2016.
-[101] Bruce Schneier: "Data Is a Toxic Asset, So Why Not Throw It Out?," schne‐ier.com, March 1, 2016.
+[101] Bruce Schneier: "Data Is a Toxic Asset, So Why Not Throw It Out?," schneier.com, March 1, 2016.
 [102] John E. Dunn: "The UK’s 15 Most Infamous Data Breaches," techworld.com,November 18, 2016.
 [103] Cory Scott: "Data is not toxic - which implies no benefit - but rather hazardousmaterial, where we must balance need vs. want," twitter.com, March 6, 2016.
 [104] Bruce Schneier: "Mission Creep: When Everything Is Terrorism," schneier.com,July 16, 2013.

@@ -1,0 +1,75 @@
+Object Storage on CRAQ
+High-throughput chain replication for read-mostly workloads
+[1] M. Abd-El-Malek, G. Ganger, G. Goodson, M. Reiter, and J. Wylie. Fault-scalable Byzantine fault-tolerant services. In Proc. Symposium on Operating Systems Principles (SOSP), Oct. 2005. 
+[2] M. K. Aguilera, A. Merchant, M. Shah, A. Veitch, and C. Karamanolis. Sinfonia: a new paradigm for building scalable distributed systems. In Proc. Symposium on Operating Systems Principles (SOSP), Oct. 2007. 
+[3] P. Alsberg and J. Day. A principle for resilient sharing of distributed resources. In Proc. Intl. Conference on Software Engineering, Oct. 1976. 
+[4] Amazon. S3 Service Level Agreement. http://aws. amazon.com/s3-sla/, 2009. 
+[5] C. Aperjis, M. J. Freedman, and R. Johari. Peer-assisted content distribution with prices. In Proc. SIGCOMM Conference on Emerging Networking Experiments and Technologies (CoNEXT), Dec. 2008. 
+[6] M. Baker and J. Ousterhout. Availability in the Sprite distributed file system. Operating Systems Review, 25(2), Apr. 1991. 
+[7] P. A. Bernstein and N. Goodman. Timestamp-based algorithms for concurrency control in distributed database systems. In Proc. Very Large Data Bases (VLDB), Oct. 1980. 
+[8] K. P. Birman. The process group approach to reliable distributed computing. Communications of the ACM, 36(12), 1993. 
+[9] E. Brewer. Towards robust distributed systems. Principles of Distributed Computing (PODC) Keynote, July 2000. 
+[10] M. Castro and B. Liskov. Practical Byzantine fault tolerance. In Proc. Operating Systems Design and Implementation (OSDI), Feb. 1999. 
+[11] B.-G. Chun, F. Dabek, A. Haeberlen, E. Sit, H. Weatherspoon, F. Kaashoek, J. Kubiatowicz, and R. Morris. Efficient replica maintenance for distributed storage systems. In Proc. Networked Systems Design and Implementation (NSDI), May 2006. 
+[12] B. F. Cooper, R. Ramakrishnan, U. Srivastava, A. Silberstein, P. Bohannon, H.-A. Jacobsen, N. Puz, D. Weaver, and R. Yerneni. PNUTS: Yahoo!’s Hosted Data Serving Platform. In Proc. Very Large Data Bases (VLDB), Aug. 2008. 
+[13] CouchDB. http://couchdb.apache.org/, 2009. 
+[14] F. Dabek, M. F. Kaashoek, D. Karger, R. Morris, and I. Stoica. Wide-area cooperative storage with CFS. In Proc. Symposium on Operating Systems Principles (SOSP), Oct. 2001. 
+[15] G. DeCandia, D. Hastorun, M. Jampani, G. Kakulapati, A. Lak-shman, A. Pilchin, S. Sivasubramanian, P. Vosshall, and W. Vogels. Dynamo: Amazon’s highly available key-value store. In Proc. Symposium on Operating Systems Principles (SOSP), Oct. 2007. 
+[16] Facebook. Cassandra: A structured storage system on a P2P network.  http://code.google.com/p/ the-cassandra-project/, 2009. 
+[17] Facebook. Infrastructure team. Personal Comm., 2008. 
+[18] B. Fitzpatrick.  Memcached: a distributed memory object caching system. http://www.danga.com/ memcached/, 2009. 
+[19] A. Fox, S. D. Gribble, Y. Chawathe, E. A. Brewer, and P. Gauthier. Cluster-based scalable network services. In Proc. Symposium on Operating Systems Principles (SOSP), Oct. 1997. 
+[20] M. J. Freedman, E. Freudenthal, and D. Mazières. Democratizing content publication with Coral. In Proc. Networked Systems Design and Implementation (NSDI), Mar. 2004. 
+[21] P. Ganesan, K. Gummadi, and H. Garcia-Molina. Canon in G Major: Designing DHTs with hierarchical structure. In Proc. Intl. Conference on Distributed Computing Systems (ICDCS), Mar. 2004. 
+[22] S. Ghemawat, H. Gobioff, and S.-T. Leung. The google file system. In Proc. Symposium on Operating Systems Principles (SOSP), Oct. 2003. 
+[23] D. K. Gifford. Weighted voting for replicated data. In Proc. Symposium on Operating Systems Principles (SOSP), Dec. 1979. 
+[24] Google.  Google Apps Service Level Agreement. http://www.google.com/apps/intl/en/ terms/sla.html, 2009. 
+[25] R. Guerraoui, D. Kostic, R. R. Levy, and V. Quéma. A high throughput atomic storage algorithm. In Proc. Intl. Conference on Distributed Computing Systems (ICDCS), June 2007. 
+[26] D. Hakala. Top 8 datacenter disasters of 2007. IT Management, Jan. 28 2008. 
+[27] J. Heidemann and G. Popek. File system development with stackable layers. ACM Trans. Computer Systems, 12(1), Feb. 1994. 
+[28] M. Herlihy. A quorum-consensus replication method for abstract data types. ACM Trans. Computer Systems, 4(1), Feb. 1986. 
+[29] D. Karger, E. Lehman, F. Leighton, M. Levine, D. Lewin, and R. Panigrahy. Consistent hashing and random trees: Distributed caching protocols for relieving hot spots on the World Wide Web. In Proc. Symposium on the Theory of Computing (STOC), May 1997. 
+[30] J. Kistler and M. Satyanarayanan. Disconnected operation in the Coda file system. ACM Trans. Computer Systems, 10(3), Feb. 1992. 
+[31] M. Krohn, E. Kohler, and M. F. Kaashoek. Events can make sense. In Proc. USENIX Annual Technical Conference, June 2007. 
+[32] J. Kubiatowicz, D. Bindel, Y. Chen, S. Czerwinski, P. Eaton, D. Geels, R. Gummadi, S. Rhea, H. Weatherspoon, W. Weimer, C. Wells, and B. Zhao. OceanStore: An architecture for global-scale persistent storage. In Proc. Architectural Support for Programming Languages and Operating Systems (ASPLOS), Nov 2000. 
+[33] L. Lamport. The part-time parliament. ACM Trans. Computer Systems, 16(2), 1998. 
+[34] L. Lamport, R. Shostak, and M. Pease. The Byzantine generals problem. ACM Trans. Programming Language Systems, 4(3), 1982. 
+[35] B. Liskov, S. Ghemawat, R. Gruber, P. Johnson, L. Shrira, and M. Williams. Replication in the harp file system. In Proc. Symposium on Operating Systems Principles (SOSP), Aug. 1991. 
+[36] J. MacCormick, N. Murphy, M. Najork, C. A. Thekkath, and L. Zhou. Boxwood: Abstractions as the foundation for storage infrastructure. In Proc. Operating Systems Design and Implementation (OSDI), Dec. 2004. 
+[37] D. Malkhi and M. Reiter. Byzantine quorum systems. In Proc. Symposium on the Theory of Computing (STOC), May 1997. 
+[38] D. Mazières, M. Kaminsky, M. F. Kaashoek, and E. Witchel. Separating key management from file system security. In Proc. Symposium on Operating Systems Principles (SOSP), Dec 1999. 
+[39] A. Muthitacharoen, S. Gilbert, and R. Morris. Etna: a fault-tolerant algorithm for atomic mutable DHT data. Technical Report MIT-LCS-TR-993, MIT, June 2005. 
+[40] Oracle. BerkeleyDB v4.7, 2009. 
+[41] C. Patridge, T. Mendez, and W. Milliken. Host anycasting service. RFC 1546, Network Working Group, Nov. 1993. 
+[42] K. Petersen, M. Spreitzer, D. Terry, M. Theimer, , and A. Demers. Flexible update propagation for weakly consistent replication. In Proc. Symposium on Operating Systems Principles (SOSP), Oct. 1997. 
+[43] D. Skeen. A formal model of crash recovery in a distributed system. IEEE Trans. Software Engineering, 9(3), May 1983. 
+[44] J. Sobel. Scaling out. Engineering at Facebook blog, Aug. 20 2008. 
+[45] I. Stoica, R. Morris, D. Liben-Nowell, D. Karger, M. F. Kaashoek, F. Dabek, and H. Balakrishnan. Chord: A scalable peer-to-peer lookup protocol for Internet applications. IEEE/ACM Trans. Networking, 11, 2002. 
+[46] F. Travostino and R. Shoup. eBay’s scalability odyssey: Growing and evolving a large ecommerce site.  In Proc. Large-Scale Distributed Systems and Middleware (LADIS), Sept. 2008. 
+[47] R. van Renesse and F. B. Schneider. Chain replication for supporting high throughput and availability. In Proc. Operating Systems Design and Implementation (OSDI), Dec. 2004. 
+[48] Yahoo! Hadoop Team. Zookeeper. http://hadoop. apache.org/zookeeper/, 2009. 
+[49] H. Yu and A. Vahdat. The cost and limits of availability for replicated services. In Proc. Symposium on Operating Systems Principles (SOSP), Oct. 2001. 
+
+
+47,11	Chain Replication
+3	master / slave replic.
+33	paxo
+23, 28	quorum
+43	2pc
+25	ring-based protocol
+10, 34	Byzantine
+1, 37	quorum system
+2, 14, 35, 26, 22, 6, 30, 27, 42	DFS
+7, 8	Causal consistency
+12	PNUTs
+29, 45, 20, 21, 32, 39	DHT
+49,46, 9, 19	CAP
+15, 16	Dynamo
+18,  44	cache
+4, 24	s3, google
+5	CDN
+13	CouchDB
+26	datacenter disaster
+31	tame
+41	multicast
+48	zookeeper

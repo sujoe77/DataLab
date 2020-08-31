@@ -83,7 +83,7 @@ Here list source of information of "Design Data Intensive Applications"
   - IFIP International Conference on Distributed Applications and InteroperableSystems (DAIS)
   - Craft Conference
   - International Workshop on Distributed Algo‐rithms (WDAG)
-  - International Workshop onWeb Services and Formal Methods (WS-FM)
+  - International Workshop onWeb Services and Formal Methods (WSFM)
   - International Workshop on Embedded Software (EMSOFT)
   - International Conference for High Performance Computing, Networking, Storage andAnalysis (SC12)
 - Journal
@@ -118,3 +118,12 @@ Here list source of information of "Design Data Intensive Applications"
   - Jay Kreps
   - James Nicholas Gray
   - Barbara Liskov
+  - Jeffrey Dean:8
+  - Joseph M. Hellerstein:8
+  - Pat Helland:9
+  - Jim N. Gray:10
+  - Kyle Kingsbury:10
+  - Alan Fekete:11
+  - Leslie Lamport:11
+
+

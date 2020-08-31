@@ -1,0 +1,54 @@
+[0] Wyatt Lloyd , Michael J. Freedman , Michael Kaminsky† , and David G. Andersen‡ Princeton University, † Intel Labs, ‡Carnegie Mellon University: "Don’t Settle for Eventual: Scalable Causal Consistency for Wide-Area Storage with COPS", in Proceedings of the 23rd ACM Symposium on Operating Systems Principles (SOSP), 2011  
+[1] M. K. Aguilera, A. Merchant, M. Shah, A. Veitch, and C. Karamanolis. Sinfonia: A new paradigm for building scalable distributed systems. ACM TOCS, 27(3), 2009. 
+[2] M. Ahamad, G. Neiger, P. Kohli, J. Burns, and P. Hutto. Causal memory: Definitions, implementation, and programming. Distributed Computing, 9(1), 1995. 
+[3] M. Al-Fares, A. Loukissas, and A. Vahdat. A scalable, commodity data center network architecture. In SIGCOMM, Aug. 2008. 
+[4] P. Alsberg and J. Day. A principle for resilient sharing of distributed resources. In Conf. Software Engineering, Oct. 1976. 
+[5] D. G. Andersen, J. Franklin, M. Kaminsky, A. Phanishayee, L. Tan, and V. Vasudevan. FAWN: A fast array of wimpy nodes. In SOSP, Oct. 2009. 
+[6] T. E. Anderson, M. D. Dahlin, J. M. Neefe, D. A. Patterson, D. S. Roselli, and R. Y. Wang. Serverless network file systems. ACM TOCS, 14(1), 1996. 
+[7] Apache Thrift. http://thrift.apache.org/, 2011. 
+[8] H. Attiya and J. L. Welch. Sequential consistency versus linearizability. ACM TOCS, 12(2), 1994. 
+[9] J. Baker, C. Bond, J. C. Corbett, J. Furman, A. Khorlin, J. Larson, J.-M. Leon, Y. Li, A. Lloyd, and V. Yushprakh. Megastore: Providing scalable, highly available storage for interactive services. In CIDR, Jan. 2011. 
+[10] N. Belaramani, M. Dahlin, L. Gao, A. Nayate, A. Venkataramani, P. Yalagandula, and J. Zheng. PRACTI replication. In NSDI, May 2006. 
+[11] K. P. Birman and T. Joseph. Exploiting virtual synchrony in distributed systems. In SOSP, Nov. 1987. 
+[12] K. P. Birman and R. V. Renesse. Reliable Distributed Computing with the ISIS Toolkit. IEEE Comp. Soc. Press, 1994. 
+[13] E. Brewer. Towards robust distributed systems. PODC Keynote, July 2000. 
+[14] D. R. Cheriton and D. Skeen. Understanding the limitations of causally and totally ordered communication. In SOSP, Dec. 1993. 
+[15] B. F. Cooper, R. Ramakrishnan, U. Srivastava, A. Silberstein, P. Bohannon, H.-A. Jacobsen, N. Puz, D. Weaver, and R. Yerneni. PNUTS: Yahoo!’s hosted data serving platform. In VLDB, Aug. 2008. 
+[16] G. DeCandia, D. Hastorun, M. Jampani, G. Kakulapati, A. Lakshman, A. Pilchin, S. Sivasubramanian, P. Vosshall, and W. Vogels. Dynamo: Amazon’s highly available key-value store. In SOSP, Oct. 2007. 
+[17] D. DeWitt, S. Ghandeharizadeh, D. Schneider, A. Bricker, H.-I. Hsiao, and R. Rasmussen. The gamma database machine project. Knowledge and Data Engineering, 2(1), 1990. 
+[18] FAWN-KV. https://github.com/vrv/FAWN-KV, 2011. 
+[19] B. Fitzpatrick. Memcached: a distributed memory object caching system. http://memcached.org/, 2011. 
+[20] A. Fox, S. D. Gribble, Y. Chawathe, E. A. Brewer, and P. Gauthier. Cluster-based scalable network services. In SOSP, Oct. 1997. 
+[21] S. Ghemawat, H. Gobioff, and S.-T. Leung. The Google file system. In SOSP, Oct. 2003. 
+[22] D. K. Gifford. Weighted voting for replicated data. In SOSP, Dec. 1979. 
+[23] S. Gilbert and N. Lynch. Brewer’s conjecture and the feasibility of consistent, available, partition-tolerant web services. ACM SIGACT News, 33(2), 2002. 
+[24] A. Greenberg, J. R. Hamilton, N. Jain, S. Kandula, C. Kim, P. Lahiri, D. A. Maltz, P. Patel, and S. Sengupta. VL2: A scalable and flexible data center network. In SIGCOMM, Aug. 2009. 
+[25] M. Herlihy. A quorum-consensus replication method for abstract data types. ACM TOCS, 4(1), Feb. 1986. 
+[26] M. P. Herlihy and J. M. Wing. Linearizability: A correctness condition for concurrent objects. ACM TOPLAS, 12(3), 1990. 
+[27] D. Karger, E. Lehman, F. Leighton, M. Levine, D. Lewin, and R. Panigrahy. Consistent hashing and random trees: Distributed caching protocols for relieving hot spots on the World Wide Web. In STOC, May 1997. 
+[28] J. Kistler and M. Satyanarayanan. Disconnected operation in the Coda file system. ACM TOCS, 10(3), Feb. 1992. 
+[29] R. Ladin, B. Liskov, L. Shrira, and S. Ghemawat. Providing high availability using lazy replication. ACM TOCS, 10(4), 1992. 
+[30] A. Lakshman and P. Malik. Cassandra – a decentralized structured storage system. In LADIS, Oct. 2009. 
+[31] L. Lamport. Time, clocks, and the ordering of events in a distributed system. Comm. ACM, 21(7), 1978. 
+[32] L. Lamport. How to make a multiprocessor computer that correctly executes multiprocess programs. IEEE Trans. Computer, 28(9), 1979. 
+[33] L. Lamport. The part-time parliament. ACM TOCS, 16(2), 1998. 
+[34] R. J. Lipton and J. S. Sandberg. PRAM: A scalable shared memory. Technical Report TR-180-88, Princeton Univ., Dept. Comp. Sci., 1988. 
+[35] P. Mahajan, L. Alvisi, and M. Dahlin. Consistency, availability, and convergence. Technical Report TR-11-22, Univ. Texas at Austin, Dept. Comp. Sci., 2011. 
+[36] J. Misra. Axioms for memory access in asynchronous hardware systems. ACM TOPLAS, 8(1), Jan. 1986. 
+[37] C. Mohan, B. Lindsay, and R. Obermarck. Transaction management in the R* distributed database management system. ACM Trans. Database Sys., 11(4), 1986. 
+[38] MySQL. http://www.mysql.com/, 2011. 
+[39] B. M. Oki and B. H. Liskov. Viewstamped replication: A general primary copy. In PODC, Aug. 1988. 
+[40] D. S. Parker, G. J. Popek, G. Rudisin, A. Stoughton, B. J. Walker, E. Walton, J. M. Chow, D. Edwards, S. Kiser, and C. Kline. Detection of mutual inconsistency in distributed systems. IEEE Trans. Software Eng., 9(3), 1983. 
+[41] K. Petersen, M. Spreitzer, D. Terry, M. Theimer, and A. Demers. Flexible update propagation for weakly consistent replication. In SOSP, Oct. 1997. 
+[42] PostgresSQL. http://www.postgresql.org/, 2011. 
+[43] Project Voldemort. http://project-voldemort.com/, 2011. 
+[44] D. Skeen. A formal model of crash recovery in a distributed system. IEEE Trans. Software Engineering, 9(3), May 1983. 
+[45] Snappy. http://code.google.com/p/snappy/, 2011. 
+[46] J. Sobel. Scaling out. Engineering at Facebook blog, Aug. 20 2008. 
+[47] Y. Sovran, R. Power, M. K. Aguilera, and J. Li. Transactional storage for geo-replicated systems. In SOSP, Oct. 2011. 
+[48] J. Terrace and M. J. Freedman. Object storage on CRAQ: Highthroughput chain replication for read-mostly workloads. In USENIX ATC, June 2009. 
+[49] D. B. Terry, A. J. Demers, K. Petersen, M. Spreitzer, M. Theimer, and B. W. Welch. Session guarantees for weakly consistent replicated data. In Conf. Parallel Distributed Info. Sys., Sept. 1994. 
+[50] R. H. Thomas. A majority consensus approach to concurrency control for multiple copy databases. ACM Trans. Database Sys., 4(2), 1979. 
+[51] R. van Renesse and F. B. Schneider. Chain replication for supporting high throughput and availability. In OSDI, Dec. 2004. 
+[52] VICCI. http://vicci.org/, 2011. 
+[53] H. Yu and A. Vahdat. Design and evaluation of a continuous consistency model for replicated services. In OSDI, Oct. 2000. 

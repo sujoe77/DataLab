@@ -1,0 +1,38 @@
+[0] Rajesh Nishtala, et al. "Scaling Memcache at Facebook",  at 10th USENIX Sym‐posium on Networked Systems Design and Implementation (NSDI), April 2013
+[1] Apache Cassandra. http://cassandra.apache.org/.
+[2] Couchbase. http://www.couchbase.com/.
+[3] Making Facebook Self-Healing. https://www.facebook.com/note.php?note_id=10150275248698920.
+[4] Open Compute Project. http://www.opencompute.org.
+[5] Project Voldemort. http://project-voldemort.com/.
+[6] Redis. http://redis.io/.
+[7] Scaling Out. https://www.facebook.com/note.php?note_id=23844338919.
+[8] A TIKOGLU , B., XU, Y., FRACHTENBERG , E., J IANG , S., ANDP ALECZNY , M. Workload analysis of a large-scale key-valuestore. ACM SIGMETRICS Performance Evaluation Review 40,1 (June 2012), 53–64.
+[9] B EREZECKI , M., F RACHTENBERG , E., PALECZNY , M., ANDSTEELE , K. Power and performance evaluation of memcachedon the tilepro64 architecture. Sustainable Computing: Informatics and Systems 2, 2 (June 2012), 81 – 90.
+[10] B OYD-W ICKIZER , S., CLEMENTS , A. T., M AO, Y.,PESTEREV, A., KAASHOEK , M. F., MORRIS , R., ANDZ ELDOVICH, N. An analysis of linux scalability to many cores.In Proceedings of the 9th USENIX Symposium on OperatingSystems Design & Implementation (2010), pp. 1–8.
+[11] C ERF, V. G., AND K AHN, R. E. A protocol for packet networkintercommunication. ACM SIGCOMM Compututer Communication Review 35, 2 (Apr. 2005), 71–82.
+[12] DECANDIA, G., H ASTORUN , D., JAMPANI , M., K AKULAPATI, G., L AKSHMAN , A., P ILCHIN , A., S IVASUBRAMANIAN,S., VOSSHALL, P., AND VOGELS , W. Dynamo: amazon’shighly available key-value store. ACM SIGOPS Operating Systems Review 41, 6 (Dec. 2007), 205–220.
+[13] FALL , K., IANNACCONE , G., MANESH, M., R ATNASAMY , S.,ARGYRAKI, K., DOBRESCU, M., AND E GI , N. Routebricks:enabling general purpose network infrastructure. ACM SIGOPSOperating Systems Review 45, 1 (Feb. 2011), 112–125.
+[14] FITZPATRICK , B. Distributed caching with memcached. LinuxJournal 2004, 124 (Aug. 2004), 5.
+[15] GHANDEHARIZADEH , S., AND YAP , J. Gumball: a race condition prevention technique for cache augmented sql databasemanagement systems. In Proceedings of the 2nd ACM SIGMODWorkshop on Databases and Social Networks (2012), pp. 1–6.
+[16] GIFFORD, D. K. Weighted voting for replicated data. In Proceedings of the 7th ACM Symposium on Operating Systems Principles (1979), pp. 150–162.
+[17] GLENDENNING , L., BESCHASTNIKH, I., KRISHNAMURTHY ,A., AND ANDERSON , T. Scalable consistency in Scatter. InProceedings of the 23rd ACM Symposium on Operating SystemsPrinciples (2011), pp. 15–28.
+[18] GRAY , C., AND C HERITON, D. Leases: An efficient faulttolerant mechanism for distributed file cache consistency. ACMSIGOPS Operating Systems Review 23, 5 (Nov. 1989), 202–210.
+[19] GRIBBLE , S. D., B REWER, E. A., H ELLERSTEIN , J. M., ANDC ULLER , D. Scalable, distributed data structures for internetservice construction. In Proceedings of the 4th USENIX Symposium on Operating Systems Design & Implementation (2000),pp. 319–332.
+[20] HEINRICH , J. MIPS R4000 Microprocessor User’s Manual.MIPS technologies, 1994.
+[21] HERLIHY, M. P., AND WING, J. M. Linearizability: a correctness condition for concurrent objects. ACM Transactions onProgramming Languages and Systems 12, 3 (July 1990), 463–492.
+[22] KARGER , D., L EHMAN , E., L EIGHTON , T., P ANIGRAHY , R.,L EVINE , M., AND LEWIN, D. Consistent Hashing and Randomtrees: Distributed Caching Protocols for Relieving Hot Spots onthe World Wide Web. In Proceedings of the 29th annual ACMSymposium on Theory of Computing (1997), pp. 654–663.
+[23] KEETON , K., MORREY, III, C. B., S OULES , C. A., ANDVEITCH , A. Lazybase: freshness vs. performance in information management. ACM SIGOPS Operating Systems Review 44,1 (Dec. 2010), 15–19.
+[24] L AMPORT, L. The part-time parliament. ACM Transactions onComputer Systems 16, 2 (May 1998), 133–169.
+[25] L IM, H., FAN, B., A NDERSEN , D. G., AND KAMINSKY , M.Silt: a memory-efficient, high-performance key-value store. InProceedings of the 23rd ACM Symposium on Operating SystemsPrinciples (2011), pp. 1–13.
+[26] L ITTLE , J., AND GRAVES , S. Little’s law. Building Intuition(2008), 81–100.
+[27] L LOYD , W., F REEDMAN , M., K AMINSKY, M., AND ANDERSEN, D. Don’t settle for eventual: scalable causal consistency forwide-area storage with COPS. In Proceedings of the 23rd ACMSymposium on Operating Systems Principles (2011), pp. 401–416.
+[28] METREVELI , Z., ZELDOVICH , N., AND K AASHOEK , M.Cphash: A cache-partitioned hash table. In Proceedings of the17th ACM SIGPLAN symposium on Principles and Practice ofParallel Programming (2012), pp. 319–320.
+[29] OUSTERHOUT , J., AGRAWAL, P., ERICKSON, D.,KOZYRAKIS, C., LEVERICH , J., M AZIE ` RES , D., M ITRA, S., NARAYANAN, A., O NGARO, D., PARULKAR, G.,ROSENBLUM , M., R UMBLE, S. M., STRATMANN, E., ANDSTUTSMAN, R. The case for ramcloud. Communications of theACM 54, 7 (July 2011), 121–130.
+[30] PHANISHAYEE, A., K REVAT, E., V ASUDEVAN, V., ANDERSEN, D. G., G ANGER , G. R., GIBSON, G. A., AND S ESHAN, S. Measurement and analysis of tcp throughput collapse in cluster-based storage systems. In Proceedings of the 6thUSENIX Conference on File and Storage Technologies (2008),pp. 12:1–12:14.
+[31] PORTS, D. R. K., C LEMENTS , A. T., ZHANG , I., M ADDEN,S., AND LISKOV , B. Transactional consistency and automaticmanagement in an application data cache. In Proceedings ofthe 9th USENIX Symposium on Operating Systems Design &Implementation (2010), pp. 1–15.
+[32] R AJASHEKHAR, M. Twemproxy: A fast, light-weight proxy formemcached. https://dev.twitter.com/blog/twemproxy.
+[33] R AJASHEKHAR, M., AND Y UE , Y. Caching with twemcache. http://engineering.twitter.com/2012/07/caching-with-twemcache.html.
+[34] R ATNASAMY , S., F RANCIS, P., H ANDLEY , M., K ARP, R.,AND SHENKER , S. A scalable content-addressable network.ACM SIGCOMM Computer Communication Review 31, 4 (Oct.2001), 161–172.
+[35] SATYANARAYANAN , M., K ISTLER , J., K UMAR, P., OKASAKI,M., SIEGEL, E., AND STEERE, D. Coda: A highly available filesystem for a distributed workstation environment. IEEE Transactions on Computers 39, 4 (Apr. 1990), 447–459.
+[36] S TOICA, I., MORRIS , R., KARGER , D., KAASHOEK , M., ANDB ALAKRISHNAN, H. Chord: A scalable peer-to-peer lookupservice for internet applications. ACM SIGCOMM ComputerCommunication Review 31, 4 (Oct. 2001), 149–160.
+[37] V ENKATARAMANI , V., A MSDEN, Z., B RONSON, N., CABR ERA III, G., C HAKKA, P., D IMOV , P., D ING, H., F ERRIS, J.,G IARDULLO , A., HOON , J., K ULKARNI, S., L AWRENCE , N.,M ARCHUKOV , M., P ETROV, D., AND P UZAR , L. Tao: howfacebook serves the social graph. In Proceedings of the ACMSIGMOD International Conference on Management of Data(2012), pp. 791–792.

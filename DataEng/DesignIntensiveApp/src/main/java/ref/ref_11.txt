@@ -1,5 +1,5 @@
 [1] Tyler Akidau, Robert Bradshaw, Craig Chambers, et al.: "The Dataflow Model: APractical Approach to Balancing Correctness, Latency, and Cost in Massive-Scale,Unbounded, Out-of-Order Data Processing," Proceedings of the VLDB Endowment,volume 8, number 12, pages 1792–1803, August 2015. doi:10.14778/2824032.2824076
-[2] Harold Abelson, Gerald Jay Sussman, and Julie Sussman: Structure and Interpre‐tation of Computer Programs, 2nd edition. MIT Press, 1996. ISBN:978-0-262-51087-5, available online at mitpress.mit.edu
+[2] Harold Abelson, Gerald Jay Sussman, and Julie Sussman: Structure and Interpretation of Computer Programs, 2nd edition. MIT Press, 1996. ISBN:978-0-262-51087-5, available online at mitpress.mit.edu
 [3] Patrick Th. Eugster, Pascal A. Felber, Rachid Guerraoui, and Anne-Marie Ker‐marrec: "The Many Faces of Publish/Subscribe," ACM Computing Surveys, volume35, number 2, pages 114–131, June 2003. doi:10.1145/857076.857078
 [4] Joseph M. Hellerstein and Michael Stonebraker: Readings in Database Systems,4th edition. MIT Press, 2005. ISBN: 978-0-262-69314-1, available online at red‐book.cs.berkeley.edu
 [5] Don Carney, Uğur Çetintemel, Mitch Cherniack, et al.: "Monitoring Streams – ANew Class of Data Management Applications," at 28th International Conference onVery Large Data Bases (VLDB), August 2002.
