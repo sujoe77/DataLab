@@ -18,7 +18,7 @@ class Job:
     def get_content(self, url):
         page_response = requests.get(url, timeout=5)
         return BeautifulSoup(page_response.content, "html.parser")
-        
+
     def write_file(self, jobSet, fileName):
         print("final set size is: " + str(len(jobSet)))
         with open(fileName, 'w', encoding='utf-8') as f:
@@ -28,16 +28,15 @@ class Job:
         f.close()
 
     def process_page(self, url):
-        page_content = self.get_content(url)    
+        page_content = self.get_content(url)
         #print(page_content)
         return self.parse(page_content)
 
-
-    def get_jobset(self, keywordList, pageSize, sleep):
+    def get_jobset(self, keywordList, pageSize, sleep, start=0):
         jobSet = set([])
         keySet = set([])
-        for keyword in keywordList: 
-            for i in range(0, pageSize): 
+        for keyword in keywordList:
+            for i in range(start, start + pageSize):
                 url = self.get_url(keyword, i)
                 print(url)
                 result = self.process_page(url)
