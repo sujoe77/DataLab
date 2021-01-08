@@ -16,7 +16,7 @@ class StackOverflowJob(Job):
         title_h2 = page_content.find_all("h2", "mb4 fc-black-800 fs-body3")
         #<h3 class="fc-black-700 fs-body1 mb4">
         company_h3=page_content.find_all("h3", "fc-black-700 fs-body1 mb4")
-        timeDiv = page_content.find_all("div", "mt4 fs-caption fc-black-500 grid gs4 gsx fw-wrap")
+        timeDiv = page_content.find_all("ul", "mt4 fs-caption fc-black-500 horizontal-list")
         print("div size:" + str(len(title_h2)))
         #divSize = len(div)
         j=0
@@ -31,7 +31,8 @@ class StackOverflowJob(Job):
             #print("c1" + company)
             company = company.replace(",", "_").replace("\n", " ").replace("\r", " ").strip()            
             #print(company)
-            time = timeDiv[j].div.text.replace(",", "_").replace("\n", " ").replace("\r", " ").strip()
+            #print(timeDiv[j])
+            time = timeDiv[j].contents[1].span.text.replace(",", "_").replace("\n", " ").replace("\r", " ").strip()
             j = j+1
             #print("time -> " + time)
             location = company_h3[i].contents[3].text.replace(",", "_").replace("\n", " ").replace("\r", " ").strip()

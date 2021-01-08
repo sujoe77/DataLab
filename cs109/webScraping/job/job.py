@@ -1,7 +1,8 @@
-from bs4 import BeautifulSoup
-import requests
 import time
-import datetime
+
+import requests
+from bs4 import BeautifulSoup
+
 
 class Job:
 
@@ -22,7 +23,7 @@ class Job:
     def write_file(self, jobSet, fileName):
         print("final set size is: " + str(len(jobSet)))
         with open(fileName, 'w', encoding='utf-8') as f:
-            f.write("Title,Company,Location,Time,Link\n")
+            f.write("Title,Company,City,pub_date,Link,Tags\n")
             for i in range(0, len(jobSet)):
                 f.write(jobSet.pop()+"\n")
         f.close()

@@ -1,9 +1,8 @@
-from bs4 import BeautifulSoup
-import requests
-import time
 import datetime
 from datetime import datetime
+
 from job import Job
+
 
 class ItJobBankJob(Job):
     #KEYWORD_LIST=["Java","Data", "developer"]
@@ -31,14 +30,14 @@ class ItJobBankJob(Job):
             #print(div_time[i]["datetime"])
             #print()
             link=h3_title[i].a["href"]
-            title=h3_title[i].a.text
+            title=h3_title[i].a.text.replace(',',' ')
             company=div_company[i].text
             now = datetime.now() # current date and time
             time = now.strftime("%Y-%m-%d")            
             #if "month" not in time and super().ex_filter(title, ItJobBankJob.EXECLUDE_TITLE) and super().ex_filter(company, ItJobBankJob.EXECLUDE_COMPANY):
             if super().ex_filter(title, ItJobBankJob.EXECLUDE_TITLE) and super().ex_filter(company, ItJobBankJob.EXECLUDE_COMPANY):
                 text = "{},{},{},{},##{}".format(title, company, location, time, link);
-                print(text)
+                #print(text)
                 result.append(text)
         return result
 

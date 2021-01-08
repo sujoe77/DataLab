@@ -30,5 +30,5 @@ class NeuvooJob(Job):
         return result
 
     def get_url(self, keyword, pageNum):
-        return "https://dk.neuvoo.com/job/?k=java&p=" + str(pageNum+1)
+        return "https://dk.neuvoo.com/job/?k="+keyword+"&p=" + str(pageNum+1)
 
