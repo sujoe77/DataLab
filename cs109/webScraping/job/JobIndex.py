@@ -48,7 +48,7 @@ class JobIndexJob(Job):
     def getLocation(self, div_title, i):
         location = div_title[i].p.text.replace(",", "_").replace("\n", " ").replace("\r", " ").strip()
         if "_" in location:
-            location = location[location.index("_") + 1:]
+            location = location[location.index("_") + 1:].strip()
         else:
             location = "_"
         return location
