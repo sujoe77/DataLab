@@ -1,2 +1,16 @@
 /**/.ipynb_checkpoints
 /**/__pycache__
+Debug
+x64
+.vs
+/**/target
+/**/.idea
+/**/.settings
+/**/.project
+/**/.classpath
+/**/*.iml
+/**/*.tar.gz
+/**/*.exe
+/**/*.ilk
+/**/*.pdb
+/**/job/data
