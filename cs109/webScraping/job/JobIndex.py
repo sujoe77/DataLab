@@ -11,7 +11,7 @@ class JobIndexJob(Job):
 
     def parse(self, page_content):
         result = []        
-        div_title = page_content.find_all("div", "PaidJob")
+        div_title = page_content.find_all("div", "PaidJob-inner")
         
         for i in range(0, len(div_title)):
             tag = self.getTag(div_title, i)
@@ -30,10 +30,10 @@ class JobIndexJob(Job):
         # print(div_title[i])
         j = 2
         while "href" not in str(div_title[i].contents[j]):
-            print("j is %d" % j)
+            # print("j is %d" % j)
             j += 1
         tag = div_title[i].contents[j]
-        # print("tag is: [%s]" % str(tag))
+        #print("tag is: [%s]" % str(tag))
         return tag
 
     def getLinkTitle(self, tag):

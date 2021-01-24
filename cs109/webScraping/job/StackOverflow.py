@@ -1,8 +1,6 @@
-from bs4 import BeautifulSoup
-import requests
-import time
-import datetime
+from StringUtil import StringUtil
 from job import Job
+
 
 class StackOverflowJob(Job):
     KEYWORD_LIST=["Java"]
@@ -17,7 +15,7 @@ class StackOverflowJob(Job):
         #<h3 class="fc-black-700 fs-body1 mb4">
         company_h3=page_content.find_all("h3", "fc-black-700 fs-body1 mb4")
         timeDiv = page_content.find_all("ul", "mt4 fs-caption fc-black-500 horizontal-list")
-        print("div size:" + str(len(title_h2)))
+        #print("div size:" + str(len(title_h2)))
         #divSize = len(div)
         j=0
         for i in range(0, len(title_h2)):
@@ -33,6 +31,7 @@ class StackOverflowJob(Job):
             #print(company)
             #print(timeDiv[j])
             time = timeDiv[j].contents[1].span.text.replace(",", "_").replace("\n", " ").replace("\r", " ").strip()
+            time = StringUtil().getPubDate(time)
             j = j+1
             #print("time -> " + time)
             location = company_h3[i].contents[3].text.replace(",", "_").replace("\n", " ").replace("\r", " ").strip()
