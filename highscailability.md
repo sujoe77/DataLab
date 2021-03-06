@@ -139,7 +139,36 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 [That's Not My Problem - I'm Renting Them](http://highscalability.com/blog/2014/10/8/thats-not-my-problem-im-renting-them.html)<br/>
 [Startups Are Creating A New System Of The World For IT](http://highscalability.com/blog/2012/5/7/startups-are-creating-a-new-system-of-the-world-for-it.html)<br/>
 [Cloud Architecture Revolution](http://highscalability.com/blog/2014/6/5/cloud-architecture-revolution.html)<br/>
-[The Canonical Cloud Architecture](http://highscalability.com/blog/2009/8/7/the-canonical-cloud-architecture.html)<br/>
+
+This post wants to analyze some key words and concepts, usually used in traditional architectures, redefining them according the standpoint of the cloud.  Understanding the meaning of new words is crucial to grasp the essence of a pure cloud architecture.
+
+* Infrastructure - commodity HW instead of high-end HW
+* Scalability - dynamic instead of static
+* Availability - resiliency instead of no failure
+* Performance - decomposition and distribution instead of stress
+* Reliability - MTTR instead of MTBF
+* Capacity Planning - scale unit planning instead of  worst case planning
+* Enable Scaling - be able to adapt to environmental conditions
+* Expect Failure - be able to adopt a resilient attitude
+
+[The Canonical Cloud Architecture](http://highscalability.com/blog/2009/8/7/the-canonical-cloud-architecture.html)(aws,paper)<br/>
+
+The canonical cloud architecture that has evolved revolves around dynamically scalable CPUs consuming asynchronous, persistently queued events. We talked about this idea already in Flickr - Do the Essential Work Up-front and Queue the Rest. The cloud is just another way of implementing the same idea.
+
+Amazon suggests a few applications of the Cloud Architecture as:
+
+---------------------------
+
+SmugMug's Cloud Architecture
+AWS pioneer Don MacAskill of SmugMug details how they process high-resolution photos and high-definition video use a cloud hosted queuing architecture in SkyNet Lives! (aka EC2 @ SmugMug).
+
+-----------------------
+
+Building GrepTheWeb In The Cloud, Amazon has published a great couple of articles on building a canonical Cloud Architecture: 
+* [Building GrepTheWeb in the Cloud, Part 1: Cloud Architectures](https://aws.amazon.com/articles/building-greptheweb-in-the-cloud-part-1-cloud-architectures/) 
+* Building GrepTheWeb in the Cloud, Part 2: Best Practices.
+
+
 [Cloud Programming Directly Feeds Cost Allocation Back Into Software Design](http://highscalability.com/blog/2009/3/6/cloud-programming-directly-feeds-cost-allocation-back-into-s.html)<br/>
 [Machine VM + Cloud API - Rewriting The Cloud From Scratch](http://highscalability.com/blog/2010/10/21/machine-vm-cloud-api-rewriting-the-cloud-from-scratch.html)<br/>
 [Under Snowden's Light Software Architecture Choices Become Murky](http://highscalability.com/blog/2014/1/8/under-snowdens-light-software-architecture-choices-become-mu.html)(cloud)<br/>
@@ -155,7 +184,7 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 
 [The Stunning Scale Of AWS And What It Means For The Future Of The Cloud](http://highscalability.com/blog/2015/1/12/the-stunning-scale-of-aws-and-what-it-means-for-the-future-o.html)<br/>
 
-[The Updated Big List Of Articles On The Amazon Outage](http://highscalability.com/blog/2011/5/2/the-updated-big-list-of-articles-on-the-amazon-outage.html)<br/>
+[The Updated Big List Of Articles On The Amazon Outage](http://highscalability.com/blog/2011/5/2/the-updated-big-list-of-articles-on-the-amazon-outage.html)(SRE)<br/>
 [10 Things You Should Know About AWS](http://highscalability.com/blog/2013/11/5/10-things-you-should-know-about-aws.html)<br/>
 [The Serverless Start-Up - Down With Servers!](http://highscalability.com/blog/2015/12/7/the-serverless-start-up-down-with-servers.html)<br/>
 
