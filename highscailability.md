@@ -81,8 +81,11 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 
 ### Netflix
 
-[Netflix: What Happens When You Press Play?](http://highscalability.com/blog/2017/12/11/netflix-what-happens-when-you-press-play.html)<br/>
-[The Eternal Cost Savings Of Netflix's Internal Spot Market](http://highscalability.com/blog/2017/12/4/the-eternal-cost-savings-of-netflixs-internal-spot-market.html)<br/>
+[Netflix: What Happens When You Press Play?](http://highscalability.com/blog/2017/12/11/netflix-what-happens-when-you-press-play.html)(netflix)<br/>
+[The Eternal Cost Savings Of Netflix's Internal Spot Market](http://highscalability.com/blog/2017/12/4/the-eternal-cost-savings-of-netflixs-internal-spot-market.html)(netflix,aws,cost)<br/>
+
+How Neflix use AWS spot instances to save cost.
+
 [A 360 Degree View Of The Entire Netflix Stack](http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html)(mustRead)<br/>
 
 ### Flickr
@@ -164,14 +167,25 @@ AWS pioneer Don MacAskill of SmugMug details how they process high-resolution ph
 
 -----------------------
 
-Building GrepTheWeb In The Cloud, Amazon has published a great couple of articles on building a canonical Cloud Architecture: 
-* [Building GrepTheWeb in the Cloud, Part 1: Cloud Architectures](https://aws.amazon.com/articles/building-greptheweb-in-the-cloud-part-1-cloud-architectures/) 
-* Building GrepTheWeb in the Cloud, Part 2: Best Practices.
+* [Building GrepTheWeb In The Cloud](https://aws.amazon.com/blogs/aws/white-paper-on/)<br/>
+Amazon has published a great couple of articles on building a canonical Cloud Architecture:
+    - [Building GrepTheWeb in the Cloud, Part 1: Cloud Architectures](https://aws.amazon.com/articles/building-greptheweb-in-the-cloud-part-1-cloud-architectures/)
+    - Building GrepTheWeb in the Cloud, Part 2: Best Practices.
 
 
 [Cloud Programming Directly Feeds Cost Allocation Back Into Software Design](http://highscalability.com/blog/2009/3/6/cloud-programming-directly-feeds-cost-allocation-back-into-s.html)<br/>
-[Machine VM + Cloud API - Rewriting The Cloud From Scratch](http://highscalability.com/blog/2010/10/21/machine-vm-cloud-api-rewriting-the-cloud-from-scratch.html)<br/>
-[Under Snowden's Light Software Architecture Choices Become Murky](http://highscalability.com/blog/2014/1/8/under-snowdens-light-software-architecture-choices-become-mu.html)(cloud)<br/>
+
+Usually in programming the costs we talk about are time, space, latency, bandwidth, storage, person hours, etc. Listening to the Google folks talk about how one of their explicit design goals was to require programmers to be mindful of operations that will cost money made me realize in cloud programming cost will be another aspect of design we'll have to factor in.
+
+[Machine VM + Cloud API - Rewriting The Cloud From Scratch](http://highscalability.com/blog/2010/10/21/machine-vm-cloud-api-rewriting-the-cloud-from-scratch.html)(paper,OS)<br/>
+
+An introduction on https://mirage.io/<br/>
+
+MirageOS is a library operating system that constructs unikernels for secure, high-performance network applications across a variety of cloud computing and mobile platforms. Code can be developed on a normal OS such as Linux or MacOS X, and then compiled into a fully-standalone, specialised unikernel that runs under a Xen or KVM hypervisor.
+
+[Under Snowden's Light Software Architecture Choices Become Murky](http://highscalability.com/blog/2014/1/8/under-snowdens-light-software-architecture-choices-become-mu.html)(cloud,security,caseStudy)<br/>
+
+Most big enterprise companies are actively working on their AWS rollout now. Most of them are also trying to get an in-house cloud to work, with varying amounts of success, but even the best private clouds are still years behind the feature set of public clouds, which is has a big impact on the agility and speed of product development
 
 ## Linux
 
@@ -450,6 +464,13 @@ Building GrepTheWeb In The Cloud, Amazon has published a great couple of article
 [How Do You Create A 100th Monkey Software Development Culture?](http://highscalability.com/blog/2013/7/17/how-do-you-create-a-100th-monkey-software-development-cultur.html)<br/>
 [At Some Point The Cost Of Servers Outweighs The Cost Of Programmers](http://highscalability.com/blog/2009/4/5/at-some-point-the-cost-of-servers-outweighs-the-cost-of-prog.html)<br/>
 [How Is Software Developed At Amazon?](http://highscalability.com/blog/2019/3/4/how-is-software-developed-at-amazon.html)(strategy)<br/>
+
+The key themes from the talk: decomposition, automation, and organize around the customer.
+
+The key idea:
+
+Scaling is by mitosis. Teams split apart into smaller teams that completely own a service. EC2 started as one two pizza team.
+
 [The Ultimate Guide: 5 Methods For Debugging Production Servers At Scale](http://highscalability.com/blog/2015/1/7/the-ultimate-guide-5-methods-for-debugging-production-server.html)<br/>
 [Malice Or Stupidity Or Inattention? Using Code Reviews To Find Backdoors](http://highscalability.com/blog/2016/3/2/malice-or-stupidity-or-inattention-using-code-reviews-to-fin.html)<br/>
 
