@@ -470,21 +470,23 @@ Google's practice on Deep Learning.
 [Hilarious Video: Relational Database Vs NoSQL Fanbois](http://highscalability.com/blog/2010/9/5/hilarious-video-relational-database-vs-nosql-fanbois.html)<br/>
 [5 Tips For Scaling NoSQL Databases: Don’t Trust Assumptions](http://highscalability.com/blog/2014/9/24/5-tips-for-scaling-nosql-databases-dont-trust-assumptionstes.html)<br/>
 [Seven Signs You May Need A NoSQL Database](http://highscalability.com/blog/2010/2/16/seven-signs-you-may-need-a-nosql-database.html)<br/>
-[Google Spanner's Most Surprising Revelation: NoSQL is Out and NewSQL is In](http://highscalability.com/blog/2012/9/24/google-spanners-most-surprising-revelation-nosql-is-out-and.html)<br/>
 [The Anatomy Of Search Technology: Blekko’s NoSQL Database](http://highscalability.com/blog/2012/4/25/the-anatomy-of-search-technology-blekkos-nosql-database.html)<br/>
 [What The Heck Are You Actually Using NoSQL For?](http://highscalability.com/blog/2010/12/6/what-the-heck-are-you-actually-using-nosql-for.html)<br/>
 [35+ Use Cases For Choosing Your Next NoSQL Database](http://highscalability.com/blog/2011/6/20/35-use-cases-for-choosing-your-next-nosql-database.html)<br/>
 [101 Questions To Ask When Considering A NoSQL Database](http://highscalability.com/blog/2011/6/15/101-questions-to-ask-when-considering-a-nosql-database.html)<br/>
 [The State Of NoSQL In 2012](http://highscalability.com/blog/2012/1/24/the-state-of-nosql-in-2012.html)<br/>
+
+--------------------
+
 [Must See: 5 Steps To Scaling MongoDB (Or Any DB) In 8 Minutes](http://highscalability.com/blog/2011/9/13/must-see-5-steps-to-scaling-mongodb-or-any-db-in-8-minutes.html)<br/>
+[LevelDB - Fast And Lightweight Key/Value Database From The Authors Of MapReduce And BigTable](http://highscalability.com/blog/2011/8/10/leveldb-fast-and-lightweight-keyvalue-database-from-the-auth.html)<br/>
 
 ## 10.2 Sharding
 
 [Sharding The Hibernate Way](http://highscalability.com/blog/2008/7/26/sharding-the-hibernate-way.html)<br/>
 [Troubles With Sharding - What Can We Learn From The Foursquare Incident?](http://highscalability.com/blog/2010/10/15/troubles-with-sharding-what-can-we-learn-from-the-foursquare.html)<br/>
 [An Unorthodox Approach to Database Design : The Coming of the Shard](http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)<br/>
-
-[Think Of Latency As A Pseudo-Permanent Network Partition](http://highscalability.com/blog/2010/8/12/think-of-latency-as-a-pseudo-permanent-network-partition.html)<br/>
+[Think Of Latency As A Pseudo-Permanent Network Partition](http://highscalability.com/blog/2010/8/12/think-of-latency-as-a-pseudo-permanent-network-partition.html)(latency)<br/>
 
 ## 10.3 Hadoop
 
@@ -492,28 +494,32 @@ Google's practice on Deep Learning.
 [Why My Slime Mold Is Better Than Your Hadoop Cluster](http://highscalability.com/blog/2012/4/9/why-my-slime-mold-is-better-than-your-hadoop-cluster.html)<br/>
 
 ## 10.4 Google
-
+[Google Spanner's Most Surprising Revelation: NoSQL is Out and NewSQL is In](http://highscalability.com/blog/2012/9/24/google-spanners-most-surprising-revelation-nosql-is-out-and.html)<br/>
 [Google's Sanjay Ghemawat On What Made Google Google And Great Big Data Career Advice](http://highscalability.com/blog/2013/10/21/googles-sanjay-ghemawat-on-what-made-google-google-and-great.html)<br/>
 [How Google Backs Up The Internet Along With Exabytes Of Other Data](http://highscalability.com/blog/2014/2/3/how-google-backs-up-the-internet-along-with-exabytes-of-othe.html)<br/>
 [How Google Serves Data From Multiple Datacenters](http://highscalability.com/blog/2009/8/24/how-google-serves-data-from-multiple-datacenters.html)<br/>
 
-## 10.5 Other
+## 10.5 in-mem DB
+[VoltDB Decapitates Six SQL Urban Myths And Delivers Internet Scale OLTP In The Process](http://highscalability.com/blog/2010/6/28/voltdb-decapitates-six-sql-urban-myths-and-delivers-internet.html)(scalability)<br/>
+[MemSQL Architecture - The Fast (MVCC, InMem, LockFree, CodeGen) And Familiar (SQL)](http://highscalability.com/blog/2012/8/14/memsql-architecture-the-fast-mvcc-inmem-lockfree-codegen-and.html)<br/>
+[How Will New Memory Technologies Impact In-Memory Databases?](http://highscalability.com/blog/2015/9/23/how-will-new-memory-technologies-impact-in-memory-databases.html)<br/>
+
+## 10.6 Other
 
 [The Big Problem Is Medium Data](http://highscalability.com/blog/2014/12/17/the-big-problem-is-medium-data.html)<br/>
-[LevelDB - Fast And Lightweight Key/Value Database From The Authors Of MapReduce And BigTable](http://highscalability.com/blog/2011/8/10/leveldb-fast-and-lightweight-keyvalue-database-from-the-auth.html)<br/>
+
 [Jim Starkey Is Creating A Brave New World By Rethinking Databases For The Cloud](http://highscalability.com/blog/2011/8/4/jim-starkey-is-creating-a-brave-new-world-by-rethinking-data.html)<br/>
 [The Mother Of All Database Normalization Debates On Coding Horror](http://highscalability.com/blog/2008/7/16/the-mother-of-all-database-normalization-debates-on-coding-h.html)<br/>
-[MemSQL Architecture - The Fast (MVCC, InMem, LockFree, CodeGen) And Familiar (SQL)](http://highscalability.com/blog/2012/8/14/memsql-architecture-the-fast-mvcc-inmem-lockfree-codegen-and.html)<br/>
+
 [Changing Architectures: New Datacenter Networks Will Set Your Code And Data Free](http://highscalability.com/blog/2012/9/11/changing-architectures-new-datacenter-networks-will-set-your.html)<br/>
-[VoltDB Decapitates Six SQL Urban Myths And Delivers Internet Scale OLTP In The Process](http://highscalability.com/blog/2010/6/28/voltdb-decapitates-six-sql-urban-myths-and-delivers-internet.html)<br/>
-[8 Ways Stardog Made Its Database Insanely Scalable](http://highscalability.com/blog/2014/1/20/8-ways-stardog-made-its-database-insanely-scalable.html)<br/>
+
+[8 Ways Stardog Made Its Database Insanely Scalable](http://highscalability.com/blog/2014/1/20/8-ways-stardog-made-its-database-insanely-scalable.html)(Scalability)<br/>
 [How Twitter Stores 250 Million Tweets A Day Using MySQL](http://highscalability.com/blog/2011/12/19/how-twitter-stores-250-million-tweets-a-day-using-mysql.html)<br/>
-[Facebook's New Realtime Analytics System: HBase To Process 20 Billion Events Per Day](http://highscalability.com/blog/2011/3/22/facebooks-new-realtime-analytics-system-hbase-to-process-20.html)<br/>
+[Facebook's New Realtime Analytics System: HBase To Process 20 Billion Events Per Day](http://highscalability.com/blog/2011/3/22/facebooks-new-realtime-analytics-system-hbase-to-process-20.html)(realtime)<br/>
 [Code Generation: The Inner Sanctum Of Database Performance](http://highscalability.com/blog/2016/9/7/code-generation-the-inner-sanctum-of-database-performance.html)(database,performance,)<br/>
 
 This is guest post by Drew Paroski, architect and engineering manager at MemSQL. Previously he worked at Facebook and developed HHVM, the popular real-time PHP compiler used across the company’s web scale application.
 
-[How Will New Memory Technologies Impact In-Memory Databases?](http://highscalability.com/blog/2015/9/23/how-will-new-memory-technologies-impact-in-memory-databases.html)<br/>
 [Switch Your Databases To Flash Storage. Now. Or You're Doing It Wrong.](http://highscalability.com/blog/2012/12/10/switch-your-databases-to-flash-storage-now-or-youre-doing-it.html)<br/>
 [We Are Leaving 3x-4x Performance On The Table Just Because Of Configuration](http://highscalability.com/blog/2014/11/19/we-are-leaving-3x-4x-performance-on-the-table-just-because-o.html)<br/>
 [When All The Program's A Graph - Prismatic's Plumbing Library](http://highscalability.com/blog/2013/2/14/when-all-the-programs-a-graph-prismatics-plumbing-library.html)<br/>
@@ -570,8 +576,8 @@ Scaling is by mitosis. Teams split apart into smaller teams that completely own 
 
 [Paper: The Akamai Network - 61,000 Servers, 1,000 Networks, 70 Countries&nbsp;](http://highscalability.com/blog/2011/8/18/paper-the-akamai-network-61000-servers-1000-networks-70-coun.html)(cdn)<br/>
 [Paper: Immutability Changes Everything By Pat Helland](http://highscalability.com/blog/2015/1/26/paper-immutability-changes-everything-by-pat-helland.html)<br/>
-[Paper: Network Stack Specialization For Performance](http://highscalability.com/blog/2014/2/12/paper-network-stack-specialization-for-performance.html)<br/>
-[Awesome List Of Advanced Distributed Systems Papers](http://highscalability.com/blog/2011/5/31/awesome-list-of-advanced-distributed-systems-papers.html)(distributed)<br/>
+[Paper: Network Stack Specialization For Performance](http://highscalability.com/blog/2014/2/12/paper-network-stack-specialization-for-performance.html)(network,performance)<br/>
+[Awesome List Of Advanced Distributed Systems Papers](http://highscalability.com/blog/2011/5/31/awesome-list-of-advanced-distributed-systems-papers.html)(distributed,paper)<br/>
 
 # 16. Security<br/>
 
