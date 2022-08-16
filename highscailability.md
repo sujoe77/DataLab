@@ -4,34 +4,51 @@ Reading list from http://highscalability.com/all-time-favorites/, reorgnized in 
 
 [Stuff the Internet Says on Scalability](http://highscalability.com/blog/category/hot-links)(scalability)<br/>
 [Useful Scalability Blogs](http://highscalability.com/blog/category/blog)(scalability)<br/>
-[Hacker News](http://ycombinator.com)<br/>
-[reddit](https://www.reddit.com/)<br/>
+
+[Hacker News - ycombinator](http://ycombinator.com)<br/>
+[Reddit](https://www.reddit.com/)<br/>
 
 # 2. Strategies
 
 [What Can The Amazing Race To The South Pole Teach Us About Startups?](http://highscalability.com/blog/2013/8/19/what-can-the-amazing-race-to-the-south-pole-teach-us-about-s.html)(strategy)<br/>
-[Google Strategy: Tree Distribution Of Requests And Responses](http://highscalability.squarespace.com/blog/2011/2/1/google-strategy-tree-distribution-of-requests-and-responses.html)(strategy)<br/>
-[Strategy: Disk Backup For Speed, Tape Backup To Save Your Bacon, Just Ask Google](http://highscalability.squarespace.com/blog/2011/3/24/strategy-disk-backup-for-speed-tape-backup-to-save-your-baco.html)(devops)(strategy)<br/>
+[Google Strategy: Tree Distribution Of Requests And Responses](http://highscalability.squarespace.com/blog/2011/2/1/google-strategy-tree-distribution-of-requests-and-responses.html)(strategy,google)<br/>
+[Strategy: Disk Backup For Speed, Tape Backup To Save Your Bacon, Just Ask Google](http://highscalability.squarespace.com/blog/2011/3/24/strategy-disk-backup-for-speed-tape-backup-to-save-your-baco.html)(devops,strategy,google)<br/>
 [Aztec Empire Strategy: Use Dual Pipes In Your Aqueduct For High Availability](http://highscalability.com/blog/2011/3/28/aztec-empire-strategy-use-dual-pipes-in-your-aqueduct-for-hi.html)(strategy)<br/>
 [Heroku Emergency Strategy: Incident Command System And 8 Hour Ops Rotations For Fresh Minds](http://highscalability.com/blog/2011/4/27/heroku-emergency-strategy-incident-command-system-and-8-hour.html)(devops, strategy)<br/>
-[7 Scaling Strategies Facebook Used To Grow To 500 Million Users](http://highscalability.com/blog/2010/8/2/7-scaling-strategies-facebook-used-to-grow-to-500-million-us.html)(strategy)<br/>
+[7 Scaling Strategies Facebook Used To Grow To 500 Million Users](http://highscalability.com/blog/2010/8/2/7-scaling-strategies-facebook-used-to-grow-to-500-million-us.html)(strategy,scalability,facebook)<br/>
 
 # 3. DevOps
 
 [Heroku Emergency Strategy: Incident Command System And 8 Hour Ops Rotations For Fresh Minds](http://highscalability.com/blog/2011/4/27/heroku-emergency-strategy-incident-command-system-and-8-hour.html)(devops)<br/>
 
-[Paper: Large-Scale Cluster Management At Google With Borg](http://highscalability.com/blog/2015/4/16/paper-large-scale-cluster-management-at-google-with-borg.html)(devops,paper)<br/>
-[10 Things Bitly Should Have Monitored](http://highscalability.com/blog/2014/1/29/10-things-bitly-should-have-monitored.html)(devops)<br/>
-[Log Everything All The Time](http://highscalability.com/blog/2007/8/30/log-everything-all-the-time.html)(devops)<br/>
+[Paper: Large-Scale Cluster Management At Google With Borg](http://highscalability.com/blog/2015/4/16/paper-large-scale-cluster-management-at-google-with-borg.html)(devops,paper,google)<br/>
+
+[10 Things Bitly Should Have Monitored](http://highscalability.com/blog/2014/1/29/10-things-bitly-should-have-monitored.html)(devops,monitoring)<br/>
+
+Here are 10 Things We Forgot to Monitor from Bitly, along with good stories and copious amounts of code snippets. Well worth reading, especially after you've already started monitoring the lower hanging fruit.
+
+1. **Fork Rate**. A strange configuration issue caused processes to be created at a rate of several hundred a second rather than the expected 1-10/second.
+2. **Flow control packets**.  A network configuration that honors flow control packets and isn’t configured to disable them, can temporarily cause dropped traffic.
+3. **Swap In/Out Rate**. Measure the right thing. It's the rate memory is swapped in/out that can impact performance, not the quantity.
+4. **Server Boot Notification**. Use an init script to capture when servers are dying. Servers do die, but are they dying too often?
+5. **NTP Clock Offset**. If you are not checking one of you servers is probably not properly time synced.
+6. **DNS Resolutions**. This is a key part of your infrastructure that often goes unchecked. It can be the source of a lot of latency and availability problems. On the Internal DNS check quantity, latency, and availability. Also verify External DNS servers give the correct answers and are available.
+7. **SSL Expiration**. Don't let those certificates expire. Set up an expiration check.
+8. **DELL OpenManage Server Administrator (OMSA)**.  Monitor the outputs from OMSA to know when failures have occurred.
+9. **Connection Limits**. Do you know how close you are to your connection limits?
+10. **Load Balancer Status**. It's important to have visibility into your load balancer status by making the health stats visible.
+
+[Log Everything All The Time](http://highscalability.com/blog/2007/8/30/log-everything-all-the-time.html)(devops,monitoring)<br/>
 [Vinted Architecture: Keeping A Busy Portal Stable By Deploying Several Hundred Times Per Day](http://highscalability.com/blog/2015/2/9/vinted-architecture-keeping-a-busy-portal-stable-by-deployin.html)(devops)<br/>
 
-[The Always On Architecture - Moving Beyond Legacy Disaster Recovery](http://highscalability.com/blog/2016/8/23/the-always-on-architecture-moving-beyond-legacy-disaster-rec.html)(devops,Reliability,google)<br/>
-
-article on a paper from Google: High-Availability at Massive Scale: [Building Google’s Data Infrastructure for Ads](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf) that explains their history with Always On. It seems appropriate. Here's the article.
-
-The main idea of the paper is that the typical failover architecture used when moving from a single datacenter to multiple datacenters doesn’t work well in practice. What does work, where work means using fewer resources while providing high availability and consistency, is a natively multihomed architecture:
 
 # 4. Architecture<br/>
+
+[The Always On Architecture - Moving Beyond Legacy Disaster Recovery](http://highscalability.com/blog/2016/8/23/the-always-on-architecture-moving-beyond-legacy-disaster-rec.html)(devops,availability,google,paper)<br/>
+
+Article on a paper from Google: High-Availability at Massive Scale: [Building Google’s Data Infrastructure for Ads](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf) that explains their history with Always On. It seems appropriate. Here's the article.
+
+The main idea of the paper is that the typical failover architecture used when moving from a single datacenter to multiple datacenters doesn’t work well in practice. What does work, where work means using fewer resources while providing high availability and consistency, is a **natively multihomed architecture**.
 
 [Ask HighScalability: Choose An Async App Server Or Multiple Blocking Servers?](http://highscalability.com/blog/2015/8/24/ask-highscalability-choose-an-async-app-server-or-multiple-b.html)(async)<br/>
 
@@ -43,8 +60,6 @@ I’ve walked through a wide variety of lessons we’ve learned building and sca
 
 This is aimed towards taking you through key architectural decisions which will make a social application a true next generation social product. The proposed changes addresses following attributes; a) availability b) reliability c) scalability d) performance and flexibility towards extensions (not modifications)
 
-[Using Gossip Protocols For Failure Detection, Monitoring, Messaging And Other Good Things](http://highscalability.com/blog/2011/11/14/using-gossip-protocols-for-failure-detection-monitoring-mess.html)(distributed,consistency)<br/>
-
 [How Can We Build Better Complex Systems? Containers, Microservices, And Continuous Delivery.](http://highscalability.com/blog/2015/4/27/how-can-we-build-better-complex-systems-containers-microserv.html)(lessons,microservice)<br/>
 
 Poppendieck, co-author of the ‘Lean Software Development’ book series, opened the talk by stating that software developers create complex systems. As Fred Brooks identified in his seminal book, ‘The Mythical Man Month’, not only are software systems complex, but the complexity scales non-linearly with size. Poppendieck stated that one of the core goals of the talk was to explore the notion that a ‘good' complex system has the properties of 'low fiction' and limited risk. The remainder of the talk examined this from the perspective of the historical evolution of hardware and software, software architecture, engineering principles, organisational structure, and designing for reliability.
@@ -53,7 +68,7 @@ Poppendieck, co-author of the ‘Lean Software Development’ book series, opene
 [Aeron: Do We Really Need Another Messaging System?](http://highscalability.com/blog/2014/11/17/aeron-do-we-really-need-another-messaging-system.html)<br/>
 [This Stuff Isn't Taught, You Learn It Bit By Bit As You Solve Each Problem.](http://highscalability.com/blog/2011/2/23/this-stuff-isnt-taught-you-learn-it-bit-by-bit-as-you-solve.html)(lessons,read)<br/>
 [What Do You Believe Now That You Didn't Five Years Ago? Centralized Wins. Decentralized Loses.](http://highscalability.com/blog/2018/8/22/what-do-you-believe-now-that-you-didnt-five-years-ago-centra.html)(distributed)<br/>
-[Paper: The End Of An Architectural Era (It’s Time For A Complete Rewrite)](http://highscalability.com/blog/2009/4/16/paper-the-end-of-an-architectural-era-its-time-for-a-complet.html)(paper)<br/>
+
 [AppBackplane - A Framework For Supporting Multiple Application Architectures](http://highscalability.com/blog/2013/3/25/appbackplane-a-framework-for-supporting-multiple-application.html)(hardware)<br/>
 [Ask HS: What Will Programming And Architecture Look Like In 2020?](http://highscalability.com/blog/2012/12/23/ask-hs-what-will-programming-and-architecture-look-like-in-2.html)<br/>
 
@@ -162,8 +177,7 @@ This post is just a short gloss of the major points. He goes into more depth on 
 
 This is a guest post by Rafael Neves, Head of Enterprise Architecture at ALICE, a NY-based hospitality technology startup. While the domain is Property Management, it's also a good microservices intro.
 
-
-[Deep Lessons From Google And EBay On Building Ecosystems Of Microservices](http://highscalability.com/blog/2015/12/1/deep-lessons-from-google-and-ebay-on-building-ecosystems-of.html)(lesson)<br/>
+[Deep Lessons From Google And EBay On Building Ecosystems Of Microservices](http://highscalability.com/blog/2015/12/1/deep-lessons-from-google-and-ebay-on-building-ecosystems-of.html)(lesson,google)<br/>
 [Seven Of The Nastiest Anti-Patterns In Microservices](http://highscalability.com/blog/2015/8/3/seven-of-the-nastiest-anti-patterns-in-microservices.html)<br/>
 [The Convergence That Changes Everything: Data Gravity + Containers + Microservices](http://highscalability.com/blog/2015/3/25/the-convergence-that-changes-everything-data-gravity-contain.html)<br/>
 [This Is Why Microsoft Won. And Why They Lost.](http://highscalability.com/blog/2014/4/21/this-is-why-microsoft-won-and-why-they-lost.html)<br/>
@@ -500,11 +514,23 @@ Google's practice on Deep Learning.
 [How Google Serves Data From Multiple Datacenters](http://highscalability.com/blog/2009/8/24/how-google-serves-data-from-multiple-datacenters.html)<br/>
 
 ## 10.5 in-mem DB
+[Paper: The End Of An Architectural Era (It’s Time For A Complete Rewrite)](http://highscalability.com/blog/2009/4/16/paper-the-end-of-an-architectural-era-its-time-for-a-complet.html)(paper,nosql)<br/>
+
+**ABSTRACT**
+In previous papers [SC05, SBC+07], some of us predicted the end of "one size fits all" as a commercial relational DBMS paradigm. These papers presented reasons and experimental evidence that showed that the major RDBMS vendors can be outperformed by 1--2 orders of magnitude by specialized engines in the data warehouse, stream processing, text, and scientific database markets.
+
+Assuming that specialized engines dominate these markets over time, the current relational DBMS code lines will be left with the business data processing (OLTP) market and hybrid markets where more than one kind of capability is required. In this paper we show that current RDBMSs can be beaten by nearly two orders of magnitude in the OLTP market as well. The experimental evidence comes from comparing a new OLTP prototype, H-Store, which we have built at M.I.T. to a popular RDBMS on the standard transactional benchmark, TPC-C.
+
+We conclude that the current RDBMS code lines, while attempting to be a "one size fits all" solution, in fact, excel at nothing. Hence, they are 25 year old legacy code lines that should be retired in favor of a collection of "from scratch" specialized engines. The DBMS vendors (and the research community) should start with a clean sheet of paper and design systems for tomorrow's requirements, not continue to push code lines and architectures designed for yesterday's needs.
+
 [VoltDB Decapitates Six SQL Urban Myths And Delivers Internet Scale OLTP In The Process](http://highscalability.com/blog/2010/6/28/voltdb-decapitates-six-sql-urban-myths-and-delivers-internet.html)(scalability)<br/>
 [MemSQL Architecture - The Fast (MVCC, InMem, LockFree, CodeGen) And Familiar (SQL)](http://highscalability.com/blog/2012/8/14/memsql-architecture-the-fast-mvcc-inmem-lockfree-codegen-and.html)<br/>
 [How Will New Memory Technologies Impact In-Memory Databases?](http://highscalability.com/blog/2015/9/23/how-will-new-memory-technologies-impact-in-memory-databases.html)<br/>
 
 ## 10.6 Other
+
+[Using Gossip Protocols For Failure Detection, Monitoring, Messaging And Other Good Things](http://highscalability.com/blog/2011/11/14/using-gossip-protocols-for-failure-detection-monitoring-mess.html)(distributed,consistency)<br/>
+
 
 [The Big Problem Is Medium Data](http://highscalability.com/blog/2014/12/17/the-big-problem-is-medium-data.html)<br/>
 
