@@ -16,7 +16,7 @@
 [16] Martin Fowler: "InversionOfControl," martinfowler.com, June 26, 2005.
 [17] Daniel J. Bernstein: "Two File Descriptors for Sockets," cr.yp.to.
 [18] Rob Pike and Dennis M. Ritchie: "The Styx Architecture for Distributed Sys‐tems," Bell Labs Technical Journal, volume 4, number 2, pages 146–152, April 1999.
-[19] Sanjay Ghemawat, Howard Gobioff, and Shun-Tak Leung: "The Google File Sys‐tem," at 19th ACM Symposium on Operating Systems Principles (SOSP), October2003. doi:10.1145/945445.945450
+[19] Sanjay Ghemawat, Howard Gobioff, and Shun-Tak Leung: "The Google File System," at 19th ACM Symposium on Operating Systems Principles (SOSP), October2003. doi:10.1145/945445.945450
 [20] Michael Ovsiannikov, Silvius Rus, Damian Reeves, et al.: "The Quantcast FileSystem," Proceedings of the VLDB Endowment, volume 6, number 11, pages 1092–1101, August 2013. doi:10.14778/2536222.2536234
 [21] "OpenStack Swift 2.6.1 Developer Documentation," OpenStack Foundation,docs.openstack.org, March 2016.
 [22] Zhe Zhang, Andrew Wang, Kai Zheng, et al.: "Introduction to HDFS ErasureCoding in Apache Hadoop," blog.cloudera.com, September 23, 2015.
