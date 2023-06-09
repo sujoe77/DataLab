@@ -69,39 +69,58 @@ where to find
 
 ## Content of courses
 
+### Types of Databases
+
+* Relational / NoSql
+  - Key / Value, Redis
+  - Document, MongoDB
+  - Column, Cassandra
+  - Graph, Neo4j
+  - Timeseries, InfluxDB
+
+![](img/nosql.jpeg)
+
+see: https://db-engines.com/en/ranking
+
+* OLTP / OLAP
+
+* AWS Databases
+
+![](img/databases.png)
+
 ### RDS
 
-![](img/RdsEngines.png)
+Amazon Relational Database Service (or Amazon RDS) is a distributed relational database service by Amazon Web Services (AWS). [wikipedia]
 
-  - relational
+  - Relational
   - 1st released Oct. 2009 MySQL, oracle, SQL Server ...
   - Use cases, on-line store, banking etc, consistency
-  - Not a DB Engine but a cloud service
+  - Cloud service
     - Administration
     - scaling
     - failover
-  - alternatives
+  - Alternatives
     - Microsoft Azure SQL Database
     - Google cloud databases
 
-  - product site
-    
-      https://aws.amazon.com/rds/?nc1=h_ls
+  - Database engines supported
 
-  - database engines supported
-        - Aurora
-        - MySQL
-        - MariaDB
-        - PostgreSQL
-        - Oracle
-        - MS SQL server
-        - RDS Custom
+  ![](img/RdsEngines.png)
+
+        - and RDS Custom
+
+        for applications that require customization of the underlying operating system and database environment.
 
   - Instance types
-    db.t4g.micro	$0.016
-      2 vCPU, 1G, 5Gbs
-    db.m5d.24xlarge	$10.057
-      96 vCPU, 384G, 25Gbs
+
+        db.t4g.micro    $0.016  2 vCPU,   1G,   5Gbs
+        ...
+        db.m5d.24xlarge	$10.057 96 vCPU,  384G, 25Gbs
+
+  - Standby and read replica
+
+  - Encryption
+
 
 #### Aurora
 
@@ -109,10 +128,15 @@ where to find
     - migrate to and from
     - code, tools, applications, drivers
     - https://aws.amazon.com/rds/aurora/faqs/
-  - distributed, alternatives like Google Snapper
-  - scalability, H.A.
-  - the paper
-  - Werner's blog
+  - Distributed, alternatives like Google Spanner 
+    (https://static.googleusercontent.com/media/research.google.com/zh-CN//archive/spanner-osdi2012.pdf)
+  - Server less
+  - Performance and Scalability
+  - 3 AZ replication, Global DB  
+
+    See also:
+
+  - Werner's blog and paper (Aurora: https://www.allthingsdistributed.com/2019/03/)
   - http://nil.csail.mit.edu/6.824/2020/schedule.html
 
 ### Dynamo
