@@ -143,6 +143,8 @@ Amazon Relational Database Service (or Amazon RDS) is a distributed relational d
 
 ![](img/dynamo_usecase.webp)
 
+Vogels described the deep technical nature of Amazon's infrastructure work in a paper about Amazon's Dynamo, the storage engine for Amazon's shopping cart.
+
   - key / value
   - serverless
   - features listed in course table
@@ -342,43 +344,106 @@ see also:
 
 ![](img/useCases.png)
 
-# Ref.
+* 5 dimensions
 
-Udemy AWS course
+  - Abstraction layers
+  - Alternatives
+  - Evolution over time
+  - From research to application
+  - People
 
-    cheat sheet
-        https://digitalcloud.training/aws-database-services/
-        https://digitalcloud.training/additional-aws-services/
+# References
 
-AWS certification books
+## 0. AWS
 
-    https://play.google.com/books/reader?id=Hu1wIgAAAEAJ&pg=GBS.PA231
+  * Werner Vogels, CTO of Amazon
 
-Alternatives
-fx, in Azure
+    https://en.wikipedia.org/wiki/Werner_Vogels
 
-Data base ranking
-
-  https://mp.weixin.qq.com/s/oUBQ53uB5OXNFnfXEGPYtw
-
-VLDB
-
-    microsoft top DB researchers
-
-Werner Vogels
-
-  https://en.wikipedia.org/wiki/Werner_Vogels
-
-  https://www.allthingsdistributed.com/
+    https://www.allthingsdistributed.com/
 
     He joined Amazon in September 2004 as the director of systems research. He was named chief technology officer in January 2005 and vice president in March of that year.
 
-    Vogels described the deep technical nature of Amazon's infrastructure work in a paper about Amazon's Dynamo,[15] the storage engine for Amazon's shopping cart.
+## 1. Udemy AWS course
 
-papers
+  a. cheat sheet
 
-    Dynamo: https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf
-    Aurora: https://www.allthingsdistributed.com/2019/03/amazon-aurora-design-cloud-native-relational-database.html
+    https://digitalcloud.training/aws-database-services/
+    https://digitalcloud.training/additional-aws-services/
+
+## 2. Wikipedia
+
+
+## 5. Books
+
+  * Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems, by Martin Kleppmann
+
+![](img/ddia.jpeg)
+
+  * "Streaming Systems: The What, Where, When, and How of Large-Scale Data Processing" by Tyler Akidau (Author), Slava Chernyak (Author), Reuven Lax (Author) 2018
+
+    https://www.amazon.com/Streaming-Systems-Where-Large-Scale-Processing/dp/1491983876
+
+![](img/ss.jpg)
+
+## 6. University Courses, Paper and Conference
+
+  a. UC Berkeley
+
+    https://www2.eecs.berkeley.edu/Research/Areas/DBMS/
+
+  b. MIT 6.824 Distributed Systems
+
+    https://pdos.csail.mit.edu/6.824/
+
+  c. Very Large Data Base Endowment Inc.
+
+    https://www.vldb.org/
+
+    https://vldb.org/2023/
+
+  d. Papers
+
+    - Dynamo: 
+    
+      https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf
+    
+    - Aurora: 
+    
+      https://www.allthingsdistributed.com/2019/03/amazon-aurora-design-cloud-native-relational-database.html
+    
+    - "Amazon Redshift re-invented" 
+    
+      https://www.amazon.science/publications/amazon-redshift-re-invented
+
+    - Papers referenced in "Streaming Systems"
+
+    - 100 open source Big Data architecture papers for data professionals. 
+    
+      https://www.linkedin.com/pulse/100-open-source-big-data-architecture-papers-anil-madan/
+
+  d. Top DB researchers 
+    
+    https://www.quora.com/Who-are-some-of-the-most-famous-database-researchers
+
+## 6. Udemy Related courses
+
+AWS Certified Data Analytics
+
+  https://nordea.udemy.com/course/aws-data-analytics/?src=sac&kw=aws+certified+an
+
+AWS Certified Database specialty
+
+  https://nordea.udemy.com/course/aws-certified-database-specialty-dbs/
+
+
+## 7. Other
+
+  DB Engines https://db-engines.com/en/
+
+
+
+
 
 Timestream
 
