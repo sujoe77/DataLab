@@ -28,10 +28,6 @@ from blog: [A one size fits all database doesn't fit anyone](https://www.allthin
 - Relational
 - 1st released Oct. 2009 MySQL, oracle, SQL Server ...
 - Use cases, on-line store, banking etc, consistency
-- Cloud service
-  - Administration
-  - scaling
-  - failover
 - Alternatives
 
   - Microsoft Azure SQL Database
@@ -72,21 +68,19 @@ from blog: [A one size fits all database doesn't fit anyone](https://www.allthin
 * Implementation
 
   - Offloading redo logging: The log is the database
-  - cell based architecture
+  - Cell based architecture
   - The beauty of quorums
   - Fast repairs and catchup
 
 ![](img/aurora_arch.png)
 
-    See also:
+![](img/aurora_node.png)
 
-- ![](img/aurora_arch.png)
-
-      See also:
+See also:
 
 - Amazon Aurora ascendant: How we designed a cloud-native relational database: https://www.allthingsdistributed.com/2019/03/amazon-aurora-design-cloud-native-relational-database.html
 - http://nil.csail.mit.edu/6.824/2020/schedule.html, Aurora section
-- the paper: "Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases"
+- Paper: "Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases"
 
 # Dynamo
 
@@ -95,19 +89,19 @@ from blog: [A one size fits all database doesn't fit anyone](https://www.allthin
 
 ![](img/dynamo_usecase.webp)
 
-Vogels described the deep technical nature of Amazon's infrastructure work in a paper about Amazon's Dynamo, the storage engine for Amazon's shopping cart.
-
 - key / value
 - serverless
-- features listed in course table
 - data model
   - Tables, items, attributes
 - use cases
   social networks, and web analytics
 - Serverless, fully managed
+- paper 2007, product 2012
 - Alternatives
+
   - Azure Cosmos DB
   - Google Cloud Bigtable
+
 - Features
 
   - eventual consistency
@@ -117,12 +111,19 @@ Vogels described the deep technical nature of Amazon's infrastructure work in a 
   - low latency, DAX
 
 - None Functional
+
   - Push button, Horizontal scaling
-  - Accelerator
-  - Backup
-  - Replication
-    - replicate to 3 AZs
-    - across regions
+  - Secure
+  - Performant
+  - Durable and high avilability
+  - Manageable
+
+- Implementation
+
+from paper: "Dynamo: Amazon’s Highly Available Key-value Store"
+
+![](img/dynamo_arch.png)
+![](img/dynamo_tech.png)
 
 see also:
 
@@ -241,21 +242,6 @@ https://aws.amazon.com/blogs/aws/amazon-kinesis-real-time-processing-of-streamed
 
 # Other DB and analytics services
 
-- AWS Data pipelines
-- Quick Sight
-  - BI dashboards
-- Neptune, graph db
-  - billions of relationships in milliseconds
-  - graph query language, TinkerPop Gremlin and W3C’s SPARQL
-  -
-- Document DB
-  - support mongoDB workloads
-  - json
-- QLDB, ledge database
-- Amazon managed BlockChain
-
-# Other
-
 ## Timestream
 
 Amazon Timestream is a fast, scalable, and serverless time-series database service.
@@ -300,14 +286,28 @@ released 2020 Sep.
 
   https://www.allthingsdistributed.com/2019/12/power-of-relationships.html
 
+## Other
+
+- AWS Data pipelines
+- Quick Sight
+  - BI dashboards
+- Document DB
+  - support mongoDB workloads
+  - json
+- QLDB, ledge database
+- Amazon managed BlockChain
+
 # Some recommended readings
 
-- Werner Vogels
-- design data intensive
-- UC berkeley database courses, MIT 6.824
-- VLDB
-
-  https://vldb.org/
+- Werner Vogels and his blog
+- Book: "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems, by Martin Kleppmann"
+- UC berkeley database courses
+- MIT opencourseware https://ocw.mit.edu/
+- Amazon, Google and Microsoft research website
+  - https://www.amazon.science/
+  - https://research.google/
+  - https://www.microsoft.com/en-us/research/
+- VLDB https://vldb.org/
 
   VLDB is a premier annual international forum for data management and database researchers, vendors, practitioners, application developers, and users. The VLDB 2023 conference will feature research talks, tutorials, demonstrations, and workshops. It will cover issues in data management, database and information systems research, since they are the technological cornerstones of the emerging applications of the 21st century.
 
@@ -400,9 +400,7 @@ a. cheat sheet
     https://digitalcloud.training/aws-database-services/
     https://digitalcloud.training/additional-aws-services/
 
-## 2. Wikipedia
-
-## 5. Books
+## 2. Books
 
 - Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems, by Martin Kleppmann
 
@@ -414,7 +412,7 @@ a. cheat sheet
 
 ![](img/ss.jpg)
 
-## 6. University Courses, Paper and Conference
+## 3. University Courses, Paper and Conference
 
 a. UC Berkeley
 
@@ -466,7 +464,7 @@ d. Top DB researchers
 
     https://www.quora.com/Who-are-some-of-the-most-famous-database-researchers
 
-## 6. Udemy Related courses
+## 4. Udemy Related courses
 
 AWS Certified Data Analytics
 
