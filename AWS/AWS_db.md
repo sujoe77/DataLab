@@ -68,10 +68,20 @@ from blog: [A one size fits all database doesn't fit anyone](https://www.allthin
   - Performance and Scalability
   - 3 AZ replication, Global DB  
 
+
+* Implementation
+  - Offloading redo logging: The log is the database
+  - cell based architecture
+  - 
+![](img/aurora_arch.png)
+
+
+
     See also:
 
-  - Werner's blog and paper (Aurora: https://www.allthingsdistributed.com/2019/03/)
-  - http://nil.csail.mit.edu/6.824/2020/schedule.html
+  - Amazon Aurora ascendant: How we designed a cloud-native relational database: https://www.allthingsdistributed.com/2019/03/amazon-aurora-design-cloud-native-relational-database.html
+  - http://nil.csail.mit.edu/6.824/2020/schedule.html, Aurora section
+  - the paper: "Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases"
 
 # Dynamo
 
@@ -108,6 +118,8 @@ Vogels described the deep technical nature of Amazon's infrastructure work in a 
       - replicate to 3 AZs
       - across regions
 
+see also:
+
   - see 6.824 https://pdos.csail.mit.edu/6.824/schedule.html
   - https://www.allthingsdistributed.com/2017/10/a-decade-of-dynamo.html
 
@@ -130,16 +142,19 @@ Vogels described the deep technical nature of Amazon's infrastructure work in a 
 
     https://db-engines.com/en/system/Amazon+Redshift%3BGoogle+BigQuery%3BMicrosoft+Azure+Synapse+Analytics%3BSnowflake
 
-  - deployed on EC2 instances
+  - Deployed on EC2 instances
 
-  - architecture
+  - Architecture
+
     https://docs.aws.amazon.com/redshift/latest/dg/c_high_level_system_architecture.html
 
   - Amazon Redshift: Ten years of continuous reinvention
 
     https://www.amazon.science/latest-news/amazon-redshift-ten-years-of-continuous-reinvention
 
-    the paper is in the same folder with this notes
+  - Dremel: Interactive Analysis of Web-Scale Datasets
+
+    https://research.google.com/pubs/archive/36632.pdf
 
 
 ### EMR (Elastic MapReduce)
@@ -348,6 +363,13 @@ see also:
 
     https://www.allthingsdistributed.com/2017/10/a-decade-of-dynamo.html
 
+  * Amazon Aurora ascendant: How we designed a cloud-native relational database: 
+
+    https://www.allthingsdistributed.com/2019/03/amazon-aurora-design-cloud-native-relational-database.html
+
+  * Cell based architecture
+
+    https://www.youtube.com/watch?v=swQbA4zub20&t=1267s
 
 ## 1. Udemy AWS course
 
@@ -410,6 +432,14 @@ see also:
     - Google spanner
 
       https://static.googleusercontent.com/media/research.google.com/zh-CN//archive/spanner-osdi2012.pdf
+
+    - Amazon Redshift: Ten years of continuous reinvention
+    
+      https://www.amazon.science/latest-news/amazon-redshift-ten-years-of-continuous-reinvention
+
+    - Dremel: Interactive Analysis of Web-Scale Datasets
+
+      https://research.google.com/pubs/archive/36632.pdf
 
   d. Top DB researchers 
     
