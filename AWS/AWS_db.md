@@ -1,6 +1,11 @@
 # Types of Databases
 
-* Relational / NoSql
+> <p>Databases are built for a purpose and matching the use case with the database will help you write high-performance, scalable, and more functional applications faster.</p>
+> <p>Werner Vogels, CTO of Amazon</p>
+
+* Relational 
+  - OLTP / OLAP
+* NoSql
   - Key / Value, Redis
   - Document, MongoDB
   - Column, Cassandra
@@ -14,16 +19,10 @@ from blog: [A one size fits all database doesn't fit anyone](https://www.allthin
 
 &nbsp;&nbsp;&nbsp;&nbsp;https://db-engines.com/en/ranking
 
+# RDS
+> Amazon RDS handles all the "muck" of relational database management freeing up its users to focus on their applications and business.
 
-* OLTP / OLAP
-
-* AWS Databases
-
-![](img/databases.png)
-
-### RDS
-
-Amazon Relational Database Service (or Amazon RDS) is a distributed relational database service by Amazon Web Services (AWS). [wikipedia]
+![](img/rds.png) 
 
   - Relational
   - 1st released Oct. 2009 MySQL, oracle, SQL Server ...
@@ -55,9 +54,11 @@ Amazon Relational Database Service (or Amazon RDS) is a distributed relational d
   - Encryption
 
 
-#### Aurora
+# Aurora
 
-  - compatible with MySql and PostgreSQL
+> Airbnb is a great example of a customer building high-performance and scalable applications with Amazon Aurora.
+
+  - Compatible with MySql and PostgreSQL
     - migrate to and from
     - code, tools, applications, drivers
     - https://aws.amazon.com/rds/aurora/faqs/
@@ -72,7 +73,10 @@ Amazon Relational Database Service (or Amazon RDS) is a distributed relational d
   - Werner's blog and paper (Aurora: https://www.allthingsdistributed.com/2019/03/)
   - http://nil.csail.mit.edu/6.824/2020/schedule.html
 
-### Dynamo
+# Dynamo
+
+> <p>Consistent single-digit millisecond latency for any scale of workloads. ... </p>
+> <p>Snapchat's largest storage write workload, moved to DynamoDB.</p>
 
 ![](img/dynamo_usecase.webp)
 
@@ -107,7 +111,7 @@ Vogels described the deep technical nature of Amazon's infrastructure work in a 
   - see 6.824 https://pdos.csail.mit.edu/6.824/schedule.html
   - https://www.allthingsdistributed.com/2017/10/a-decade-of-dynamo.html
 
-### Redshift
+# Redshift
 
 ![](img/redShift.png)
 
@@ -163,7 +167,8 @@ EMR documentation
 
 ![](img/big_data.png)
 
-### ElastiCache
+# ElastiCache
+> We built Amazon ElastiCache, offering Memcached and Redis, to serve low latency, high throughput workloads, such as McDonald's, that cannot be served with disk-based data stores.
 
 ![](img/cache.png)
 
@@ -259,7 +264,9 @@ see also:
 
     https://docs.aws.amazon.com/timestream/latest/developerguide/architecture.html
 
-#### Neptune
+## Neptune
+> Thomson Reuters is helping their customers navigate a complex web of global tax policies and regulations by using Neptune.
+
 ![](img/neptune.png)
 * fully managed Graph database
 * deployed on EC2 instances / Serverless
@@ -399,6 +406,10 @@ see also:
     - 100 open source Big Data architecture papers for data professionals. 
     
       https://www.linkedin.com/pulse/100-open-source-big-data-architecture-papers-anil-madan/
+
+    - Google spanner
+
+      https://static.googleusercontent.com/media/research.google.com/zh-CN//archive/spanner-osdi2012.pdf
 
   d. Top DB researchers 
     
