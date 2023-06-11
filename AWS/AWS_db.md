@@ -72,10 +72,10 @@ from blog: [A one size fits all database doesn't fit anyone](https://www.allthin
 * Implementation
   - Offloading redo logging: The log is the database
   - cell based architecture
-  - 
+  - The beauty of quorums
+  - Fast repairs and catchup
+
 ![](img/aurora_arch.png)
-
-
 
     See also:
 
