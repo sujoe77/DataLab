@@ -1,75 +1,4 @@
-# Content
-
-## Overview
-
-## Different types of DB and
-
-- relational DB vs NoSQL
-- their use cases
-- trade-offs among, CAP
-
-  - consistency
-  - performance
-  - scalability etc
-
-- Table 1, columns include:
-
-  type, data model, feature, use case, AWS offered, alternatives
-
-  (feature, alternatives can use db)
-
-introduction to each database offered
-
-    wiki page
-    some in depth about design and architecture etc, like diagram from paper etc
-
-    + time series
-
-
-### How
-
-for each types of db, we compare:
-
-- definition (picture)
-  - Data model
-  - Feature
-  - Use cases
-  - Time released
-  - Alternatives
-- Deployment mode
-  - on EC2
-  - Amazon managed instances
-  - Serverless
-- Programming interface
-  - SQL support
-  - programming languages
-- none functional features
-  - scalability
-  - performance
-  - H.A., fault tolerant
-  - consistency
-  - security
-- Design and Implementation
-
-
-where to find
-
-- course
-  - video
-  - cheat sheet
-- wiki
-- Amazon
-  - amazon product
-  - allthingsdistributed
-  - social media
-  - developer site
-- paper
-- other
-
-
-## Content of courses
-
-### Types of Databases
+# Types of Databases
 
 * Relational / NoSql
   - Key / Value, Redis
@@ -78,9 +7,13 @@ where to find
   - Graph, Neo4j
   - Timeseries, InfluxDB
 
-![](img/nosql.jpeg)
+![](img/purpose.png)
+from blog: [A one size fits all database doesn't fit anyone](https://www.allthingsdistributed.com/2018/06/purpose-built-databases-in-aws.html)
 
-see: https://db-engines.com/en/ranking
+* Database ranking
+
+&nbsp;&nbsp;&nbsp;&nbsp;https://db-engines.com/en/ranking
+
 
 * OLTP / OLAP
 
@@ -172,6 +105,7 @@ Vogels described the deep technical nature of Amazon's infrastructure work in a 
       - across regions
 
   - see 6.824 https://pdos.csail.mit.edu/6.824/schedule.html
+  - https://www.allthingsdistributed.com/2017/10/a-decade-of-dynamo.html
 
 ### Redshift
 
@@ -294,7 +228,7 @@ see also:
 
 ### Other
 
-* Timestream
+#### Timestream
 
   Amazon Timestream is a fast, scalable, and serverless time-series database service.
 
@@ -324,6 +258,15 @@ see also:
     https://www.allthingsdistributed.com/2021/06/amazon-timestream-time-series-is-the-new-black.html
 
     https://docs.aws.amazon.com/timestream/latest/developerguide/architecture.html
+
+#### Neptune
+![](img/neptune.png)
+* fully managed Graph database
+* deployed on EC2 instances / Serverless
+* Alternatives: Neo4j, Azure Cosmos DB
+* The power of relationships in data
+
+  https://www.allthingsdistributed.com/2019/12/power-of-relationships.html
 
 ## Some recommended readings
 
@@ -363,6 +306,41 @@ see also:
     https://www.allthingsdistributed.com/
 
     He joined Amazon in September 2004 as the director of systems research. He was named chief technology officer in January 2005 and vice president in March of that year.
+
+  * Purpose built databases
+
+    https://www.allthingsdistributed.com/2018/06/purpose-built-databases-in-aws.html
+
+  * Timestream
+
+    https://www.allthingsdistributed.com/2021/06/amazon-timestream-time-series-is-the-new-black.html
+
+    https://docs.aws.amazon.com/timestream/latest/developerguide/architecture.html
+
+  * Best practice for Databases
+
+    https://aws.amazon.com/architecture/databases/
+
+  * Knowledge centre
+
+    https://repost.aws/knowledge-center/all
+
+    https://aws.amazon.com/developer/
+
+    https://aws.amazon.com/builders-library/
+
+  * AWS re:Invent 2018: How AWS Minimizes the Blast Radius of Failures (ARC338)
+
+    https://www.youtube.com/watch?v=swQbA4zub20
+
+  * Modern applications development
+  
+    https://www.allthingsdistributed.com/2019/08/modern-applications-at-aws.html
+
+  * A decade of Dynamo
+
+    https://www.allthingsdistributed.com/2017/10/a-decade-of-dynamo.html
+
 
 ## 1. Udemy AWS course
 
@@ -437,49 +415,78 @@ AWS Certified Database specialty
   https://nordea.udemy.com/course/aws-certified-database-specialty-dbs/
 
 
-## 7. Other
-
-  DB Engines https://db-engines.com/en/
-
-
-
-
-
-Timestream
-
-    https://aws.amazon.com/timestream/
-
-    https://www.allthingsdistributed.com/2021/06/amazon-timestream-time-series-is-the-new-black.html
-
-    https://docs.aws.amazon.com/timestream/latest/developerguide/architecture.html
-
-Time line of AWS products
-
-    https://en.wikipedia.org/wiki/Timeline_of_Amazon_Web_Services
-
-    https://www.youtube.com/watch?v=swQbA4zub20
-
-RDS
-
-    https://aws.amazon.com/rds/resources/
-
-    https://en.wikipedia.org/wiki/Amazon_Relational_Database_Service
-
-Knowledge centre
-
-    https://repost.aws/knowledge-center/all
-
-    https://aws.amazon.com/developer/
-
-    * https://aws.amazon.com/architecture/databases/
-
-    https://aws.amazon.com/builders-library/
-
 Graph databases
 
   https://db-engines.com/en/ranking/graph+dbms
   https://memgraph.com/blog/db-engines-ranking-top-graph-databases#toc-13
 
-Streaming Systems
-  
-  https://www.amazon.com/Streaming-Systems-Where-Large-Scale-Processing/dp/1491983876
+
+---
+
+# Content
+
+## Overview
+
+## Different types of DB and
+
+- relational DB vs NoSQL
+- their use cases
+- trade-offs among, CAP
+
+  - consistency
+  - performance
+  - scalability etc
+
+- Table 1, columns include:
+
+  type, data model, feature, use case, AWS offered, alternatives
+
+  (feature, alternatives can use db)
+
+introduction to each database offered
+
+    wiki page
+    some in depth about design and architecture etc, like diagram from paper etc
+
+    + time series
+
+
+### How
+
+for each types of db, we compare:
+
+- definition (picture)
+  - Data model
+  - Feature
+  - Use cases
+  - Time released
+  - Alternatives
+- Deployment mode
+  - on EC2
+  - Amazon managed instances
+  - Serverless
+- Programming interface
+  - SQL support
+  - programming languages
+- none functional features
+  - scalability
+  - performance
+  - H.A., fault tolerant
+  - consistency
+  - security
+- Design and Implementation
+
+
+where to find
+
+- course
+  - video
+  - cheat sheet
+- wiki
+- Amazon
+  - amazon product
+  - allthingsdistributed
+  - social media
+  - developer site
+- paper
+- other
