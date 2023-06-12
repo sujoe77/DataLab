@@ -142,23 +142,36 @@ see also:
   - backups
   - fault tolerant
 
-- analytics word-loads
-- SQL, relational, OLAP
+- JDBC / ODBC, Data API
 - Alternatives
-
-  comparing with BigQuery, Snowflake, Azure Synapse Analytics
-
-  https://db-engines.com/en/system/Amazon+Redshift%3BGoogle+BigQuery%3BMicrosoft+Azure+Synapse+Analytics%3BSnowflake
+  BigQuery, Snowflake, Azure Synapse Analytics
 
 - Deployed on EC2 instances
 
 - Architecture
 
-  https://docs.aws.amazon.com/redshift/latest/dg/c_high_level_system_architecture.html
+![](img/redArch.png)
+
+https://docs.aws.amazon.com/redshift/latest/dg/c_high_level_system_architecture.html
+
+    * 3 layers
+    * AQUA is a query acceleration layer that leverages FPGAs to improve performance.
+    * Compilation-As-A-Service is a caching microservice for optimized generated code
+
+- Query flow
+  ![](img/redQuery.webp)
+
+1. Query recevied and optimized
+2. cost based optimization
+3. optimized plan to compute units
+4. load data from storage
+5. exchange data among units if necessary
+
+See also:
 
 - Amazon Redshift: Ten years of continuous reinvention
 
-  https://www.amazon.science/latest-news/amazon-redshift-ten-years-of-continuous-reinvention
+https://www.amazon.science/latest-news/amazon-redshift-ten-years-of-continuous-reinvention
 
 - Dremel: Interactive Analysis of Web-Scale Datasets
 
