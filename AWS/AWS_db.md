@@ -115,7 +115,7 @@ See also:
   - Push button, Horizontal scaling
   - Secure
   - Performant
-  - Durable and high avilability
+  - Durable and high availability
   - Manageable
 
 - Implementation
@@ -192,15 +192,14 @@ see also:
 
 EMR documentation
 
-https://docs.aws.amazon.com/emr/index.html
+  https://docs.aws.amazon.com/emr/index.html
 
-![](img/ss.jpg)
+![](img/big_data.png)
 
 "Streaming Systems: The What, Where, When, and How of Large-Scale Data Processing" by Tyler Akidau (Author), Slava Chernyak (Author), Reuven Lax (Author) 2018
 
 Chapter 10. The Evolution of Large-Scale Data Processing
 
-![](img/big_data.png)
 
 # ElastiCache
 
@@ -229,11 +228,11 @@ Chapter 10. The Evolution of Large-Scale Data Processing
 
 # Kinesis
 
-- streaming data service, serverless
+- Streaming data service, serverless
 - from 2013 Nov.
 - use cases
   - real-time, analytics, IoT, Video
-- alternatives
+- Alternatives
   - Kafka
   - Azure event hub
   - GCP pubSub
@@ -242,16 +241,17 @@ Chapter 10. The Evolution of Large-Scale Data Processing
   - streams, shards, data records, offset, client groups ...
 
 - components
-  - Data Streams, producer and consumer
-  - Data Firehose, save data to another service
-  - Data Analytics, real-time SQL processing
+  - Data Streams, captures and processes from multiple sources
+  - Data Firehose, streaming data to destinations such as Amazon S3, Amazon Redshift
+  - Data Analytics, analysis of streaming data in real time using standard SQL or Apache Flink
   - Video Streams (2017)
 
 ![](img/kinesis.png)
 
 see also:
 
-https://aws.amazon.com/blogs/aws/amazon-kinesis-real-time-processing-of-streamed-data/
+  https://aws.amazon.com/blogs/aws/amazon-kinesis-real-time-processing-of-streamed-data/
+
 
 # Other DB and analytics services
 
@@ -273,10 +273,10 @@ released 2020 Sep.
   - decoupling data ingestion, storage, and query
   - simple implementation
   - cell based (https://www.youtube.com/watch?v=swQbA4zub20)
-  - seperate reading and writing
+  - separate reading and writing
   - partitions in multiple dimensions for scalability
   - memory store and magnetic store
-  - SQL grammar, adaptive, distributed query engine, wokers
+  - SQL grammar, adaptive, distributed query engine, workers
 
 - More info
 
@@ -330,7 +330,7 @@ released 2020 Sep.
 
   https://digitalcloud.training/aws-database-services/#use-cases-for-different-database-types
 
-![](img/useCases.png)
+![](img/databases.png)
 
 - 5 dimensions
 
