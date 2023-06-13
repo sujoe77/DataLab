@@ -218,6 +218,10 @@ Chapter 10. The Evolution of Large-Scale Data Processing
   - leader dashboards
   - streaming data dashboards
 
+see also:
+  - Cache on wikipedia https://en.wikipedia.org/wiki/Cache_(computing)
+  - Scaling Memcache at Facebook https://research.facebook.com/publications/scaling-memcache-at-facebook/
+
 # Athena & Glue
 
 ![](img/athena.png)
