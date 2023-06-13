@@ -368,27 +368,27 @@ released 2020 Sep.
 
   He joined Amazon in September 2004 as the director of systems research. He was named chief technology officer in January 2005 and vice president in March of that year.
   
-  - Purpose built databases
+    - Purpose built databases
 
-  https://www.allthingsdistributed.com/2018/06/purpose-built-databases-in-aws.html
+      https://www.allthingsdistributed.com/2018/06/purpose-built-databases-in-aws.html
 
-- Amazon Timestream - Time series is the new black
+    - Amazon Timestream - Time series is the new black
 
-  https://www.allthingsdistributed.com/2021/06/amazon-timestream-time-series-is-the-new-black.html
+      https://www.allthingsdistributed.com/2021/06/amazon-timestream-time-series-is-the-new-black.html
 
-  https://docs.aws.amazon.com/timestream/latest/developerguide/architecture.html
+      https://docs.aws.amazon.com/timestream/latest/developerguide/architecture.html
 
-- Modern applications development
+    - Modern applications development
 
-  https://www.allthingsdistributed.com/2019/08/modern-applications-at-aws.html
+      https://www.allthingsdistributed.com/2019/08/modern-applications-at-aws.html
 
-- A decade of Dynamo
+    - A decade of Dynamo
 
-  https://www.allthingsdistributed.com/2017/10/a-decade-of-dynamo.html
+      https://www.allthingsdistributed.com/2017/10/a-decade-of-dynamo.html
 
-- Amazon Aurora ascendant: How we designed a cloud-native relational database:
+    - Amazon Aurora ascendant: How we designed a cloud-native relational database:
 
-  https://www.allthingsdistributed.com/2019/03/amazon-aurora-design-cloud-native-relational-database.html
+      https://www.allthingsdistributed.com/2019/03/amazon-aurora-design-cloud-native-relational-database.html
 
 ### AWS Database blog
 
