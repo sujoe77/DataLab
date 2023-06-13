@@ -367,14 +367,8 @@ released 2020 Sep.
   https://www.allthingsdistributed.com/
 
   He joined Amazon in September 2004 as the director of systems research. He was named chief technology officer in January 2005 and vice president in March of that year.
-
-### AWS Database blog
-
-- AWS Database blog
-
-  https://aws.amazon.com/blogs/database/
-
-- Purpose built databases
+  
+  - Purpose built databases
 
   https://www.allthingsdistributed.com/2018/06/purpose-built-databases-in-aws.html
 
@@ -395,6 +389,12 @@ released 2020 Sep.
 - Amazon Aurora ascendant: How we designed a cloud-native relational database:
 
   https://www.allthingsdistributed.com/2019/03/amazon-aurora-design-cloud-native-relational-database.html
+
+### AWS Database blog
+
+- AWS Database blog
+
+  https://aws.amazon.com/blogs/database/
 
 ### AWS Architecture, Developer, Knowledge center
 
