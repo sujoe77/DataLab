@@ -131,6 +131,7 @@ see also:
 - https://www.allthingsdistributed.com/2017/10/a-decade-of-dynamo.html
 
 # Redshift
+> The service represented a significant leap forward from traditional on-premises data warehousing solutions, which were expensive, inflexible, and required significant human and capital resources to operate.
 
 ![](img/redShift.png)
 
