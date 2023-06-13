@@ -236,6 +236,9 @@ Chapter 10. The Evolution of Large-Scale Data Processing
   - Kafka
   - Azure event hub
   - GCP pubSub
+
+> Apache Kafka [17, 18], Amazon Kinesis Streams [19], and Twitter’s DistributedLog [20, 21] are log-based message brokers that work like this. Google Cloud Pub/Sub is architecturally similar but exposes a JMS-style API rather than a log abstraction [16]. Even though these message brokers write all messages to disk, they are able to achieve throughput of millions of messages per second by partitioning across multiple machines, and fault tolerance by replicating messages [22, 23].
+
 - similar concept with Kafka
 
   - streams, shards, data records, offset, client groups ...
@@ -267,6 +270,13 @@ released 2020 Sep.
 
   IoT, Video streaming etc
   why relational DB not solution
+
+- Alternatives
+  - InfluxDB
+  - Prometheus
+  - Kdb
+  - Azure Time Series Insights
+  - GCP BigTable
 
 - How
 
