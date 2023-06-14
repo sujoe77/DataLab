@@ -78,9 +78,9 @@ from blog: [A one size fits all database doesn't fit anyone](https://www.allthin
 
 See also:
 
-- Amazon Aurora ascendant: How we designed a cloud-native relational database: https://www.allthingsdistributed.com/2019/03/amazon-aurora-design-cloud-native-relational-database.html
+- [Amazon Aurora ascendant: How we designed a cloud-native relational database](https://www.allthingsdistributed.com/2019/03/amazon-aurora-design-cloud-native-relational-database.html)
 - http://nil.csail.mit.edu/6.824/2020/schedule.html, Aurora section
-- Paper: "Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases"
+- Blog and Paper: [Amazon Aurora ascendant: How we designed a cloud-native relational database](https://www.allthingsdistributed.com/2019/03/amazon-aurora-design-cloud-native-relational-database.html)
 
 # Dynamo
 
