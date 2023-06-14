@@ -127,8 +127,8 @@ from paper: "Dynamo: Amazon’s Highly Available Key-value Store"
 
 see also:
 
-- see 6.824 https://pdos.csail.mit.edu/6.824/schedule.html
-- https://www.allthingsdistributed.com/2017/10/a-decade-of-dynamo.html
+- see [6.5840: Distributed Systems](https://pdos.csail.mit.edu/6.824/schedule.html) Lec 16 
+- [A Decade of Dynamo: Powering the next wave of high-performance, internet-scale applications](https://www.allthingsdistributed.com/2017/10/a-decade-of-dynamo.html)
 
 # Redshift
 > The service represented a significant leap forward from traditional on-premises data warehousing solutions, which were expensive, inflexible, and required significant human and capital resources to operate.
