@@ -19,6 +19,7 @@ from blog: [A one size fits all database doesn't fit anyone](https://www.allthin
 
 &nbsp;&nbsp;&nbsp;&nbsp;https://db-engines.com/en/ranking
 
+
 # RDS
 
 > Amazon RDS handles all the "muck" of relational database management freeing up its users to focus on their applications and business.

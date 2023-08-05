@@ -14,3 +14,4 @@ x64
 /**/*.ilk
 /**/*.pdb
 /**/job/data
+/**/.DS_Store
