@@ -15,4 +15,4 @@ x64
 /**/*.pdb
 /**/job/data
 Atomix
-/**/sxy*
+/**/sxy*/**/.DS_Store
