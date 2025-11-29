@@ -11,19 +11,32 @@ class LinkedInJob(Job):
 
     def parse(self, page_content):
         result = []
-        li = page_content.find_all("li", "result-card job-result-card result-card--with-hover-state")
-        divSize = len(li)    
+        #li = page_content.find_all("li", "result-card job-result-card result-card--with-hover-state")
+        li = page_content.find_all("li", class_="")
+        divSize = len(li)
+        print(divSize)
         for i in range(0, divSize):
+            titleList = li[i].find_all("span", "sr-only")
+            if len(titleList)==0:
+                continue
             link = li[i].a["href"]
-            title = li[i].div.h3.text.replace(",","_")
-            company = li[i].div.h4.text if li[i].div.h4.a is None else li[i].div.h4.a.text    
-            company = company.replace(",", "_")
-            time = self.getPubDate(li[i].div.div.time.text)
-            location = li[i].div.div.span.text.replace(",", "_")
+            #print(li[i].div)
+            titleList = li[i].find_all("span", "sr-only")
+            title = titleList[0].text.replace("\n", "").lstrip().rstrip().replace(",", "_")
             #print(title)
+            company = li[i].div.h4.text if li[i].div.h4.a is None else li[i].div.h4.a.text    
+            company = company.replace(",", "_").replace("\n", "")
+            #print(company)
+            timeList=li[i].find_all("time")
+            time=timeList[0].text.replace("\n", "").lstrip().rstrip().replace(",", "_")
+            time=self.getPubDate(time)
+            #print(time.text.replace("\n", "").lstrip().rstrip())            
+            locationList = li[i].find_all("span", "job-search-card__location")
+            location = locationList[0].text.replace("\n", "").lstrip().rstrip().replace(",", "_")
+            #print(location)
             if "month" not in time and super().ex_filter(title, LinkedInJob.EXECLUDE_TITLE) and super().ex_filter(company, LinkedInJob.EXECLUDE_COMPANY):
                 text = "{},{},{},{},##{}".format(title, company, location, time, link);
-                #print(text)
+                print(text)
                 result.append(text)
         return result
 

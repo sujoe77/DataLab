@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 
 def write_file(jobSet, fileName):
@@ -12,5 +13,6 @@ def write_file(jobSet, fileName):
 
 
 def get_content(url):
-    page_response = requests.get(url, timeout=30)
+    requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+    page_response = requests.get(url, timeout=180, verify=False)
     return BeautifulSoup(page_response.content, "html.parser")

@@ -19,6 +19,7 @@ class Job:
         return True
 
     def process_page(self, url):
+        print(url)
         page_content = get_content(url)
         #print(page_content)
         return self.parse(page_content)

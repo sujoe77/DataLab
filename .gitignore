@@ -14,3 +14,5 @@ x64
 /**/*.ilk
 /**/*.pdb
 /**/job/data
+Atomix
+/**/sxy*

@@ -14,8 +14,8 @@ from job import Job
 EXECLUDE_TITLE = ["frontend", "c#", "udvikler", "android", "analyst", "devops", "security", "sale", "microsoft"]
 EXECLUDE_COMPANY = ["dfds", "prodata", "Systematic", "test"]
 # KEYWORD_LIST=["Java","Data", "developer"]
-KEYWORD_LIST = ["Java", "Backend", "data", "architect"]
-STACKOVERFLOW_KEYWORD_LIST = ["Backend"]
+KEYWORD_LIST = ["Developer", "Java", "Backend", "Engineer", "data", "architect"]
+STACKOVERFLOW_KEYWORD_LIST = ["developer", "Engineer"]
 SLEEP = 6
 PAGE_SIZE = 10
 
@@ -39,7 +39,7 @@ def fetch_job(jobSet, keyWords, size):
     jobSet = jobSet.union(jobSite.get_jobset(keyWords, size, SLEEP))
 
 for jobSite in list2:
-    thread1 = FetchThread(jobSite, KEYWORD_LIST, 5, type(jobSite).__name__)
+    thread1 = FetchThread(jobSite, KEYWORD_LIST, PAGE_SIZE, type(jobSite).__name__)
     thread1.start()
 
 #for jobSite in list5:
@@ -47,7 +47,7 @@ for jobSite in list2:
     #thread1.start()
 
 for jobSite in list3:
-    thread1 = FetchThread(jobSite, STACKOVERFLOW_KEYWORD_LIST, 5, type(jobSite).__name__)
+    thread1 = FetchThread(jobSite, STACKOVERFLOW_KEYWORD_LIST, PAGE_SIZE, type(jobSite).__name__)
     thread1.start()
 
 # j.write_file(jobSet, './data/all_jobs'+datetime.datetime.now().strftime("%Y%m%d%H%M%S")+'.csv')
