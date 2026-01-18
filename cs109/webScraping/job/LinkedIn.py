@@ -44,7 +44,7 @@ class LinkedInJob(Job):
     def get_url(self, keyword, pageNum):
         #url = "https://www.linkedin.com/jobs/search/?keywords="+keyword+"&location=copenhagen%20denmark&start=" + str(pageNum*25)
         url = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords={keyword}&location={location}&start={start}"
-        url.format(keyword=keyword, location="copenhagen", start=pageNum*25)
+        url = url.format(keyword=keyword, location="copenhagen", start=pageNum*25)
         return url
 
     def getPubDate(self, timeStr):

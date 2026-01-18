@@ -5,7 +5,6 @@ from IOUtil import get_content
 
 MAX_RETRY = 3
 
-
 class Job:
 
     def __init__(self):
@@ -70,6 +69,7 @@ def insert_job(jobSet):
     totalInsert = 0
     try:
         cur = conn.cursor()
+        print("job set size is: " + str(len(jobSet)))
         for job in jobSet:
             values = job.split(",")
             cur.execute(query_sql, (values[4],values[0], values[1],))
