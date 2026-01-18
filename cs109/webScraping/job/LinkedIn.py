@@ -1,6 +1,7 @@
 from job import Job
 from datetime import date
 import datetime as DT
+from IOUtil import get_content_linkedIn
 
 class LinkedInJob(Job):
     #KEYWORD_LIST=["Java","Data", "developer"]
@@ -12,7 +13,7 @@ class LinkedInJob(Job):
     def parse(self, page_content):
         result = []
         #li = page_content.find_all("li", "result-card job-result-card result-card--with-hover-state")
-        li = page_content.find_all("li", class_="")
+        li = page_content.find_all("li")
         divSize = len(li)
         print(divSize)
         for i in range(0, divSize):
@@ -25,7 +26,7 @@ class LinkedInJob(Job):
             title = titleList[0].text.replace("\n", "").lstrip().rstrip().replace(",", "_")
             #print(title)
             company = li[i].div.h4.text if li[i].div.h4.a is None else li[i].div.h4.a.text    
-            company = company.replace(",", "_").replace("\n", "")
+            company = company.replace(",", "_").replace("\n", "").lstrip().rstrip()
             #print(company)
             timeList=li[i].find_all("time")
             time=timeList[0].text.replace("\n", "").lstrip().rstrip().replace(",", "_")
@@ -41,7 +42,10 @@ class LinkedInJob(Job):
         return result
 
     def get_url(self, keyword, pageNum):
-        return "https://www.linkedin.com/jobs/search/?keywords="+keyword+"&location=copenhagen%20denmark&start=" + str(pageNum*25)
+        #url = "https://www.linkedin.com/jobs/search/?keywords="+keyword+"&location=copenhagen%20denmark&start=" + str(pageNum*25)
+        url = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords={keyword}&location={location}&start={start}"
+        url.format(keyword=keyword, location="copenhagen", start=pageNum*25)
+        return url
 
     def getPubDate(self, timeStr):
         today = date.today()
@@ -60,3 +64,9 @@ class LinkedInJob(Job):
 
         pub_date = today - DT.timedelta(hours=delta)
         return pub_date.strftime("%Y-%m-%d")
+
+    def process_page(self, url):
+        print(url)
+        page_content = get_content_linkedIn(url)
+        #print(page_content)
+        return self.parse(page_content)
