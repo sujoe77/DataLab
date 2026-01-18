@@ -26,7 +26,7 @@ print("PAGE_SIZE: " + str(PAGE_SIZE))
 
 jobs = [Job(), ]
 
-jobSet = set([])
+jobSet: set[str] = set([])
 
 list1 = [LinkedInJob(), JobIndexJob(), NeuvooJob(), ItJobBankJob(), StackOverflowJob()]
 list2 = [LinkedInJob(), JobIndexJob(), NeuvooJob(), ItJobBankJob()]

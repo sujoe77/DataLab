@@ -2,12 +2,13 @@ from job import Job
 from datetime import date
 import datetime as DT
 from IOUtil import get_content_linkedIn
+import urllib.parse
 
 class LinkedInJob(Job):
     #KEYWORD_LIST=["Java","Data", "developer"]
-    KEYWORD_LIST=["Java"]
-    EXECLUDE_TITLE = ["frontend", "c#", "udvikler", "android", "analyst", "devops", "security", "sale", "Javascript", "QA",".NET","javascript","microsoft","php"]
-    EXECLUDE_COMPANY = ["dfds", "prodata", "Systematic","test"]
+    #KEYWORD_LIST=["Java"]
+    EXECLUDE_TITLE = ["student", "test", "frontend", "c#", "udvikler", "android", "analyst", "devops", "security", "sale", "Javascript", "QA",".NET","javascript","microsoft","php"]
+    EXECLUDE_COMPANY = ["prodata", "SoftNice"]
     PAGE_SIZE = 5
 
     def parse(self, page_content):
@@ -36,7 +37,7 @@ class LinkedInJob(Job):
             location = locationList[0].text.replace("\n", "").lstrip().rstrip().replace(",", "_")
             #print(location)
             if "month" not in time and super().ex_filter(title, LinkedInJob.EXECLUDE_TITLE) and super().ex_filter(company, LinkedInJob.EXECLUDE_COMPANY):
-                text = "{},{},{},{},##{}".format(title, company, location, time, link);
+                text = "{},{},{},{},##{}".format(title, company, location, time, link)
                 print(text)
                 result.append(text)
         return result
@@ -44,7 +45,7 @@ class LinkedInJob(Job):
     def get_url(self, keyword, pageNum):
         #url = "https://www.linkedin.com/jobs/search/?keywords="+keyword+"&location=copenhagen%20denmark&start=" + str(pageNum*25)
         url = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords={keyword}&location={location}&start={start}"
-        url = url.format(keyword=keyword, location="copenhagen", start=pageNum*25)
+        url = url.format(keyword=urllib.parse.quote(keyword, safe=''), location="copenhagen", start=pageNum*25)        
         return url
 
     def getPubDate(self, timeStr):
