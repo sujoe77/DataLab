@@ -13,7 +13,6 @@ x64
 /**/*.exe
 /**/*.ilk
 /**/*.pdb
-/**/job/data
 Atomix
 /**/sxy*
 /**/.DS_Store
