@@ -34,6 +34,7 @@ class Job:
                 if len(result) == 0:
                     break
                 self.toJobSet(jobSet, keySet, result, url)
+                time.sleep(sleep)
         return jobSet
 
     def retryUrl(self, MAX_RETRY, result, sleep, url):
