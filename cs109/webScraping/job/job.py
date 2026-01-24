@@ -58,8 +58,8 @@ class Job:
 
 def insert_job(jobSet):
     """ insert a new vendor into the vendors table """
-    sql = """INSERT INTO jobs(title, company, city, pub_date, link, tags)
-             VALUES(%s, %s, %s, %s, %s, %s);"""
+    sql = """INSERT INTO jobs(title, company, city, pub_date, link, tags, add_time)
+             VALUES(%s, %s, %s, %s, %s, %s, current_timestamp);"""
     query_sql = "select count(link) from jobs where link=%s or (title = %s and company = %s) "
     conn = psycopg2.connect(
         host="localhost",
