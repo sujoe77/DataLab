@@ -9,6 +9,12 @@ create table jobs (
 	tags text
 )
 
+create table company (
+	company text,
+	labels text,
+	add_time, timstamp default null
+)
+
 create table resources (
 	format text,
 	keywords text,

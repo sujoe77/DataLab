@@ -1,13 +1,25 @@
 from job import Job
 from datetime import date
 import datetime as DT
-from IOUtil import get_content_linkedIn
+from util.IOUtil import get_content_linkedIn
 import urllib.parse
 
 class LinkedInJob(Job):
     #KEYWORD_LIST=["Java","Data", "developer"]
     #KEYWORD_LIST=["Java"]
-    EXECLUDE_TITLE = ["student", "test", "frontend", "c#", "udvikler", "android", "analyst", "devops", "security", "sale", "Javascript", "QA",".NET","javascript","microsoft","php"]
+    EXECLUDE_TITLE = ["student", "test", "frontend", 
+                      #"c#", "udvikler", 
+                      "android", 
+                      "analyst", 
+                      #"devops", "security", 
+                      "sale", 
+                      #"Javascript", 
+                      "QA",
+                      #".NET",
+                      #"javascript",
+                      #"microsoft",
+                      "php"
+                     ]
     EXECLUDE_COMPANY = ["prodata", "SoftNice"]
     PAGE_SIZE = 5
 
@@ -45,7 +57,9 @@ class LinkedInJob(Job):
     def get_url(self, keyword, pageNum):
         #url = "https://www.linkedin.com/jobs/search/?keywords="+keyword+"&location=copenhagen%20denmark&start=" + str(pageNum*25)
         url = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords={keyword}&location={location}&start={start}"
-        url = url.format(keyword=urllib.parse.quote(keyword, safe=''), location="copenhagen", start=pageNum*25)        
+        url = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords={keyword}&start={start}&geoId=102194656"
+        url = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?distance=40&f_TPR=a1769632530-&f_WT=1%2C3&geoId=102194656&keywords={keyword}&origin=JOB_SEARCH_PAGE_SEARCH_BUTTON&start={start}"
+        url = url.format(keyword=urllib.parse.quote(keyword, safe=''), location="copenhagen", start=pageNum*10)        
         return url
 
     def getPubDate(self, timeStr):

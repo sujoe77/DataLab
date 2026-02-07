@@ -1,7 +1,7 @@
 import time
 
-import psycopg2
-from IOUtil import get_content
+import psycopg
+from util.IOUtil import get_content
 
 MAX_RETRY = 3
 
@@ -61,11 +61,10 @@ def insert_job(jobSet):
     sql = """INSERT INTO jobs(title, company, city, pub_date, link, tags, add_time)
              VALUES(%s, %s, %s, %s, %s, %s, current_timestamp);"""
     query_sql = "select count(link) from jobs where link=%s or (title = %s and company = %s) "
-    conn = psycopg2.connect(
-        host="localhost",
-        database="mydb",
-        user="postgres",
-        password="postgres")
+    conn = psycopg.connect(
+        #host="localhost", database="mydb", user="postgres", password="postgres"
+        "dbname=mydb user=postgres password=postgres host=localhost"
+        )
     vendor_id = None
     totalInsert = 0
     try:
@@ -86,7 +85,7 @@ def insert_job(jobSet):
         conn.commit()
         cur.close()
         print("total insert: ", totalInsert, )
-    except (Exception, psycopg2.DatabaseError) as error:
+    except (Exception, psycopg.DatabaseError) as error:
         print(error)
     finally:
         if conn is not None:

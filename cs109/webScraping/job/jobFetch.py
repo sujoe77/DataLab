@@ -3,12 +3,12 @@ import sys
 from FetchThread import FetchThread
 
 sys.path.append("/media/zhou/DATA/zhousu/git/github_new/DataLab/cs109/webScraping/job")
-from StackOverflow import StackOverflowJob
+from old.StackOverflow import StackOverflowJob
 
 from LinkedIn import LinkedInJob
-from ItJobBank import ItJobBankJob
-from neuvoo import NeuvooJob
-from JobIndex import JobIndexJob
+from old.ItJobBank import ItJobBankJob
+from old.neuvoo import NeuvooJob
+from old.JobIndex import JobIndexJob
 from job import Job
 
 EXECLUDE_TITLE = ["frontend", "c#", "udvikler", "android", "analyst", "devops", "security", "sale", "microsoft"]
