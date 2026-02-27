@@ -1,4 +1,5 @@
 import time
+import threading
 
 import psycopg
 from util.IOUtil import get_content
@@ -60,19 +61,19 @@ def insert_job(jobSet):
     """ insert a new vendor into the vendors table """
     sql = """INSERT INTO jobs(title, company, city, pub_date, link, tags, add_time)
              VALUES(%s, %s, %s, %s, %s, %s, current_timestamp);"""
-    query_sql = "select count(link) from jobs where link=%s or (title = %s and company = %s) "
+    #query_sql = "select count(link) from jobs where link=%s or (title = %s and company = %s) "
+    query_sql = "select count(link) from jobs where link=%s or (title = %s and company = %s and pub_date = %s) "
     conn = psycopg.connect(
         #host="localhost", database="mydb", user="postgres", password="postgres"
         "dbname=mydb user=postgres password=postgres host=localhost"
         )
-    vendor_id = None
     totalInsert = 0
     try:
         cur = conn.cursor()
         print("job set size is: " + str(len(jobSet)))
         for job in jobSet:
             values = job.split(",")
-            cur.execute(query_sql, (values[4],values[0], values[1],))
+            cur.execute(query_sql, (values[4],values[0], values[1], values[3]))
             records = cur.fetchall()
             rowcount = 0
             for row in records:
@@ -84,7 +85,7 @@ def insert_job(jobSet):
                 totalInsert += 1
         conn.commit()
         cur.close()
-        print("total insert: ", totalInsert, )
+        print(threading.current_thread().name + " total insert: ", totalInsert, )
     except (Exception, psycopg.DatabaseError) as error:
         print(error)
     finally:
