@@ -1,8 +1,5 @@
-from bs4 import BeautifulSoup
-import requests
-import time
 from datetime import datetime
-from job import Job
+from jobs import Job
 
 class NeuvooJob(Job):
     KEYWORD_LIST=["Java"]

@@ -1,8 +1,4 @@
-from bs4 import BeautifulSoup
-import requests
-import time
-import datetime
-from job import Job
+from jobs import Job
 
 class NordeaJob(Job):
     #KEYWORD_LIST=["Java","Data", "developer"]

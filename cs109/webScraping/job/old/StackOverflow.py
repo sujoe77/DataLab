@@ -1,5 +1,5 @@
-from StringUtil import StringUtil
-from job import Job
+from util.StringUtil import StringUtil
+from jobs import Job
 
 
 class StackOverflowJob(Job):

@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from job import Job
+from jobs import Job
 
 
 class JobIndexJob(Job):

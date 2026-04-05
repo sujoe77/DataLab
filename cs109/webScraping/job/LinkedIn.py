@@ -1,4 +1,4 @@
-from job import Job
+from jobs import Job
 from datetime import date
 import datetime as DT
 from util.IOUtil import get_content_linkedIn

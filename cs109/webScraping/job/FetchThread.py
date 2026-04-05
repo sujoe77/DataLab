@@ -1,9 +1,8 @@
 import threading
-from job import insert_job
+import db
 
 
-class FetchThread (threading.Thread):
-    
+class FetchThread(threading.Thread):
     def __init__(self, jobSite, keyWords, pageSize, name):
         threading.Thread.__init__(self)
         self.jobSite = jobSite
@@ -14,6 +13,5 @@ class FetchThread (threading.Thread):
     def run(self):
         print("Starting " + self.name)
         jobSet = self.jobSite.get_jobset(self.keyWords, self.pageSize, 5)
-        insert_job(jobSet)
+        db.insert_job(jobSet)
         print("Exiting " + self.name)
-

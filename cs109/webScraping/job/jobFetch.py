@@ -9,7 +9,7 @@ from LinkedIn import LinkedInJob
 from old.ItJobBank import ItJobBankJob
 from old.neuvoo import NeuvooJob
 from old.JobIndex import JobIndexJob
-from job import Job
+from jobs import Job
 
 EXECLUDE_TITLE = ["frontend", "c#", "udvikler", "android", "analyst", "devops", "security", "sale", "microsoft"]
 EXECLUDE_COMPANY = ["dfds", "prodata", "Systematic", "test"]
