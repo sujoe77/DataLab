@@ -33,7 +33,7 @@ def insert_job(jobSet):
         cur = conn.cursor()
         print("job set size is: " + str(len(jobSet)))
         for job in jobSet:
-            totalInsert += insert_position(INSERT_SQL, QUERY_SQL, cur, job)
+            totalInsert += insert_position(cur, job)
         conn.commit()
         cur.close()
         print(
