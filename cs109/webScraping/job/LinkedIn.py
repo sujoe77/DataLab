@@ -15,7 +15,7 @@ class LinkedInJob(Job):
         # li = page_content.find_all("li", "result-card job-result-card result-card--with-hover-state")
         li = page_content.find_all("li")
         divSize = len(li)
-        print(divSize)
+        #print(divSize)
         for i in range(0, divSize):
             titleList = li[i].find_all("span", "sr-only")
             if len(titleList) == 0:
@@ -54,7 +54,7 @@ class LinkedInJob(Job):
             ):
                 # if "month" not in time:
                 text = "{},{},{},{},##{}".format(title, company, location, time, link)
-                print(text)
+                print("\t" + text)
                 result.append(text)
         return result
 
@@ -89,7 +89,7 @@ class LinkedInJob(Job):
         return pub_date.strftime("%Y-%m-%d")
 
     def process_page(self, url):
-        print(url)
+        print("\nfeatching url: " +url)
         page_content = get_content_linkedIn(url)
         # print(page_content)
         return self.parse(page_content)

@@ -20,7 +20,7 @@ INSERT_SQL = """INSERT INTO jobs(title, company, city, pub_date, link, tags, add
 QUERY_SQL = "select count(link) from jobs where link=%s or (title = %s and company = %s and (to_date(%s, 'YYYY-MM-DD') - to_date(pub_date, 'YYYY-MM-DD') < 30))"
 
 
-def insert_job(jobSet):
+def insert_job(jobSet, taskName):
     # """insert a new vendor into the vendors table"""
     # query_sql = "select count(link) from jobs where link=%s or (title = %s and company = %s) "
     # to_date(%s, 'YYYY-MM-DD') - to_date(pub_date, 'YYYY-MM-DD') < 30
@@ -31,13 +31,13 @@ def insert_job(jobSet):
     totalInsert = 0
     try:
         cur = conn.cursor()
-        print("job set size is: " + str(len(jobSet)))
+        print(taskName + " job set size is: " + str(len(jobSet)))
         for job in jobSet:
             totalInsert += insert_position(cur, job)
         conn.commit()
         cur.close()
         print(
-            threading.current_thread().name + " total insert: ",
+            taskName + " total insert: ",
             totalInsert,
         )
     except (Exception, psycopg.DatabaseError) as error:
@@ -57,7 +57,7 @@ def insert_position(cur, jobStr):
         # print("find duplicate ", str(rowcount), )
     if rowcount == 0:
         print(
-            "do insert ",
+            "\tdo insert ",
             values[0],
             values[1],
             values[2],

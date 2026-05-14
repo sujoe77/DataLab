@@ -15,7 +15,7 @@ class Job:
         return True
 
     def process_page(self, url):
-        print(url)
+        print('\nfetching url: ' + url)
         page_content = get_content(url)
         # print(page_content)
         return self.parse(page_content)
@@ -50,8 +50,10 @@ class Job:
             if result[ii].split("##")[0] not in keySet:
                 keySet.add(result[ii].split("##")[0])
                 jobSet.add(result[ii].replace("##", ""))
+        #msg = "result size {}, set size before {}, after {}, page: {}"
+        msg = "result size {}, set size before {}, after {}"
         print(
-            "result size {}, set size before {}, after {}, page: {}".format(
-                sizeBefore, len(result), len(jobSet), url
+            msg.format(
+                sizeBefore, len(result), len(jobSet)
             )
         )
