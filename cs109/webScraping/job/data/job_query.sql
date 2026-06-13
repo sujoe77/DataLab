@@ -3,13 +3,15 @@ where 1=1
 and not TAGS ~* '.*(applied|ignore).*'
 and not city ~* '.*(Sweden|Malm).*'
 
---and not lower(title) ~* '.*(hauffør|construction|kontor|logistik|fraud|projekt|træner|jura|freelance|assistent|operatør|kunde|cabin crew|butik|sælger|coordinator|salgs|senior manager|banker|based in luxembourg|bangkok|start|trader|ios|phd|rådgiver|country manager|support|mechanical|electrical|electronic|legal|business dev|project manager|ingeniør|associate|planner|assistant|designer|controller|embedded|infrastr|mobile|junior|stude|director|research|intern|graduate|trainee|account|hardware|partner|product manager|customer).*'
---and not lower(title) ~* '.*(contract|part-time|studiejob|konsulent|graduate).*'
---and not lower(title) ~* '.*(speaking|søger).*'
+--and not lower(title) ~* '.*(representative|volunteer|representative|construction|kontor|logistik|fraud|projekt|træner|jura|freelance|assistent|operatør|kunde|cabin crew|butik|sælger|coordinator|salgs|senior manager|banker|based in luxembourg|bangkok|start|trader|ios|phd|rådgiver|country manager|support|mechanical|electrical|electronic|legal|business dev|project manager|ingeniør|associate|planner|assistant|designer|controller|embedded|infrastr|mobile|junior|stude|director|research|intern|graduate|trainee|account|hardware|partner|product manager|customer).*'
+and not lower(title) ~* '.*(contract|part-time|konsulent|graduate|intern|trainee|volunteer|studie|assistent).*'
+and not lower(title) ~* '.*(legal counsel|account manager|accountant|banker|representative|construction|logistik|fraud|træner|trainee|operatør|support).*'
+and not lower(title) ~* '.*(phd|bangkok).*'
 
---and not lower(title) ~* '^(?!.*manager).*(engineer|develop|program|udvik).*$'
---and not lower(title) ~* '.*(advisor|analyst|analytiker|specialist|officer|consul|scientist|owner|strategist|koordinator|speculative).*'
---and not lower(title) ~* '.*(archi|lead|manager|head|director|leder|president).*' and not lower(title) ~* '.*engineer'
+and (title ~ '.*(AI|ML|LLM).*' or lower(title) ~* '.*(machine learning).*')
+-- and lower(title) ~* '^(?!.*manager).*(engineer|develop|program|udvik).*$'
+-- and lower(title) ~* '.*(trader|partner|account|designer|rådgiver|associate|advisor|analyst|analytiker|specialist|officer|consul|counsel|scientist|owner|strategist|koordinator|speculative).*'
+-- and  lower(title) ~* '.*(archi|lead|manager|head|director|leder|president).*' --and not lower(title) ~* '.*engineer'
 
 -- and lower(title) ~* '.*(develop|engineer|program|udvik).*'
 -- AND NOT lower(title) ~* '.*(manager).*'
@@ -32,14 +34,14 @@ and not city ~* '.*(Sweden|Malm).*'
 
 --and not lower(title) ~* '.*(analyst|data engineer|data scien|senior manager|officer).*'
 
-and lower(company) in (select lower(company) from company where lower(labels) ~* '.*(fin|selected).*')
+and lower(company) in (select lower(company) from company where lower(labels) ~* '.*(fin|selected|ai).*')
 -- and not lower(company) ~* '.*(systematic).*'
 and not lower(company) ~* '.*(ashby|staff|hays|flatpay|human resou|superbrugsen|psykiatrisk|forsvaret|hospital|lidl danmark|netto|365discount|kommune|normal a/s|politi|zara|røde kors|power a/s|red cross).*'
 and company not in (select company from company where labels like '%ignore%')
 --and not lower(company) in (select lower(company) from company where lower(labels) ~* '.*(retail|health).*')
 
-and date_trunc('milliseconds', add_time) > '2026-05-10 00:00:00.000'::timestamp
-and pub_date > '2026-05-10'
+and date_trunc('milliseconds', add_time) > '2026-05-15 00:00:00.000'::timestamp
+and pub_date > '2026-05-15'
 and add_time is not null
 and (title, company, pub_date, add_time) in (select jobs.title, jobs.company, max(jobs.pub_date), max(jobs.add_time) from jobs group by title, company)
 --order by company, title, pub_date desc

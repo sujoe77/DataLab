@@ -28,7 +28,7 @@ order by add_time desc;
 select company from company where labels like '%ignore%';
 
 select * from company
-where lower(company.company) ~* '.*(alph lauren).*';
+where lower(company.company) ~* '.*(ostnord).*';
 --where lower(labels) ~* '.*(internet|it).*
 -- ';
 

@@ -3,6 +3,7 @@ from util.IOUtil import get_content
 
 MAX_RETRY = 3
 
+
 class Job:
     def __init__(self):
         return
@@ -15,7 +16,7 @@ class Job:
         return True
 
     def process_page(self, url):
-        print('\nfetching url: ' + url)
+        print("\nfetching url: " + url)
         page_content = get_content(url)
         # print(page_content)
         return self.parse(page_content)
@@ -50,10 +51,6 @@ class Job:
             if result[ii].split("##")[0] not in keySet:
                 keySet.add(result[ii].split("##")[0])
                 jobSet.add(result[ii].replace("##", ""))
-        #msg = "result size {}, set size before {}, after {}, page: {}"
+        # msg = "result size {}, set size before {}, after {}, page: {}"
         msg = "result size {}, set size before {}, after {}"
-        print(
-            msg.format(
-                sizeBefore, len(result), len(jobSet)
-            )
-        )
+        print(msg.format(sizeBefore, len(result), len(jobSet)))
