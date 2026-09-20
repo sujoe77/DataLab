@@ -1,6 +1,15 @@
-select substr(jobs.title, 2)
+
+
+select * from company where company in (select company
 from jobs
-where title LIKE chr(9)||'%';
+where 1=1
+and date_trunc('milliseconds', jobs.add_time) > '2026-05-01 00:00:00.000'::timestamp
+group by company
+having count(*) > 10)
+and labels is null;
+    --order by count desc;
+
+select * from company where lower(labels) like '%ignore%';
 
 select * from jobs
 where lower(title) ~* '.*(kotlin|java|scala).*'
@@ -21,14 +30,17 @@ order by add_time desc
 ;
 
 select * from company
-where company.company in ('Hooked - Seafood Kitchen')
+where labels like '%ignore%';
+
+select * from company
+where company.company in ('Infosys')
 --where add_time is not null
 order by add_time desc;
 
 select company from company where labels like '%ignore%';
 
 select * from company
-where lower(company.company) ~* '.*(ostnord).*';
+where lower(company.company) ~* '.*(chip).*';
 --where lower(labels) ~* '.*(internet|it).*
 -- ';
 

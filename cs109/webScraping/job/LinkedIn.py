@@ -1,8 +1,9 @@
-from jobs import Job
-from datetime import date
-import datetime as DT
-from util.IOUtil import get_content_linkedIn
 import urllib.parse
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
+from jobs import Job
+from util.IOUtil import get_content_linkedIn
 
 
 class LinkedInJob(Job):
@@ -22,41 +23,57 @@ class LinkedInJob(Job):
                 continue
             link = li[i].a["href"]
             # print(li[i].div)
-            titleList = li[i].find_all("span", "sr-only")
-            title = (
-                titleList[0].text.replace("\n", "").lstrip().rstrip().replace(",", "_")
-            )
-            # print(title)
-            company = (
-                li[i].div.h4.text if li[i].div.h4.a is None else li[i].div.h4.a.text
-            )
-            company = company.replace(",", "_").replace("\n", "").lstrip().rstrip()
-            # print(company)
-            timeList = li[i].find_all("time")
-            time = (
-                timeList[0].text.replace("\n", "").lstrip().rstrip().replace(",", "_")
-            )
-            time = self.getPubDate(time)
-            # print(time.text.replace("\n", "").lstrip().rstrip())
-            locationList = li[i].find_all("span", "job-search-card__location")
-            location = (
-                locationList[0]
-                .text.replace("\n", "")
-                .lstrip()
-                .rstrip()
-                .replace(",", "_")
-            )
-            # print(location)
+            title = self.get_title(li, i)
+            company = self.get_company(li, i)
+            time = self.get_time(li, i)
+            location = self.get_location(li, i)
             if (
                 "month" not in time
                 and super().ex_filter(title, self.exclude_title)
                 and super().ex_filter(company, self.exclude_company)
             ):
                 # if "month" not in time:
-                text = "{},{},{},{},##{}".format(title, company, location, time, link)
+                text = f"{title},{company},{location},{time},##{link}"
                 print("\t" + text)
                 result.append(text)
         return result
+
+    def get_time(self, li, i):
+        timeList = li[i].find_all("time")
+        time = (
+                timeList[0].text.replace("\n", "").lstrip().rstrip().replace(",", "_")
+            )
+        time = self.getPubDate(time)
+        # print(time.text.replace("\n", "").lstrip().rstrip())
+        return time
+
+    def get_location(self, li, i):
+        locationList = li[i].find_all("span", "job-search-card__location")
+        location = (
+                locationList[0]
+                .text.replace("\n", "")
+                .lstrip()
+                .rstrip()
+                .replace(",", "_")
+            )
+        # print(location)
+        return location
+
+    def get_title(self, li, i):
+        titleList = li[i].find_all("span", "sr-only")
+        title = (
+                titleList[0].text.replace("\n", "").lstrip().rstrip().replace(",", "_")
+            )
+        # print(title)
+        return title
+
+    def get_company(self, li, i):
+        company = (
+                li[i].div.h4.text if li[i].div.h4.a is None else li[i].div.h4.a.text
+            )
+        company = company.replace(",", "_").replace("\n", "").lstrip().rstrip()
+        # print(company)
+        return company
 
     def get_url(self, keyword, pageNum):
         # url = "https://www.linkedin.com/jobs/search/?keywords="+keyword+"&location=copenhagen%20denmark&start=" + str(pageNum*25)
@@ -71,7 +88,7 @@ class LinkedInJob(Job):
         return url
 
     def getPubDate(self, timeStr):
-        today = date.today()
+        today = datetime.now(ZoneInfo("Europe/Copenhagen")).date()
 
         # dd/mm/YY
         # d1 = today.strftime("%Y-%m-%d")
@@ -85,7 +102,7 @@ class LinkedInJob(Job):
         elif unit.startswith("week"):
             delta = delta * 24 * 7
 
-        pub_date = today - DT.timedelta(hours=delta)
+        pub_date = today - datetime.timedelta(hours=delta)
         return pub_date.strftime("%Y-%m-%d")
 
     def process_page(self, url):

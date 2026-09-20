@@ -12,5 +12,6 @@ class FetchTask:
     def run(self):
         print("Starting " + self.name)
         jobSet = self.jobSite.get_jobset(self.keyWords, self.pageSize, self.sleep)
-        db.insert_job(jobSet, self.name)
+        list = db.insert_job(jobSet, self.name)
         print("Exiting " + self.name)
+        return self, list
