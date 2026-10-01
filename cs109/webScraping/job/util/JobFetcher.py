@@ -10,7 +10,7 @@ def handle_fetch_tasks(fetchTasks):
         for future in futures:
             try:
                 task, result = future.result()
-                print("Task result for " + task.name + ": ", result)
+                print("Task result for " + task.name + " got " + str(len(result)) + " results: ", result)
                 jobList.extend(result)
             except Exception as e:  # noqa: BLE001
                 print("Task raised an exception: ", e)

@@ -7,15 +7,6 @@ from LinkedIn import LinkedInJob
 from util.JobFetcher import handle_fetch_tasks
 
 
-def main():
-    jobList = fetch_jobs()
-    save_jobs_to_file(jobList)
-
-
-if __name__ == "__main__":
-    main()
-
-
 def fetch_jobs():
     job_sites = [LinkedInJob(EXECLUDE_TITLE, EXECLUDE_COMPANY)]
 
@@ -42,3 +33,12 @@ def get_output_file_name():
     format = now.strftime("%Y%m%d_%H%M%S")
     output_file = OUTPUT_FOLDER + "jobs_" + format + ".txt"
     return output_file
+
+
+def main():
+    jobList = fetch_jobs()
+    save_jobs_to_file(jobList)
+
+
+if __name__ == "__main__":
+    main()

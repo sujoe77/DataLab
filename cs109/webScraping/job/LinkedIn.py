@@ -1,3 +1,4 @@
+import datetime as DT
 import urllib.parse
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -16,7 +17,7 @@ class LinkedInJob(Job):
         # li = page_content.find_all("li", "result-card job-result-card result-card--with-hover-state")
         li = page_content.find_all("li")
         divSize = len(li)
-        #print(divSize)
+        # print(divSize)
         for i in range(0, divSize):
             titleList = li[i].find_all("span", "sr-only")
             if len(titleList) == 0:
@@ -40,9 +41,7 @@ class LinkedInJob(Job):
 
     def get_time(self, li, i):
         timeList = li[i].find_all("time")
-        time = (
-                timeList[0].text.replace("\n", "").lstrip().rstrip().replace(",", "_")
-            )
+        time = timeList[0].text.replace("\n", "").lstrip().rstrip().replace(",", "_")
         time = self.getPubDate(time)
         # print(time.text.replace("\n", "").lstrip().rstrip())
         return time
@@ -50,27 +49,19 @@ class LinkedInJob(Job):
     def get_location(self, li, i):
         locationList = li[i].find_all("span", "job-search-card__location")
         location = (
-                locationList[0]
-                .text.replace("\n", "")
-                .lstrip()
-                .rstrip()
-                .replace(",", "_")
-            )
+            locationList[0].text.replace("\n", "").lstrip().rstrip().replace(",", "_")
+        )
         # print(location)
         return location
 
     def get_title(self, li, i):
         titleList = li[i].find_all("span", "sr-only")
-        title = (
-                titleList[0].text.replace("\n", "").lstrip().rstrip().replace(",", "_")
-            )
+        title = titleList[0].text.replace("\n", "").lstrip().rstrip().replace(",", "_")
         # print(title)
         return title
 
     def get_company(self, li, i):
-        company = (
-                li[i].div.h4.text if li[i].div.h4.a is None else li[i].div.h4.a.text
-            )
+        company = li[i].div.h4.text if li[i].div.h4.a is None else li[i].div.h4.a.text
         company = company.replace(",", "_").replace("\n", "").lstrip().rstrip()
         # print(company)
         return company
@@ -102,11 +93,11 @@ class LinkedInJob(Job):
         elif unit.startswith("week"):
             delta = delta * 24 * 7
 
-        pub_date = today - datetime.timedelta(hours=delta)
+        pub_date = today - DT.timedelta(hours=delta)
         return pub_date.strftime("%Y-%m-%d")
 
     def process_page(self, url):
-        print("\nfeatching url: " +url)
+        print("\nfeatching url: " + url)
         page_content = get_content_linkedIn(url)
         # print(page_content)
         return self.parse(page_content)

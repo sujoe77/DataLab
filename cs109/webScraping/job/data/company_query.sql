@@ -1,11 +1,21 @@
+update company set labels = 'construction'
+where labels = 'construct' ;
 
+select * from company
+where length(labels) < 1
+;
+
+select distinct labels from company
+--where labels ~* '^[s-z].*'
+order by labels
+;
 
 select * from company where company in (select company
 from jobs
 where 1=1
-and date_trunc('milliseconds', jobs.add_time) > '2026-05-01 00:00:00.000'::timestamp
+and date_trunc('milliseconds', jobs.add_time) > '2026-06-01 00:00:00.000'::timestamp
 group by company
-having count(*) > 10)
+having count(*) > 5)
 and labels is null;
     --order by count desc;
 
@@ -33,7 +43,7 @@ select * from company
 where labels like '%ignore%';
 
 select * from company
-where company.company in ('Infosys')
+where company.company in ('WPP')
 --where add_time is not null
 order by add_time desc;
 
