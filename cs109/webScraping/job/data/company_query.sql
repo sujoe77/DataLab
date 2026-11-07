@@ -1,14 +1,18 @@
-update company set labels = 'construction'
-where labels = 'construct' ;
+update company set labels = lower(labels)
+where labels like '%Software%' ;
 
 select * from company
-where length(labels) < 1
+where 1=1
+-- and length(labels) < 1
+and lower(labels) like '%travel%'
 ;
 
 select distinct labels from company
 --where labels ~* '^[s-z].*'
 order by labels
 ;
+
+
 
 select * from company where company in (select company
 from jobs
@@ -43,14 +47,14 @@ select * from company
 where labels like '%ignore%';
 
 select * from company
-where company.company in ('WPP')
+where company.company in ('jem & fix')
 --where add_time is not null
 order by add_time desc;
 
 select company from company where labels like '%ignore%';
 
 select * from company
-where lower(company.company) ~* '.*(chip).*';
+where lower(company.company) ~* '.*(Teton).*';
 --where lower(labels) ~* '.*(internet|it).*
 -- ';
 

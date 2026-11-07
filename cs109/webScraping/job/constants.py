@@ -6,7 +6,7 @@ KEYWORD_DIC_ALL = {
         "AI": 5, "Machine Learning": 5, "LLM": 5, "ML": 5,
         "software engineer": 10, "developer": 10, "backend developer": 5, "programmer": 5, "udvikler": 5,  "backend engineer": 5, "fullstack developer": 5,
         "data engineer": 5, "data scientist": 5, 
-        "architect": 5, "Tech Lead": 5, "principal engineer": 5, "lead developer": 5, "IT Lead": 5,  
+        "architect": 5, "Tech Lead": 5, "principal engineer": 5, "lead developer": 5, "IT Lead": 5,
         "finance it": 5, "fintech": 5, "banking it": 5, "trading": 5, "payment": 5, "chinese": 2, "China": 2
     }
 
