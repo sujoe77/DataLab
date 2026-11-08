@@ -1,0 +1,160 @@
+JRuby核心成员投奔Engine Yard,2009-07-28,5710,https://web.archive.org/web/20251202201220/https://coolshell.cn/articles/1194.html
+一些单元测试的Guideline,2009-07-27,10077,https://web.archive.org/web/20251202201220/https://coolshell.cn/articles/1192.html
+如何检测浏览器是否支持CSS3,2009-07-24,8060,https://web.archive.org/web/20251202201220/https://coolshell.cn/articles/1186.html
+15个Web在线WYSIWYG编辑器,2009-07-24,16939,https://web.archive.org/web/20251202201220/https://coolshell.cn/articles/1183.html
+Internet 技术演变图,2009-07-24,12261,https://web.archive.org/web/20251202201220/https://coolshell.cn/articles/1178.html
+程序员惯用的解释(Top 25),2009-07-24,23036,https://web.archive.org/web/20251202201220/https://coolshell.cn/articles/1174.html
+程序员犯的非技术错误(Top 5),2009-07-21,20941,https://web.archive.org/web/20251202201220/https://coolshell.cn/articles/1145.html
+（免费在线）新书推荐：搜索的用户界面,2009-07-16,8733,https://web.archive.org/web/20251202201220/https://coolshell.cn/articles/1163.html
+Python 自然语言处理,2009-07-15,21341,https://web.archive.org/web/20251202201220/https://coolshell.cn/articles/1157.html
+关于 Chrome OS 的一些推论,2009-07-13,8644,https://web.archive.org/web/20251202201220/https://coolshell.cn/articles/1152.html
+BT雷人的程序语言,2009-07-12,48533,https://web.archive.org/web/20251202192430/https://coolshell.cn/articles/1142.html
+整洁代码的4个提示,2009-07-05,24544,https://web.archive.org/web/20251202192430/https://coolshell.cn/articles/1095.html
+与Martin Fowler关于敏捷方法的问答,2009-07-05,9123,https://web.archive.org/web/20251202192430/https://coolshell.cn/articles/1113.html
+Java构造时成员初始化的陷阱,2009-07-03,31340,https://web.archive.org/web/20251202192430/https://coolshell.cn/articles/1106.html
+漫画：程序员的一生,2009-06-30,35951,https://web.archive.org/web/20251202192430/https://coolshell.cn/articles/1103.html
+Ksplice Uptrack — Ubuntu更新不用重启,2009-06-30,7466,https://web.archive.org/web/20251202192430/https://coolshell.cn/articles/1097.html
+Top 200的全球开发者BLOG,2009-06-30,21288,https://web.archive.org/web/20251202192430/https://coolshell.cn/articles/1092.html
+22个开源的PHP框架,2009-06-25,22673,https://web.archive.org/web/20251202192430/https://coolshell.cn/articles/1086.html
+十个让你变成糟糕的程序员的行为,2009-06-24,46583,https://web.archive.org/web/20251202192430/https://coolshell.cn/articles/1081.html
+Linux/Unix 新手和专家教程,2009-06-21,62539,https://web.archive.org/web/20251202192430/https://coolshell.cn/articles/1042.html
+如何在Java中避免equals方法的隐藏陷阱,2009-06-18,27921,https://web.archive.org/web/20251202201225/https://coolshell.cn/articles/1051.html
+高级Unix命令,2009-06-16,23707,https://web.archive.org/web/20251202201225/https://coolshell.cn/articles/1044.html
+编程命名中的7+1个提示,2009-06-15,34909,https://web.archive.org/web/20251202201225/https://coolshell.cn/articles/1038.html
+16个简单实用的.htaccess小贴示,2009-06-14,9596,https://web.archive.org/web/20251202201225/https://coolshell.cn/articles/1035.html
+Unix 40年：Unix年鉴,2009-06-12,31363,https://web.archive.org/web/20251202201225/https://coolshell.cn/articles/1032.html
+Unix 40年：昨天，今天和明天,2009-06-11,37171,https://web.archive.org/web/20251202201225/https://coolshell.cn/articles/1023.html
+优质代码的十诫,2009-06-07,42018,https://web.archive.org/web/20251202201225/https://coolshell.cn/articles/1007.html
+编程中的命名设计那点事,2009-06-07,32208,https://web.archive.org/web/20251202201225/https://coolshell.cn/articles/990.html
+编程语言的评测,2009-06-06,12775,https://web.archive.org/web/20251202201225/https://coolshell.cn/articles/973.html
+质量管理经中的八个法则,2009-06-06,8083,https://web.archive.org/web/20251202201225/https://coolshell.cn/articles/971.html
+【原创】SQL栏目树的代码,2009-06-05,9643,https://web.archive.org/web/20251202201219/https://coolshell.cn/articles/962.html
+18个Web开发的IDE,2009-06-04,23861,https://web.archive.org/web/20251202201219/https://coolshell.cn/articles/968.html
+《Vim Recipes》免费的Vim Cookbook,2009-06-01,16561,https://web.archive.org/web/20251202201219/https://coolshell.cn/articles/956.html
+C语言的谜题,2009-05-31,158227,https://web.archive.org/web/20251202201219/https://coolshell.cn/articles/945.html
+最完美的Linux桌面软件,2009-05-31,10124,https://web.archive.org/web/20251202201219/https://coolshell.cn/articles/936.html
+如何加密/混乱C源代码,2009-05-30,100608,https://web.archive.org/web/20251202201219/https://coolshell.cn/articles/933.html
+如何比较两个数据表,2009-05-27,27125,https://web.archive.org/web/20251202201219/https://coolshell.cn/articles/925.html
+20个优秀的Javascript导航技术,2009-05-26,16828,https://web.archive.org/web/20251202201219/https://coolshell.cn/articles/918.html
+6个变态的C语言Hello World程序,2009-05-25,286681,https://web.archive.org/web/20251202201219/https://coolshell.cn/articles/914.html
+7个免费强大的Ajax文件管理器,2009-05-24,19118,https://web.archive.org/web/20251202201219/https://coolshell.cn/articles/909.html
+将vim变得简单:如何在vim中得到你最喜爱的IDE特性,2009-05-23,86388,https://web.archive.org/web/20251202201216/https://coolshell.cn/articles/894.html
+20非常有用的Java程序片段,2009-05-23,27801,https://web.archive.org/web/20251202201216/https://coolshell.cn/articles/889.html
+几个有意思的漫画,2009-05-21,13573,https://web.archive.org/web/20251202201216/https://coolshell.cn/articles/880.html
+一个C的序列化库tpl,2009-05-21,17590,https://web.archive.org/web/20251202201216/https://coolshell.cn/articles/878.html
+谁说C语言很简单？,2009-05-19,55517,https://web.archive.org/web/20251202201216/https://coolshell.cn/articles/873.html
+Web设计的速查卡,2009-05-19,22411,https://web.archive.org/web/20251202201216/https://coolshell.cn/articles/870.html
+语言的歧义,2009-05-17,48549,https://web.archive.org/web/20251202201216/https://coolshell.cn/articles/830.html
+Linux磁盘使用命令du的改进,2009-05-15,11183,https://web.archive.org/web/20251202201216/https://coolshell.cn/articles/822.html
+22条经典的编程引言,2009-05-15,29528,https://web.archive.org/web/20251202201216/https://coolshell.cn/articles/808.html
+关于C++构造函数的FAQ,2009-05-13,10251,https://web.archive.org/web/20251202201216/https://coolshell.cn/articles/804.html
+电子书：编译器设计基础,2009-05-11,10955,https://web.archive.org/web/20251202201216/https://coolshell.cn/articles/799.html
+5个不错的3D素材网站,2009-05-11,10963,https://web.archive.org/web/20251202201216/https://coolshell.cn/articles/796.html
+十个你可能不曾用过的Linux命令,2009-05-10,26727,https://web.archive.org/web/20251202201216/https://coolshell.cn/articles/790.html
+用TCC可以干些什么？,2009-05-10,23296,https://web.archive.org/web/20251202201216/https://coolshell.cn/articles/786.html
+十大最失水准的科技预测,2009-05-10,7615,https://web.archive.org/web/20251202201216/https://coolshell.cn/articles/783.html
+如何知道某网站运行在GAE上,2009-05-06,6270,https://web.archive.org/web/20251202201216/https://coolshell.cn/articles/780.html
+一个在线的画UML图的网站,2009-05-06,22893,https://web.archive.org/web/20251202201216/https://coolshell.cn/articles/776.html
+让Ruby增加30%的性能改进,2009-05-05,9175,https://web.archive.org/web/20251202201216/https://coolshell.cn/articles/766.html
+如何检查网页浏览器的兼容性,2009-05-04,17639,https://web.archive.org/web/20251202201216/https://coolshell.cn/articles/757.html
+不要拯救那些职场上的“无可救药”,2009-05-03,9557,https://web.archive.org/web/20251202201216/https://coolshell.cn/articles/753.html
+某Python实现的尾部递归,2009-04-30,11871,https://web.archive.org/web/20251202201228/https://coolshell.cn/articles/737.html
+Glassfish ESB 的教程,2009-04-29,7822,https://web.archive.org/web/20251202201228/https://coolshell.cn/articles/732.html
+编程语言流行度排名,2009-04-28,12263,https://web.archive.org/web/20251202201228/https://coolshell.cn/articles/706.html
+25个Linux相关的网站,2009-04-28,23383,https://web.archive.org/web/20251202201228/https://coolshell.cn/articles/701.html
+Guido认为程序员大多数工作不需要递归,2009-04-26,19019,https://web.archive.org/web/20251202201228/https://coolshell.cn/articles/694.html
+你能做对下面这些JavaScript的题吗？,2009-04-26,11912,https://web.archive.org/web/20251202201228/https://coolshell.cn/articles/688.html
+用Python写NCurses UI,2009-04-26,27141,https://web.archive.org/web/20251202201228/https://coolshell.cn/articles/677.html
+Python调用C语言函数,2009-04-26,40112,https://web.archive.org/web/20251202201228/https://coolshell.cn/articles/671.html
+使用PHP的cURL库,2009-04-25,25403,https://web.archive.org/web/20251202201228/https://coolshell.cn/articles/664.html
+Linux 的僵尸(zombie)进程,2009-04-25,30774,https://web.archive.org/web/20251202201228/https://coolshell.cn/articles/656.html
+MySQL: InnoDB 还是 MyISAM?,2009-04-24,56165,https://web.archive.org/web/20251202201745/https://coolshell.cn/articles/652.html
+22个不错的CSS技术,2009-04-24,11382,https://web.archive.org/web/20251202201745/https://coolshell.cn/articles/648.html
+Java如何取源文件中文件名和行号,2009-04-22,14935,https://web.archive.org/web/20251202201745/https://coolshell.cn/articles/611.html
+早期XML Schema中的open content模型,2009-04-22,6364,https://web.archive.org/web/20251202201745/https://coolshell.cn/articles/604.html
+Google 三维 JavaScript API 发布,2009-04-22,10961,https://web.archive.org/web/20251202201745/https://coolshell.cn/articles/599.html
+Oracle成功收购Sun,2009-04-21,7630,https://web.archive.org/web/20251202201745/https://coolshell.cn/articles/595.html
+免费电子书：Ruby Complete,2009-04-20,11261,https://web.archive.org/web/20251202201745/https://coolshell.cn/articles/591.html
+5个不错的Flash的英文教程网,2009-04-20,7031,https://web.archive.org/web/20251202201745/https://coolshell.cn/articles/585.html
+使用Google API做统计图,2009-04-20,12219,https://web.archive.org/web/20251202201745/https://coolshell.cn/articles/582.html
+Linux设备驱动Hello World程序介绍,2009-04-18,29736,https://web.archive.org/web/20251202201745/https://coolshell.cn/articles/566.html
+30种时尚的CSS网站导航条,2009-04-17,75581,https://web.archive.org/web/20251202201741/https://coolshell.cn/articles/562.html
+菜鸟学PHP之Smarty入门,2009-04-17,21168,https://web.archive.org/web/20251202201741/https://coolshell.cn/articles/559.html
+VI的一些小技巧,2009-04-17,14363,https://web.archive.org/web/20251202201741/https://coolshell.cn/articles/556.html
+C语言下的错误处理的问题,2009-04-17,16149,https://web.archive.org/web/20251202201741/https://coolshell.cn/articles/551.html
+有效编程的14件事,2009-04-15,12262,https://web.archive.org/web/20251202201741/https://coolshell.cn/articles/546.html
+一个显示排序过程的Python脚本,2009-04-15,31882,https://web.archive.org/web/20251202201741/https://coolshell.cn/articles/536.html
+如何在Google App Engine上运行PHP,2009-04-14,5883,https://web.archive.org/web/20251202201741/https://coolshell.cn/articles/531.html
+NUI一个跨平台的C++库,2009-04-14,9607,https://web.archive.org/web/20251202201741/https://coolshell.cn/articles/528.html
+深入浅出CORBA,2009-04-14,8757,https://web.archive.org/web/20251202201741/https://coolshell.cn/articles/514.html
+未来五年程序员需要掌握的10项技能,2009-04-14,30215,https://web.archive.org/web/20251202201741/https://coolshell.cn/articles/511.html
+Windows下和程序员相关小工具,2009-04-13,17467,https://web.archive.org/web/20251202201746/https://coolshell.cn/articles/506.html
+Ubuntu的并行启动,2009-04-13,9320,https://web.archive.org/web/20251202201746/https://coolshell.cn/articles/501.html
+Python处理中文的时候的一些小技巧,2009-04-12,15397,https://web.archive.org/web/20251202201746/https://coolshell.cn/articles/461.html
+Python脚本如何对文件通配符匹配,2009-04-12,10127,https://web.archive.org/web/20251202201746/https://coolshell.cn/articles/444.html
+9个强大免费的PHP库,2009-04-12,19747,https://web.archive.org/web/20251202201746/https://coolshell.cn/articles/455.html
+Python中实现多属性排序,2009-04-12,19178,https://web.archive.org/web/20251202201746/https://coolshell.cn/articles/435.html
+程序员需要具备的基本技能,2009-04-11,124389,https://web.archive.org/web/20251202201746/https://coolshell.cn/articles/428.html
+PDF电子书搜索引擎,2009-04-10,20743,https://web.archive.org/web/20251202201746/https://coolshell.cn/articles/424.html
+1980年和2009年的1GB电脑内存的比较,2009-04-10,11696,https://web.archive.org/web/20251202201746/https://coolshell.cn/articles/410.html
+4月14日，微软补丁日,2009-04-10,4821,https://web.archive.org/web/20251202201746/https://coolshell.cn/articles/404.html
+一个排序算法比较的网站,2009-04-10,55347,https://web.archive.org/web/20251202201750/https://coolshell.cn/articles/399.html
+十大史上最恶心的操作系统,2009-04-10,17370,https://web.archive.org/web/20251202201750/https://coolshell.cn/articles/394.html
+笔记本电脑的发展史,2009-04-08,19709,https://web.archive.org/web/20251202201750/https://coolshell.cn/articles/378.html
+RFC1 40岁生日,2009-04-08,9804,https://web.archive.org/web/20251202201750/https://coolshell.cn/articles/373.html
+35个强大的UI设计教程,2009-04-07,61342,https://web.archive.org/web/20251202201750/https://coolshell.cn/articles/363.html
+Linux C 编程一站式学习,2009-04-07,30320,https://web.archive.org/web/20251202201750/https://coolshell.cn/articles/360.html
+20本最好的Linux免费书籍,2009-04-06,143785,https://web.archive.org/web/20251202201750/https://coolshell.cn/articles/355.html
+程序员的八个级别,2009-04-06,75551,https://web.archive.org/web/20251202201750/https://coolshell.cn/articles/343.html
+惹恼程序员的十件事,2009-04-06,41596,https://web.archive.org/web/20251202201750/https://coolshell.cn/articles/340.html
+超过100本的linux免费书籍,2009-04-02,6703,https://web.archive.org/web/20251202201750/https://coolshell.cn/articles/336.html
+2009年脚本语言排名,2009-04-01,16032,https://web.archive.org/web/20251202192844/https://coolshell.cn/articles/325.html
+Linux的“宕机”图片,2009-04-01,14025,https://web.archive.org/web/20251202192844/https://coolshell.cn/articles/313.html
+十个最好的PDF生成库,2009-04-01,17071,https://web.archive.org/web/20251202192844/https://coolshell.cn/articles/309.html
+OSGi和Java企业级运算的未来方向,2009-03-29,10287,https://web.archive.org/web/20251202192844/https://coolshell.cn/articles/294.html
+雷人的程序注释,2009-03-27,28126,https://web.archive.org/web/20251202192844/https://coolshell.cn/articles/290.html
+深入浅出单实例Singleton设计模式,2009-03-26,55216,https://web.archive.org/web/20251202192844/https://coolshell.cn/articles/265.html
+基于JVM的语言正在开始流行,2009-03-26,14149,https://web.archive.org/web/20251202192844/https://coolshell.cn/articles/247.html
+全球IP地址数据库,2009-03-25,32616,https://web.archive.org/web/20251202192844/https://coolshell.cn/articles/244.html
+非常不错的编程技术教程,2009-03-25,48326,https://web.archive.org/web/20251202192844/https://coolshell.cn/articles/240.html
+C++和JAVA传统中积极的一面,2009-03-22,21524,https://web.archive.org/web/20251202192844/https://coolshell.cn/articles/209.html
+优秀程序员的十个习惯,2009-03-22,107697,https://web.archive.org/web/20251202201738/https://coolshell.cn/articles/222.html
+一位离开Google的设计师离职感言的读后感,2009-03-21,13103,https://web.archive.org/web/20251202201738/https://coolshell.cn/articles/208.html
+IBM收购Sun，这是一种什么样的精神？,2009-03-19,11378,https://web.archive.org/web/20251202201738/https://coolshell.cn/articles/203.html
+20 你应该知道的PHP库,2009-03-18,26611,https://web.archive.org/web/20251202201738/https://coolshell.cn/articles/200.html
+Linux 相关的资源站makelinux.net,2009-03-16,10149,https://web.archive.org/web/20251202201738/https://coolshell.cn/articles/194.html
+Linux的15岁生日,2009-03-15,8707,https://web.archive.org/web/20251202201738/https://coolshell.cn/articles/189.html
+OMG Jave的JMenu居然有433个方法,2009-03-14,9607,https://web.archive.org/web/20251202201738/https://coolshell.cn/articles/182.html
+OMG Windows 7 来自未来,2009-03-14,12288,https://web.archive.org/web/20251202201738/https://coolshell.cn/articles/179.html
+幽默：程序员的进化,2009-03-14,34921,https://web.archive.org/web/20251202201738/https://coolshell.cn/articles/172.html
+Hello World 集中营,2009-03-14,30382,https://web.archive.org/web/20251202201738/https://coolshell.cn/articles/169.html
+10个基于Ajax的PHP Webmail客户端,2009-03-13,19142,https://web.archive.org/web/20251202201742/https://coolshell.cn/articles/154.html
+Vim命令速查卡,2009-03-13,43342,https://web.archive.org/web/20251202201742/https://coolshell.cn/articles/150.html
+操作系统图形界面发展史(1981-2009),2009-03-12,56836,https://web.archive.org/web/20251202201742/https://coolshell.cn/articles/105.html
+版本控制Subversion相关资源,2009-03-11,11871,https://web.archive.org/web/20251202201742/https://coolshell.cn/articles/93.html
+十个开源的Javascript框架,2009-03-11,3760,https://web.archive.org/web/20251202201742/https://coolshell.cn/articles/91.html
+Linux Distribution Timeline,2009-03-10,17018,https://web.archive.org/web/20251202201742/https://coolshell.cn/articles/85.html
+怎样做一个 Program Manager,2009-03-10,18123,https://web.archive.org/web/20251202201742/https://coolshell.cn/articles/76.html
+几个你可能从来没有用过的HTML标识,2009-03-09,8638,https://web.archive.org/web/20251202201742/https://coolshell.cn/articles/67.html
+Linux 命令速查,2009-03-08,14372,https://web.archive.org/web/20251202201742/https://coolshell.cn/articles/64.html
+80个优秀的AJAX方案,2009-03-07,9761,https://web.archive.org/web/20251202201742/https://coolshell.cn/articles/57.html
+【引文】如何用Python往Google Spreadsheet上写数据,2009-03-02,11387,https://web.archive.org/web/20251202201739/https://coolshell.cn/articles/37.html
+资源推荐: Google Code University,2009-03-02,6783,https://web.archive.org/web/20251202201739/https://coolshell.cn/articles/35.html
+读后感：房间里的大象：Google文化成为主导,2009-03-02,8834,https://web.archive.org/web/20251202201739/https://coolshell.cn/articles/33.html
+读后感：真正编程的力量,2009-03-02,11206,https://web.archive.org/web/20251202201739/https://coolshell.cn/articles/29.html
+如何自己写一个网络爬虫,2009-03-02,69866,https://web.archive.org/web/20251202201739/https://coolshell.cn/articles/27.html
+如何上网觅无踪,2009-03-02,17140,https://web.archive.org/web/20251202201739/https://coolshell.cn/articles/25.html
+Fork 系统炸弹,2009-03-02,13989,https://web.archive.org/web/20251202201739/https://coolshell.cn/articles/23.html
+101个设计模式,2009-03-02,37589,https://web.archive.org/web/20251202201739/https://coolshell.cn/articles/21.html
+时间1234567890,2009-03-02,10433,https://web.archive.org/web/20251202201739/https://coolshell.cn/articles/19.html
+结对编程的利与弊,2009-03-02,48361,https://web.archive.org/web/20251202201739/https://coolshell.cn/articles/16.html
+Java书籍Top 10,2009-03-02,32769,https://web.archive.org/web/20251202192447/https://coolshell.cn/articles/14.html
+PHP v5.3的新鲜玩意,2009-03-02,10666,https://web.archive.org/web/20251202192447/https://coolshell.cn/articles/11.html
+你应该知道的20个Ajax技术(11-20),2009-03-02,12788,https://web.archive.org/web/20251202192447/https://coolshell.cn/articles/9.html
+你应该知道的20个Ajax技术(01-10),2009-03-02,4227,https://web.archive.org/web/20251202192447/https://coolshell.cn/articles/7.html
+Java EE6 初探,2009-03-02,2790,https://web.archive.org/web/20251202192447/https://coolshell.cn/articles/5.html
+50套Web开发图标,2009-03-02,14245,https://web.archive.org/web/20251202192447/https://coolshell.cn/articles/3.html
+C++ 对象的内存布局,2008-10-15,65803,https://web.archive.org/web/20251202192447/https://coolshell.cn/articles/12176.html
+C++ 虚函数表解析,2007-12-18,68158,https://web.archive.org/web/20251202192447/https://coolshell.cn/articles/12165.html
+C/C++返回内部静态成员的陷阱,2006-11-16,23555,https://web.archive.org/web/20251202192447/https://coolshell.cn/articles/12192.html
+C++ STL string的Copy-On-Write技术,2004-06-23,47462,https://web.archive.org/web/20251202192447/https://coolshell.cn/articles/12199.html

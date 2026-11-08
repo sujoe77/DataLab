@@ -1,0 +1,30 @@
+itnews,业界新闻,33
+%e4%bc%81%e4%b8%9a%e5%ba%94%e7%94%a8,企业应用,2
+technews,技术新闻,38
+%e6%8a%80%e6%9c%af%e7%ae%a1%e7%90%86,技术管理,19
+techarticle,技术读物,125
+operatingsystem,操作系统,97
+operatingsystem/unixlinux,Unix/Linux,81
+operatingsystem/mswindows,Windows,12
+datebase,数据库,11
+misc,杂项资源,295
+process,流程方法,48
+progdesign,程序设计,110
+%e7%b3%bb%e7%bb%9f%e6%9e%b6%e6%9e%84,系统架构,15
+tools,编程工具,67
+proglanguage,编程语言,326
+proglanguage/dotnet,.NET编程,3
+proglanguage/ajaxdev,Ajax开发,9
+proglanguage/cplusplus,C/C++语言,74
+proglanguage/erlang,Erlang,1
+proglanguage/go-%e8%af%ad%e8%a8%80,Go 语言,15
+proglanguage/javadev,Java语言,32
+proglanguage/phpdev,PHP脚本,11
+proglanguage/pythondev,Python,23
+proglanguage/rubydev,Ruby,5
+proglanguage/rust-%e8%af%ad%e8%a8%80,Rust 语言,1
+proglanguage/webdev,Web开发,106
+netsecurity,网络安全,36
+career,职场生涯,40
+funny,趣味问题,19
+story,轶事趣闻,147

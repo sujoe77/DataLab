@@ -1,0 +1,60 @@
+是微服务架构不香还是云不香？,2023-05-08,339607,https://coolshell.cn/articles/22422.html,itnews
+Android将允许纯C/C++开发应用,2011-01-24,218791,https://web.archive.org/web/20251202192848/https://coolshell.cn/articles/3549.html,itnews
+来信， 创业 和 移动互联网,2011-11-15,170331,https://web.archive.org/web/20251202195626/https://coolshell.cn/articles/5815.html,itnews
+50年前的登月程序和程序员有多硬核,2019-07-21,157628,https://web.archive.org/web/20251202192408/https://coolshell.cn/articles/19612.html,itnews
+“一把梭：REST API 全用 POST”,2022-02-13,155999,https://coolshell.cn/articles/22173.html,technews
+bash代码注入的安全漏洞,2014-09-28,135533,https://web.archive.org/web/20251202192319/https://coolshell.cn/articles/11973.html,technews
+由苹果的低级Bug想到的,2014-02-24,135429,https://web.archive.org/web/20251202192522/https://coolshell.cn/articles/11112.html,itnews
+Why C++ ? 王者归来,2012-02-02,130778,https://web.archive.org/web/20251202192343/https://coolshell.cn/articles/6548.html,itnews
+从Gitlab误删除数据库想到的,2017-02-02,124138,https://web.archive.org/web/20251202192637/https://coolshell.cn/articles/17680.html,technews
+腾讯，竞争力 和 用户体验,2011-11-22,123966,https://web.archive.org/web/20251202195626/https://coolshell.cn/articles/5901.html,itnews
+新浪微博的XSS攻击,2011-06-28,99722,https://web.archive.org/web/20251202195628/https://coolshell.cn/articles/4914.html,itnews
+CSDN明文口令泄露的启示,2011-12-22,99200,https://web.archive.org/web/20251202195626/https://coolshell.cn/articles/6193.html,itnews
+谈谈公司对员工的监控,2022-02-12,96458,https://coolshell.cn/articles/22157.html,technews
+我看ChatGPT: 为啥谷歌掉了千亿美金,2023-02-12,90064,https://coolshell.cn/articles/22398.html,itnews|technews
+从 MongoDB “赎金事件” 看安全问题,2017-01-07,88435,https://web.archive.org/web/20251202192637/https://coolshell.cn/articles/17607.html,technews
+关于Facebook 的 React 专利许可证,2017-09-19,75557,https://web.archive.org/web/20251202192601/https://coolshell.cn/articles/18140.html,itnews
+AWS 的 S3 故障回顾和思考,2017-03-03,74448,https://web.archive.org/web/20251202192637/https://coolshell.cn/articles/17737.html,itnews
+Hash Collision DoS 问题,2012-01-06,72901,https://web.archive.org/web/20251202192343/https://coolshell.cn/articles/6424.html,itnews
+谈谈数据安全和云存储,2012-04-09,70627,https://web.archive.org/web/20251202195630/https://coolshell.cn/articles/6976.html,itnews
+StackOverflow 2019 程序员调查,2019-04-21,62436,https://web.archive.org/web/20251202192408/https://coolshell.cn/articles/19307.html,itnews
+持续部署，并不简单！,2012-06-25,56250,https://web.archive.org/web/20251202195633/https://coolshell.cn/articles/7657.html,%e4%bc%81%e4%b8%9a%e5%ba%94%e7%94%a8
+Bret Victor – Inventing on Principle,2012-03-09,54552,https://web.archive.org/web/20251202195630/https://coolshell.cn/articles/6775.html,technews
+聊聊 nostr 和 审查,2023-02-03,53027,https://coolshell.cn/articles/22367.html,itnews
+Facebook 的系统架构,2011-04-25,48764,https://web.archive.org/web/20251202192847/https://coolshell.cn/articles/4549.html,technews
+AES加密算法动画演示,2010-10-15,46200,https://web.archive.org/web/20251202203423/https://coolshell.cn/articles/3161.html,technews
+谁写了Linux,2009-08-25,44864,https://web.archive.org/web/20251202201224/https://coolshell.cn/articles/1360.html,technews
+中国的C2C模式,2011-03-02,39506,https://web.archive.org/web/20251202192111/https://coolshell.cn/articles/3820.html,itnews
+Quora使用到的技术,2011-07-04,38286,https://web.archive.org/web/20251202195628/https://coolshell.cn/articles/4939.html,technews
+Amazon的书为什么卖到了$2000万,2011-04-28,31747,https://web.archive.org/web/20251202192847/https://coolshell.cn/articles/4605.html,itnews
+微软用新浪来当反面教材,2011-03-03,28929,https://web.archive.org/web/20251202192111/https://coolshell.cn/articles/3872.html,technews
+中国仍是IE6的重灾区,2011-03-10,25558,https://web.archive.org/web/20251202192845/https://coolshell.cn/articles/3921.html,technews
+Stack Exchange 的架构,2011-02-23,22722,https://web.archive.org/web/20251202192111/https://coolshell.cn/articles/3721.html,technews
+扎克伯格的一封信：关于Facebook IPO,2012-05-19,22103,https://web.archive.org/web/20251202195703/https://coolshell.cn/articles/7448.html,itnews
+科技公司十大最愚蠢的错误,2009-08-19,21713,https://web.archive.org/web/20251202201231/https://coolshell.cn/articles/1295.html,technews
+Google App Inventor,2010-07-13,21480,https://web.archive.org/web/20251202203411/https://coolshell.cn/articles/2608.html,itnews
+分享：我的Reader订阅,2010-02-08,20352,https://web.archive.org/web/20251202201429/https://coolshell.cn/articles/2105.html,technews
+微软的安全补丁分析,2010-04-06,20285,https://web.archive.org/web/20251202203417/https://coolshell.cn/articles/2305.html,itnews
+关于Amazon云宕机的网贴收集,2011-04-27,18260,https://web.archive.org/web/20251202192847/https://coolshell.cn/articles/4601.html,itnews
+DEMO Spring 2010 获奖产品,2010-03-28,17903,https://web.archive.org/web/20251202201432/https://coolshell.cn/articles/2191.html,itnews
+2009年脚本语言排名,2009-04-01,16032,https://web.archive.org/web/20251202192844/https://coolshell.cn/articles/325.html,technews
+如何“加密”你的email地址,2011-01-27,15480,https://web.archive.org/web/20251202192848/https://coolshell.cn/articles/3595.html,technews
+2000年的iMac和2010年的iPhone,2010-06-22,14969,https://web.archive.org/web/20251202203418/https://coolshell.cn/articles/2507.html,itnews
+iPad进化图,2010-02-06,14948,https://web.archive.org/web/20251202201429/https://coolshell.cn/articles/2086.html,itnews
+WSDL 1.1 中文规范,2011-04-01,13741,https://web.archive.org/web/20251202192855/https://coolshell.cn/articles/4131.html,%e4%bc%81%e4%b8%9a%e5%ba%94%e7%94%a8
+苹果开发工具Xcode 4 第二预览版,2010-07-23,12521,https://web.archive.org/web/20251202192616/https://coolshell.cn/articles/2719.html,technews
+McAfee误杀svchost.exe,2010-04-23,12260,https://web.archive.org/web/20251202203416/https://coolshell.cn/articles/2376.html,itnews
+为什么敏捷方法能在软件开发中行之有效？,2010-07-18,11985,https://web.archive.org/web/20251202203411/https://coolshell.cn/articles/2622.html,itnews
+Sony PS3 Root Key 被破解,2011-01-10,11949,https://web.archive.org/web/20251202192908/https://coolshell.cn/articles/3453.html,itnews
+“第六感装置”的惊人潜力,2010-01-09,11446,https://web.archive.org/web/20251202201429/https://coolshell.cn/articles/2047.html,itnews|technews
+IBM收购Sun，这是一种什么样的精神？,2009-03-19,11378,https://web.archive.org/web/20251202201738/https://coolshell.cn/articles/203.html,technews
+Eclipse 3.6 （Helios）新特性,2010-07-07,11344,https://web.archive.org/web/20251202203418/https://coolshell.cn/articles/2554.html,technews
+GDB 7.0 发布,2009-10-09,11294,https://web.archive.org/web/20251202201424/https://coolshell.cn/articles/1525.html,technews
+读后感：真正编程的力量,2009-03-02,11206,https://web.archive.org/web/20251202201739/https://coolshell.cn/articles/29.html,technews
+Titanium – 桌面和移动应用开发平台,2010-03-10,11064,https://web.archive.org/web/20251202201432/https://coolshell.cn/articles/2117.html,itnews
+一个浏览器市场占有量的图,2010-01-25,10834,https://web.archive.org/web/20251202201429/https://coolshell.cn/articles/2069.html,itnews
+PI小数点位数的新纪录,2010-01-08,10741,https://web.archive.org/web/20251202201429/https://coolshell.cn/articles/2043.html,technews
+Martin Fowler 在 ThoughtWorks 内部关于版本控制工具的调查,2010-03-13,10410,https://web.archive.org/web/20251202201432/https://coolshell.cn/articles/2135.html,technews
+HTML5 logo 发布,2011-01-23,9861,https://web.archive.org/web/20251202192848/https://coolshell.cn/articles/3561.html,itnews
+RFC1 40岁生日,2009-04-08,9804,https://web.archive.org/web/20251202201750/https://coolshell.cn/articles/373.html,technews
+IE6/IE7 0day 漏洞,2009-11-23,9353,https://web.archive.org/web/20251202201420/https://coolshell.cn/articles/1835.html,technews

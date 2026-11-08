@@ -1,0 +1,100 @@
+谜题的答案和活动的心得体会,2014-08-06,73274,https://web.archive.org/web/20251202192511/https://coolshell.cn/articles/11847.html
+【活动】解迷题送礼物,2014-08-03,61700,https://web.archive.org/web/20251202192511/https://coolshell.cn/articles/11832.html
+开发团队的效率,2014-06-09,213013,https://web.archive.org/web/20251202192511/https://coolshell.cn/articles/11656.html
+TCP 的那些事儿（下）,2014-05-28,335962,https://web.archive.org/web/20251202192511/https://coolshell.cn/articles/11609.html
+TCP 的那些事儿（上）,2014-05-28,565525,https://web.archive.org/web/20251202192511/https://coolshell.cn/articles/11564.html
+「我只是认真」聊聊工匠情怀,2014-05-26,85612,https://web.archive.org/web/20251202192511/https://coolshell.cn/articles/11629.html
+面向GC的Java编程,2014-05-07,68142,https://web.archive.org/web/20251202192511/https://coolshell.cn/articles/11541.html
+C语言的整型溢出问题,2014-04-21,130315,https://web.archive.org/web/20251202192511/https://coolshell.cn/articles/11466.html
+从LongAdder看更高效的无锁实现,2014-04-17,55073,https://web.archive.org/web/20251202192511/https://coolshell.cn/articles/11454.html
+从Code Review 谈如何做技术,2014-04-12,265199,https://web.archive.org/web/20251202192511/https://coolshell.cn/articles/11432.html
+C语言结构体里的成员数组和指针,2014-04-01,204212,https://web.archive.org/web/20251202192522/https://coolshell.cn/articles/11377.html
+无插件Vim编程技巧,2014-03-24,254376,https://web.archive.org/web/20251202192522/https://coolshell.cn/articles/11312.html
+Python修饰器的函数式编程,2014-03-20,141828,https://web.archive.org/web/20251202192522/https://coolshell.cn/articles/11265.html
+一个浮点数跨平台产生的问题,2014-03-15,42434,https://web.archive.org/web/20251202192522/https://coolshell.cn/articles/11235.html
+Java中的CopyOnWrite容器,2014-03-07,54559,https://web.archive.org/web/20251202192522/https://coolshell.cn/articles/11175.html
+如何用最有创造力的方式输出42,2014-03-06,48586,https://web.archive.org/web/20251202192522/https://coolshell.cn/articles/11170.html
+由苹果的低级Bug想到的,2014-02-24,135429,https://web.archive.org/web/20251202192522/https://coolshell.cn/articles/11112.html
+可视化编程,2014-02-22,60917,https://web.archive.org/web/20251202192522/https://coolshell.cn/articles/11094.html
+从“黑掉Github”学Web安全开发,2014-02-10,112902,https://web.archive.org/web/20251202192522/https://coolshell.cn/articles/11021.html
+一个“蝇量级” C 语言协程库,2014-01-28,127168,https://web.archive.org/web/20251202192522/https://coolshell.cn/articles/10975.html
+分布式系统的事务处理,2014-01-20,334213,https://web.archive.org/web/20251202194818/https://coolshell.cn/articles/10910.html
+函数式编程,2013-12-27,255967,https://web.archive.org/web/20251202194818/https://coolshell.cn/articles/10822.html
+X-Y Problem,2013-12-16,225732,https://web.archive.org/web/20251202194818/https://coolshell.cn/articles/10804.html
+Lua简明教程,2013-12-03,311360,https://web.archive.org/web/20251202194818/https://coolshell.cn/articles/10739.html
+编程能力与编程年龄,2013-11-13,562421,https://web.archive.org/web/20251202194818/https://coolshell.cn/articles/10688.html
+程序的本质复杂性和元语言抽象,2013-10-31,61426,https://web.archive.org/web/20251202194818/https://coolshell.cn/articles/10652.html
+二维码的生成细节和原理,2013-10-29,448812,https://web.archive.org/web/20251202194818/https://coolshell.cn/articles/10590.html
+伙伴分配器的一个极简实现,2013-10-09,80834,https://web.archive.org/web/20251202194818/https://coolshell.cn/articles/10427.html
+C++11的Lambda使用一例：华容道求解,2013-10-09,49857,https://web.archive.org/web/20251202194818/https://coolshell.cn/articles/10476.html
+C++面试中string类的一种正确写法,2013-10-09,77040,https://web.archive.org/web/20251202194818/https://coolshell.cn/articles/10478.html
+C++模板”>>”编译问题与词法消歧设计,2013-10-02,22448,https://web.archive.org/web/20251202194815/https://coolshell.cn/articles/10449.html
+数据即代码：元驱动编程,2013-08-09,68400,https://web.archive.org/web/20251202194815/https://coolshell.cn/articles/10337.html
+数据的游戏：冰与火,2013-07-31,107710,https://web.archive.org/web/20251202194815/https://coolshell.cn/articles/10192.html
+7个示例科普CPU Cache,2013-07-30,120062,https://web.archive.org/web/20251202194815/https://coolshell.cn/articles/10249.html
+加班与效率,2013-07-24,254713,https://web.archive.org/web/20251202194815/https://coolshell.cn/articles/10217.html
+类型的本质和函数式实现,2013-07-22,34151,https://web.archive.org/web/20251202194815/https://coolshell.cn/articles/10169.html
+C语言全局变量那些事儿,2013-07-21,91554,https://web.archive.org/web/20251202194815/https://coolshell.cn/articles/10115.html
+二叉树迭代器算法,2013-07-14,49139,https://web.archive.org/web/20251202194815/https://coolshell.cn/articles/9886.html
+Alan Cox：大教堂、市集与市议会,2013-07-08,30041,https://web.archive.org/web/20251202194815/https://coolshell.cn/articles/9917.html
+IoC/DIP其实是一种管理思想,2013-07-05,77931,https://web.archive.org/web/20251202194815/https://coolshell.cn/articles/9949.html
+Alan Cox：单向链表中prev指针的妙用,2013-06-30,46710,https://web.archive.org/web/20251202194814/https://coolshell.cn/articles/9859.html
+Javascript 装载和执行,2013-06-05,117068,https://web.archive.org/web/20251202194814/https://coolshell.cn/articles/9749.html
+无锁HashMap的原理与实现,2013-05-30,74394,https://web.archive.org/web/20251202194814/https://coolshell.cn/articles/9703.html
+浏览器的渲染原理简介,2013-05-22,224185,https://web.archive.org/web/20251202194814/https://coolshell.cn/articles/9666.html
+疫苗：Java HashMap的死循环,2013-05-10,371336,https://web.archive.org/web/20251202194814/https://coolshell.cn/articles/9606.html
+“C++的数组不支持多态”？,2013-04-29,132878,https://web.archive.org/web/20251202194814/https://coolshell.cn/articles/9543.html
+Unix考古记：一个“遗失”的shell,2013-04-26,56245,https://web.archive.org/web/20251202194814/https://coolshell.cn/articles/9410.html
+PFIF网上寻人协议,2013-04-22,27320,https://web.archive.org/web/20251202194814/https://coolshell.cn/articles/9508.html
+“作环保的程序员，从不用百度开始”,2013-03-23,969473,https://web.archive.org/web/20251202194814/https://coolshell.cn/articles/9308.html
+《Rework》摘录及感想,2013-03-11,151957,https://web.archive.org/web/20251202194814/https://coolshell.cn/articles/9156.html
+实例分析Java Class的文件结构,2013-03-05,59958,https://web.archive.org/web/20251202202309/https://coolshell.cn/articles/9229.html
+并发框架Disruptor译文,2013-02-28,70305,https://web.archive.org/web/20251202202309/https://coolshell.cn/articles/9169.html
+sed 简明教程,2013-02-20,440109,https://web.archive.org/web/20251202202309/https://coolshell.cn/articles/9104.html
+AWK 简明教程,2013-02-17,509873,https://web.archive.org/web/20251202202309/https://coolshell.cn/articles/9070.html
+Linus：利用二级指针删除单向链表,2013-02-04,160450,https://web.archive.org/web/20251202202309/https://coolshell.cn/articles/8990.html
+从面向对象的设计模式看软件设计,2013-02-01,105937,https://web.archive.org/web/20251202202309/https://coolshell.cn/articles/8961.html
+应该知道的Linux技巧,2013-01-09,342239,https://web.archive.org/web/20251202202309/https://coolshell.cn/articles/8883.html
+程序算法与人生选择,2012-12-28,222544,https://web.archive.org/web/20251202202309/https://coolshell.cn/articles/8790.html
+Web工程师的工具箱,2012-12-19,73675,https://web.archive.org/web/20251202202309/https://coolshell.cn/articles/8767.html
+如此理解面向对象编程,2012-12-13,201939,https://web.archive.org/web/20251202202309/https://coolshell.cn/articles/8745.html
+程序员疫苗：代码注入,2012-12-10,81913,https://web.archive.org/web/20251202202359/https://coolshell.cn/articles/8711.html
+你可能不知道的Shell,2012-11-23,158098,https://web.archive.org/web/20251202202359/https://coolshell.cn/articles/8619.html
+如何测试洗牌程序,2012-11-20,114862,https://web.archive.org/web/20251202202359/https://coolshell.cn/articles/8593.html
+Go 语言简介（下）— 特性,2012-11-07,115853,https://web.archive.org/web/20251202202359/https://coolshell.cn/articles/8489.html
+Go 语言简介（上）— 语法,2012-11-06,196296,https://web.archive.org/web/20251202202359/https://coolshell.cn/articles/8460.html
+TF-IDF模型的概率解释,2012-10-24,61756,https://web.archive.org/web/20251202202359/https://coolshell.cn/articles/8422.html
+xkcd 神图“Click and Drag”,2012-10-16,62257,https://web.archive.org/web/20251202202359/https://coolshell.cn/articles/8398.html
+Bret Victor – Learnable Programming,2012-10-14,33935,https://web.archive.org/web/20251202202359/https://coolshell.cn/articles/8387.html
+C/C++语言中闭包的探究及比较,2012-09-20,71697,https://web.archive.org/web/20251202202359/https://coolshell.cn/articles/8309.html
+对九个超级程序员的采访,2012-09-14,118109,https://web.archive.org/web/20251202202359/https://coolshell.cn/articles/8275.html
+无锁队列的实现,2012-09-07,349049,https://web.archive.org/web/20251202195650/https://coolshell.cn/articles/8239.html
+“单元测试要做多细？”,2012-09-03,90287,https://web.archive.org/web/20251202195650/https://coolshell.cn/articles/8209.html
+一次Ajax查错的经历,2012-08-27,69877,https://web.archive.org/web/20251202195650/https://coolshell.cn/articles/8170.html
+为什么我反对纯算法面试题,2012-08-22,176110,https://web.archive.org/web/20251202195650/https://coolshell.cn/articles/8138.html
+GCC 用 C++ 来编译,2012-08-20,39174,https://web.archive.org/web/20251202195650/https://coolshell.cn/articles/8115.html
+K Nearest Neighbor 算法,2012-08-17,74426,https://web.archive.org/web/20251202195650/https://coolshell.cn/articles/8052.html
+对技术的态度,2012-08-16,131007,https://web.archive.org/web/20251202195650/https://coolshell.cn/articles/8088.html
+InfoQ的ArchSummit大会对我的采访,2012-08-12,32600,https://web.archive.org/web/20251202195650/https://coolshell.cn/articles/8031.html
+C++的坑真的多吗？,2012-08-06,223771,https://web.archive.org/web/20251202195650/https://coolshell.cn/articles/7992.html
+一个fork的面试题,2012-08-01,204174,https://web.archive.org/web/20251202195650/https://coolshell.cn/articles/7965.html
+各式各样的验证码,2012-07-19,70552,https://web.archive.org/web/20251202195633/https://coolshell.cn/articles/7917.html
+代码执行的效率,2012-07-13,61183,https://web.archive.org/web/20251202195633/https://coolshell.cn/articles/7886.html
+28个Unix/Linux的命令行神器,2012-07-11,266206,https://web.archive.org/web/20251202195633/https://coolshell.cn/articles/7829.html
+少即是极多,2012-07-05,47680,https://web.archive.org/web/20251202195633/https://coolshell.cn/articles/7771.html
+关于闰秒,2012-06-30,38671,https://web.archive.org/web/20251202195633/https://coolshell.cn/articles/7804.html
+K-Means 算法,2012-06-29,137740,https://web.archive.org/web/20251202195633/https://coolshell.cn/articles/7779.html
+持续部署，并不简单！,2012-06-25,56250,https://web.archive.org/web/20251202195633/https://coolshell.cn/articles/7657.html
+Git显示漂亮日志的小技巧,2012-06-24,49808,https://web.archive.org/web/20251202195633/https://coolshell.cn/articles/7755.html
+性能调优攻略,2012-06-20,291791,https://web.archive.org/web/20251202195633/https://coolshell.cn/articles/7490.html
+抄袭，腾讯 和 产品,2012-06-13,156153,https://web.archive.org/web/20251202195633/https://coolshell.cn/articles/7617.html
+Lisp的永恒之道,2012-06-04,86719,https://web.archive.org/web/20251202195703/https://coolshell.cn/articles/7526.html
+Javascript 中的 var,2012-05-24,33798,https://web.archive.org/web/20251202195703/https://coolshell.cn/articles/7480.html
+Huffman 编码压缩算法,2012-05-22,110615,https://web.archive.org/web/20251202195703/https://coolshell.cn/articles/7459.html
+扎克伯格的一封信：关于Facebook IPO,2012-05-19,22103,https://web.archive.org/web/20251202195703/https://coolshell.cn/articles/7448.html
+rsync 的核心算法,2012-05-17,175586,https://web.archive.org/web/20251202195703/https://coolshell.cn/articles/7425.html
+NoSQL 数据建模技术,2012-05-15,77474,https://web.archive.org/web/20251202195703/https://coolshell.cn/articles/7270.html
+用Unix的设计思想来应对多变的需求,2012-05-03,75806,https://web.archive.org/web/20251202195703/https://coolshell.cn/articles/7236.html
+做个环保主义的程序员,2012-04-27,585972,https://web.archive.org/web/20251202195703/https://coolshell.cn/articles/7186.html
+游戏：VIM大冒险,2012-04-26,159965,https://web.archive.org/web/20251202195703/https://coolshell.cn/articles/7166.html
+这到底是谁之错？,2012-04-19,73384,https://web.archive.org/web/20251202195703/https://coolshell.cn/articles/7126.html
