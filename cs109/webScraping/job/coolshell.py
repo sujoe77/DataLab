@@ -104,5 +104,25 @@ class coolshell(Job):
     def process_page(self, url):
         print("\nfeatching url: " + url)
         page_content = get_content_coolshell(url)
-        #print(page_content)
-        return self.parse(page_content)
+        return self.process_page_content(page_content)
+
+    def process_page_content(self, page_content):
+            #print(page_content)
+            return self.parse(page_content)
+
+    def get_next_url(self, url, page_content):
+        #https://web.archive.org/web/20251202192428/https://coolshell.cn/category/technews/page/2
+        firstPage = url.endswith("/")
+        nextPage = 2
+        if not firstPage:
+            nextPage = int(url.split("/")[-1]) + 1
+
+        end_with = url[url.rfind("category"):]
+        if "page/" in end_with:
+            end_with = end_with[:end_with.rfind("page/")]
+        page_links = page_content.find_all("div", "wp-pagenavi")[0].find_all("a")
+        print(page_content)
+        for i in range(len(page_links)):
+            href = page_links[i]["href"]
+            if href.endswith(end_with + "page/"+ str(nextPage)):
+                return href
